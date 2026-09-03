@@ -93,18 +93,53 @@ BM25 + boosts; an LLM reranker was deliberately not built because retrieval
 quality did not require it. If it ever does, that will be a logged decision,
 not architecture for its own sake.
 
-## Quick start
+## Quick start (2 minutes to first run)
+
+**Prerequisites:** Python 3.12+, [uv](https://docs.astral.sh/uv/), and an API
+key from DeepSeek or OpenAI (either works — see Configuration).
 
 ```bash
+# 1. install dependencies (~30s; creates .venv)
 uv sync
-cp .env.example .env        # set OPENAI_API_KEY (DeepSeek by default)
+
+# 2. add your key
+cp .env.example .env        # then edit .env: OPENAI_API_KEY=sk-...
+#    DeepSeek keys work as-is. OpenAI users: also swap OPENAI_BASE_URL
+#    and ANALYSIS_MODEL (two commented lines in .env.example show how).
+
+# 3. run the full pipeline (~5–8 min; ≈$0.05 of tokens for 15 companies)
 uv run pipeline run --topic "AI agents for SMBs"
 ```
 
-Without a key the pipeline still runs end to end using a clearly-labeled
-deterministic fixture analyzer (`--offline` forces it): useful for smoke
-tests, never for real memos. `run.json` always records provider, base_url,
-model, prompt version, token usage, and API call counts.
+When it finishes you will see:
+
+```text
+✓ Found 15 candidates
+✓ Collected evidence
+✓ Generated 15 analyses
+✓ Wrote 15 memos
+
+Output:
+outputs/2026-09-03-ai-agents-for-smbs/memos
+INDEX: outputs/2026-09-03-ai-agents-for-smbs/INDEX.md
+```
+
+Open `INDEX.md` — every company ranked, every memo one page with citations.
+Expect a few `WARN page unavailable` lines mid-run; that is by design (sites
+that block or break are recorded as retrieval errors and the run continues).
+Re-runs are cheap: HTTP responses are cached for 24h, so a repeat run makes
+mostly zero network calls.
+
+**No API key?** It still runs end to end with a clearly-labeled deterministic
+placeholder (`--offline` forces it): same memos, evidence, and structure, with
+`[Fixture analysis]` stamped in place of model output.
+
+```bash
+uv run pipeline run --topic "AI agents for SMBs" --offline
+```
+
+**Verify the install first (optional):** `uv run pytest` runs 32 offline tests
+— no network needed.
 
 ## Configuration
 
