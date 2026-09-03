@@ -40,3 +40,23 @@ def test_three_letter_names_do_not_match_by_title():
     domain_hit = {"url": "https://getqlo.com/post", "title": "Something unrelated",
                   "created_at": "2020-12-28T10:00:00Z"}
     assert _story_matches(domain_hit, c)
+
+
+def test_story_linking_to_another_domain_is_rejected():
+    # Real failure: raindrop.ai collected raindrop.io (bookmarking app) stories.
+    c = candidate(normalized_name="raindrop", normalized_domain="raindrop.ai")
+    other = {"url": "https://raindrop.io/post", "title": "Raindrop 5.0"}
+    assert not _story_matches(other, c)
+    # a foreign-domain Show HN that merely mentions the word is also rejected
+    foreign = {"url": "https://calmjobs.io",
+               "title": "Show HN: CalmJobs - work-life balance jobs"}
+    assert not _story_matches(foreign, c)
+
+
+def test_name_only_match_requires_strict_launch_shape():
+    c = candidate(normalized_name="raindrop", normalized_domain="raindrop.ai")
+    assert not _story_matches({"url": "", "title": "Thoughts on Evals"}, c)
+    assert not _story_matches({"url": "", "title": "The Raindrop theory of memory"}, c)
+    ok = {"url": "", "title": "Raindrop: AI monitoring for AI agents",
+          "created_at": "2026-08-01T10:00:00Z"}
+    assert _story_matches(ok, c)

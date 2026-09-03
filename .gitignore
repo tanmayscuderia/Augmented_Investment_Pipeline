@@ -7,6 +7,6 @@ __pycache__/
 .cache/
 .DS_Store
 outputs/*
-!outputs/sample_run/
+!outputs/sample-run/
 !outputs/.gitkeep
 repomix-output.*

@@ -44,14 +44,20 @@ def _parse_dt(value: object) -> datetime | None:
 
 
 def _story_matches(hit: dict, candidate: Candidate) -> bool:
-    """Domain match is the strong signal. Name-only matching is restricted to
-    launch-shaped titles ("Show HN: <name> ..." or "<name> ..."): plain
-    substring matching floods common-word names (e.g. a company literally
-    called "Trope") with unrelated stories."""
+    """Domain match is the strong signal. Name-only matching additionally
+    requires the story to link to no external domain (a story linking to
+    another company's site is, by definition, about another company), a
+    strict launch shape (title starting with the name, optionally after
+    "Show HN:"), a name long enough to avoid collisions, and recency.
+    Common-word names otherwise flood bundles with unrelated stories —
+    real failures: "Trope" -> narrative tropes, "Balance" -> work-life
+    balance apps, "Raindrop" -> the raindrop.io bookmarking app."""
+    story_domain = normalize_domain(str(hit.get("url") or ""))
     if candidate.normalized_domain:
-        external = normalize_domain(str(hit.get("url") or ""))
-        if external and external == candidate.normalized_domain:
+        if story_domain and story_domain == candidate.normalized_domain:
             return True
+        if story_domain:
+            return False  # story links to a different company's site
     title = str(hit.get("title") or "").lower()
     name = candidate.normalized_name
     if len(name) < 4:  # short names collide across companies (e.g. "QLO")
@@ -60,11 +66,7 @@ def _story_matches(hit: dict, candidate: Candidate) -> bool:
     if created and (utcnow() - created) > timedelta(days=365 * 3):
         return False  # stale stories are rarely about this company
     name_re = rf"(?<![a-z0-9]){re.escape(name)}(?![a-z0-9])"
-    if not re.search(name_re, title):
-        return False
-    is_show_hn = bool(re.search(r"show\s+hn", title))
-    starts_with_name = bool(re.search(rf"^{name_re}", title))
-    return is_show_hn or starts_with_name
+    return bool(re.match(rf"^(?:show\s+hn:\s*)?{name_re}", title))
 
 
 async def enrich_hn(
