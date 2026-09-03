@@ -1,0 +1,129 @@
+{
+  "company_id": "ledgerline",
+  "candidate": {
+    "id": "ledgerline",
+    "name": "Ledgerline",
+    "normalized_name": "ledgerline",
+    "website": "https://ledgerline.com",
+    "normalized_domain": "ledgerline.com",
+    "description": "AI bookkeeping automation for dental practices.",
+    "batch": "W25",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/ledgerline"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [],
+    "discovery_score": null,
+    "discovered_at": "2026-09-02T23:46:26.717586Z",
+    "one_liner": null,
+    "industries": [],
+    "tags": [],
+    "team_size": null,
+    "location": null,
+    "launched_at": "2025-06-01T00:00:00Z",
+    "ranking_components": null
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "ledgerline",
+      "source_type": "yc",
+      "title": "Ledgerline - YC company profile",
+      "url": "https://www.ycombinator.com/companies/ledgerline",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Ledgerline automates bookkeeping for dental practices. Founded by Maya Chen and Dan Okafor. Batch W25. Team size 6. industries: B2B, Accounting; tags: AI, Bookkeeping.",
+      "content_hash": "7bc0480c1cc1c583b0995bbbbce26c7bcd507a12a565b43cba2fc467f8e0f203",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "ledgerline",
+      "source_type": "company_website",
+      "title": "Ledgerline - AI bookkeeping for dental practices",
+      "url": "https://ledgerline.com",
+      "publisher": "ledgerline.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Ledgerline replaces manual bookkeeping for dental practices. Our AI agents reconcile transactions, categorize expenses, and close your books weekly. The company claims customers save 20 hours per week.",
+      "content_hash": "6481f83229b369bbf33102128c4c4147de9499af934bd2c78e5302a3aaf0bd12",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "ledgerline",
+      "source_type": "company_website",
+      "title": "Team - Ledgerline",
+      "url": "https://ledgerline.com/team",
+      "publisher": "ledgerline.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Maya Chen, CEO, previously led payments infrastructure engineering at Stripe. Dan Okafor, CTO, previously sold his last startup to Intuit. The team includes former QuickBooks engineers.",
+      "content_hash": "fd164228fe49504d8bb40d9e37fd73e2e5e6efd341e163597d352d4299989347",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E004",
+      "company_id": "ledgerline",
+      "source_type": "company_website",
+      "title": "Customers - Ledgerline",
+      "url": "https://ledgerline.com/customers",
+      "publisher": "ledgerline.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "The company claims 40 dental groups run their books on Ledgerline, including Smile Dental Partners and Bright Orthodontics.",
+      "content_hash": "aa797bb16437cf413c0abb49069e38bddd21e21cc42dea48e159114a32b87803",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E005",
+      "company_id": "ledgerline",
+      "source_type": "hacker_news",
+      "title": "Show HN: Ledgerline - AI bookkeeping for dental offices",
+      "url": "https://news.ycombinator.com/item?id=4120031",
+      "publisher": "Hacker News",
+      "published_at": "2026-08-12T09:30:00Z",
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Show HN post - 87 points, 41 comments; posted 2026-08-12.",
+      "content_hash": "844dd1d24a3095a51f2d1a7eb4d81ca7a50b462afecc8d868a36f0f682bddde8",
+      "reliability": "community"
+    },
+    {
+      "id": "E006",
+      "company_id": "ledgerline",
+      "source_type": "press",
+      "title": "Ledgerline raises $4M seed round",
+      "url": "https://techcrunch.com/2026/07/02/ledgerline-seed",
+      "publisher": "techcrunch.com",
+      "published_at": "2026-07-02T00:00:00Z",
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Ledgerline raised a $4 million seed round led by Actually Ventures to automate dental bookkeeping, TechCrunch has learned.",
+      "content_hash": "00f9a572ab3d1e5815ca132082ba5e2f536f3a3f486a757067f6c983a9cd01f6",
+      "reliability": "independent"
+    },
+    {
+      "id": "E007",
+      "company_id": "ledgerline",
+      "source_type": "web_search",
+      "title": "SmileBook vs Ledgerline comparison",
+      "url": "https://getsmilebook.com/compare",
+      "publisher": "getsmilebook.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Alternatives and competitors in dental back-office software include SmileBook, Dentisoft, and Ledgerline; incumbents dominate integration with practice management systems.",
+      "content_hash": "f3890c8d223c07b0349ed9cb1de4abfa367de7207ad7c584d37615259e0b2f39",
+      "reliability": "aggregator"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": true,
+    "competitors": true,
+    "coverage_ratio": 1.0
+  }
+}

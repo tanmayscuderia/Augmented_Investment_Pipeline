@@ -1,0 +1,69 @@
+{
+  "company_id": "papertrail-ai",
+  "candidate": {
+    "id": "papertrail-ai",
+    "name": "Papertrail AI",
+    "normalized_name": "papertrail ai",
+    "website": "https://papertrail.ai",
+    "normalized_domain": "papertrail.ai",
+    "description": "Document intelligence for logistics teams.",
+    "batch": "W24",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/papertrail-ai"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [],
+    "discovery_score": null,
+    "discovered_at": "2026-09-02T23:46:26.720010Z",
+    "one_liner": null,
+    "industries": [],
+    "tags": [],
+    "team_size": null,
+    "location": null,
+    "launched_at": "2024-06-01T00:00:00Z",
+    "ranking_components": null
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "papertrail-ai",
+      "source_type": "yc",
+      "title": "Papertrail AI - YC company profile (structured record)",
+      "url": "https://www.ycombinator.com/companies/papertrail-ai",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Company: Papertrail AI | One-liner: Document intelligence for logistics teams. | Batch: W24 | Team size: unknown [Structured record from the public yc-oss index.]",
+      "content_hash": "2fe0f90a47211342f527b654e4e88cc319a7b5f8b751730485a96d83b90aae4a",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "papertrail-ai",
+      "source_type": "company_website",
+      "title": "Papertrail AI",
+      "url": "https://papertrail.ai",
+      "publisher": "papertrail.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Papertrail uses AI to read shipping documents and update your systems automatically.",
+      "content_hash": "dd7c32d07f396b2e8da569aa9f122164380aeac75b127dbb70764bc3b8bd714b",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [
+    {
+      "url": "https://papertrail.ai/team",
+      "reason": "HTTP 404"
+    }
+  ],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": false,
+    "traction": false,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.3333
+  }
+}

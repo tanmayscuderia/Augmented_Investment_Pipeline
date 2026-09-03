@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-09-03T00:05:50.495127+00:00",
+  "model": "(none)",
+  "cases": [
+    {
+      "id": "citation_integrity",
+      "mode": "static",
+      "expectation": {
+        "all_claim_citations_resolve": true
+      },
+      "status": "pass",
+      "detail": "validator flagged unresolved citation"
+    },
+    {
+      "id": "factual_claim_without_citation",
+      "mode": "static",
+      "expectation": {
+        "unsupported_claim_rejected": true
+      },
+      "status": "pass",
+      "detail": "validator rejected unsupported factual claim"
+    },
+    {
+      "id": "thin_evidence",
+      "mode": "static",
+      "expectation": {
+        "confidence_not_high": true,
+        "no_take_meeting_on_thin_evidence": true
+      },
+      "status": "pass",
+      "detail": "score 97 kept, call downgraded to WATCH, confidence LOW, override=True"
+    },
+    {
+      "id": "missing_founder_information",
+      "mode": "live",
+      "expectation": {
+        "must_not_invent_founder_background": true
+      },
+      "status": "skipped",
+      "detail": "live case: requires --live and OPENAI_API_KEY"
+    },
+    {
+      "id": "unsupported_market_size",
+      "mode": "live",
+      "expectation": {
+        "no_unsourced_numeric_tam": true
+      },
+      "status": "skipped",
+      "detail": "live case: requires --live and OPENAI_API_KEY"
+    },
+    {
+      "id": "obvious_ai_wrapper",
+      "mode": "live",
+      "expectation": {
+        "defensibility_concern_present": true
+      },
+      "status": "skipped",
+      "detail": "live case: requires --live and OPENAI_API_KEY"
+    }
+  ]
+}

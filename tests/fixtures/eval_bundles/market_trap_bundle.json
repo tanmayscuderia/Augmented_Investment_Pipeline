@@ -1,0 +1,90 @@
+{
+  "company_id": "claimcourier",
+  "candidate": {
+    "id": "claimcourier",
+    "name": "ClaimCourier",
+    "normalized_name": "claimcourier",
+    "website": "https://claimcourier.com",
+    "normalized_domain": "claimcourier.com",
+    "description": "Automated insurance claim follow-up for independent pharmacies.",
+    "batch": "W25",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/claimcourier"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [],
+    "discovery_score": null,
+    "discovered_at": "2026-09-02T23:46:26.720363Z",
+    "one_liner": null,
+    "industries": [],
+    "tags": [],
+    "team_size": null,
+    "location": null,
+    "launched_at": "2025-05-01T00:00:00Z",
+    "ranking_components": null
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "claimcourier",
+      "source_type": "yc",
+      "title": "ClaimCourier - YC company profile",
+      "url": "https://www.ycombinator.com/companies/claimcourier",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "ClaimCourier automates insurance claim follow-up calls for independent pharmacies. Founded 2025. Batch W25.",
+      "content_hash": "250f49abf435706273b9bfbde33692081d33bf0e9b72129e50bbd3133007ceaf",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "claimcourier",
+      "source_type": "company_website",
+      "title": "ClaimCourier - stop losing claims",
+      "url": "https://claimcourier.com",
+      "publisher": "claimcourier.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "ClaimCourier's AI agents call insurers to chase stuck claims so pharmacists do not have to. The company claims pharmacies recover an average of $9,400 per month in delayed reimbursements.",
+      "content_hash": "6e351ad88fdc7e4995fbcfe55b12dded6d25f7c87a7dc1d6f1a4829d1128cfe3",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "claimcourier",
+      "source_type": "hacker_news",
+      "title": "Show HN: ClaimCourier - AI that chases insurance claims",
+      "url": "https://news.ycombinator.com/item?id=4131100",
+      "publisher": "Hacker News",
+      "published_at": "2026-08-25T08:00:00Z",
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Show HN post - 62 points, 28 comments; posted 2026-08-25.",
+      "content_hash": "10fa6e624e2191d394f388a9dfe667be9e1d537ec98ba56d35c8c775e39792db",
+      "reliability": "community"
+    },
+    {
+      "id": "E004",
+      "company_id": "claimcourier",
+      "source_type": "web_search",
+      "title": "Claims automation tools for pharmacies compared",
+      "url": "https://pharmapracticedaily.com/claims-automation",
+      "publisher": "pharmapracticedaily.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Competing tools in pharmacy claims follow-up include RelayRx and ClaimAssist; most require manual worklists. The category is early.",
+      "content_hash": "acc9c9dd52900c9b2eca855f4698ff5ec5cb4e1d492d0bedbe8c5a5cc6210546",
+      "reliability": "aggregator"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": false,
+    "traction": true,
+    "market": true,
+    "competitors": true,
+    "coverage_ratio": 0.8333
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "company_id": "promptpilot",
+  "candidate": {
+    "id": "promptpilot",
+    "name": "PromptPilot",
+    "normalized_name": "promptpilot",
+    "website": "https://promptpilot.io",
+    "normalized_domain": "promptpilot.io",
+    "description": "ChatGPT-powered chat for your CRM.",
+    "batch": "W25",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/promptpilot"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [],
+    "discovery_score": null,
+    "discovered_at": "2026-09-02T23:46:26.720265Z",
+    "one_liner": null,
+    "industries": [],
+    "tags": [],
+    "team_size": null,
+    "location": null,
+    "launched_at": "2025-08-01T00:00:00Z",
+    "ranking_components": null
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "promptpilot",
+      "source_type": "yc",
+      "title": "PromptPilot - YC company profile (structured record)",
+      "url": "https://www.ycombinator.com/companies/promptpilot",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Company: PromptPilot | One-liner: ChatGPT-powered chat for your CRM. | Batch: W25 | Team size: 2 [Structured record from the public yc-oss index.]",
+      "content_hash": "58ac8da614583f99fa2b7f4e396cf1819707970886fa699e391ebe01eaafc179",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "promptpilot",
+      "source_type": "company_website",
+      "title": "PromptPilot - chat with your CRM",
+      "url": "https://promptpilot.io",
+      "publisher": "promptpilot.io",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "PromptPilot is a ChatGPT wrapper that lets sales teams chat with their CRM. It uses OpenAI's API with a thin UI layer; no proprietary models or data pipelines.",
+      "content_hash": "ea4c673be4c7eed126420fbce7bb6e52d2613928cbfb90114e59e17c3a6aea62",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": false,
+    "traction": false,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.3333
+  }
+}

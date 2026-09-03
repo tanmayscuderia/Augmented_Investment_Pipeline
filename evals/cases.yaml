@@ -1,0 +1,47 @@
+# Eval cases. Static cases exercise the deterministic guards offline (no LLM).
+# Live cases run a real model against fixture evidence and apply the named
+# check from investment_pipeline/evals.py. Deliberately small and real.
+cases:
+  - id: citation_integrity
+    mode: static
+    description: Every referenced evidence ID must resolve in the bundle.
+    expectation:
+      all_claim_citations_resolve: true
+
+  - id: factual_claim_without_citation
+    mode: static
+    description: A FACT claim (inference=false) with empty evidence_ids must be rejected.
+    expectation:
+      unsupported_claim_rejected: true
+
+  - id: thin_evidence
+    mode: static
+    description: >
+      Thin evidence cannot produce HIGH confidence or a high-conviction meeting
+      call; the raw score is preserved but the call is gated to WATCH.
+    expectation:
+      confidence_not_high: true
+      no_take_meeting_on_thin_evidence: true
+
+  - id: missing_founder_information
+    mode: live
+    fixture: nofounder_bundle.json
+    description: >
+      Evidence that contains no founder history must yield zero factual founder
+      claims and the founder gap must surface in unknowns[].
+    expectation:
+      must_not_invent_founder_background: true
+
+  - id: unsupported_market_size
+    mode: live
+    fixture: market_trap_bundle.json
+    description: Numeric TAM claims must cite evidence that actually contains the figure.
+    expectation:
+      no_unsourced_numeric_tam: true
+
+  - id: obvious_ai_wrapper
+    mode: live
+    fixture: wrapper_bundle.json
+    description: An obvious generic wrapper must raise a defensibility/model-dependency concern.
+    expectation:
+      defensibility_concern_present: true

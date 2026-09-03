@@ -1,0 +1,90 @@
+{
+  "company_id": "invoiceowl",
+  "candidate": {
+    "id": "invoiceowl",
+    "name": "InvoiceOwl",
+    "normalized_name": "invoiceowl",
+    "website": "https://invoiceowl.com",
+    "normalized_domain": "invoiceowl.com",
+    "description": "AI invoice follow-up for small wholesalers.",
+    "batch": "W25",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/invoiceowl"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [],
+    "discovery_score": null,
+    "discovered_at": "2026-09-02T23:46:26.720143Z",
+    "one_liner": null,
+    "industries": [],
+    "tags": [],
+    "team_size": null,
+    "location": null,
+    "launched_at": "2025-03-01T00:00:00Z",
+    "ranking_components": null
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "invoiceowl",
+      "source_type": "yc",
+      "title": "InvoiceOwl - YC company profile",
+      "url": "https://www.ycombinator.com/companies/invoiceowl",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "InvoiceOwl chases unpaid invoices for small wholesalers by phone and email. Batch W25. industries: B2B.",
+      "content_hash": "a1b924a39ec2665991531756e44044e946d9d7f94a0cbaefb5fbe2304125906d",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "invoiceowl",
+      "source_type": "company_website",
+      "title": "InvoiceOwl - get paid faster",
+      "url": "https://invoiceowl.com",
+      "publisher": "invoiceowl.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "InvoiceOwl's AI agents follow up on overdue invoices by phone and email so your team does not have to. The company claims a 30 percent faster collections cycle.",
+      "content_hash": "29574df79a04491c6c565afc10bf525df9afab7c088b81b87f29c8f5c072249c",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "invoiceowl",
+      "source_type": "hacker_news",
+      "title": "Show HN: InvoiceOwl - AI that chases your unpaid invoices",
+      "url": "https://news.ycombinator.com/item?id=4125555",
+      "publisher": "Hacker News",
+      "published_at": "2026-08-20T09:00:00Z",
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "Show HN post - 54 points, 33 comments; posted 2026-08-20.",
+      "content_hash": "fa97fb2737fdb20e20c0a54541316218988c6a8d740b993fe43506cb2923642d",
+      "reliability": "community"
+    },
+    {
+      "id": "E004",
+      "company_id": "invoiceowl",
+      "source_type": "web_search",
+      "title": "InvoiceOwl launches AI collections agent",
+      "url": "https://fintechweekly.com/invoiceowl-launch",
+      "publisher": "fintechweekly.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-01T12:00:00Z",
+      "excerpt": "The invoice collections software market includes incumbents like Chaser and Upflow; InvoiceOwl targets small wholesalers with phone-first automation.",
+      "content_hash": "58d1a9ba35e6abbc754c31535a56857edf91311c5e235e6221be23c8bbb6d4e8",
+      "reliability": "aggregator"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": false,
+    "traction": true,
+    "market": true,
+    "competitors": true,
+    "coverage_ratio": 0.8333
+  }
+}
