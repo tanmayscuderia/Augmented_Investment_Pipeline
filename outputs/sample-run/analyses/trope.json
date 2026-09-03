@@ -1,0 +1,301 @@
+{
+  "company_id": "trope",
+  "company_name": "Trope",
+  "twenty_second_view": "Trope is an AI-native platform that deploys custom AI agents into ERPs for mid-market companies, aiming to turn the labor-intensive last mile of ERP implementation from services into software. The founding team is technical with relevant deployment experience, but there is no public evidence of customers, revenue, or independent validation yet. The core risk is whether the company can escape a services-heavy model and demonstrate scalable, recurring software value.",
+  "why_it_matters": "Trope fits the thesis's focus on AI-native workflow automation by targeting a high-labor, recurring workflow (ERP implementation and ongoing management) with a clear economic buyer (mid-market companies already spending on ERP services). However, it conflicts with the thesis's penalty for services disguised as software and raises questions about whether the 'AI FDE' model is truly productized or just a services wrapper. The narrow wedge into ERP customization could expand into a system of action, but evidence of adoption is missing.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Cofounders are Matthew and Victor, as stated in their YC launch post.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      },
+      {
+        "statement": "The founders describe themselves as engineers who deployed AI agents and critical software at previous companies.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "technical_depth": {
+      "statement": "The founders claim engineering backgrounds with experience deploying AI agents and critical software, indicating technical capability, but no specific credentials or prior startup exits are provided.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "prior_startup_experience": {
+      "statement": "Unknown - insufficient public evidence of prior startup experience or exits.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "founder_market_fit": {
+      "statement": "The founders' claimed experience deploying AI agents and critical software aligns with the ERP implementation domain, suggesting plausible founder-market fit, but depth is unverified.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "Founders are identified and claim technical engineering backgrounds relevant to AI agent deployment.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "No verifiable details on founder backgrounds, prior successes, or specific domain expertise in ERP.",
+        "evidence_ids": [],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "score": 14
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Trope is an AI-native platform that deploys custom AI agents into ERPs, learning each business's configuration and processes to automate implementation and ongoing ERP workflows.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "Mid-market companies that use heavily customized ERPs and incur significant labor costs in implementation and ongoing management.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "core_workflow": {
+      "statement": "The core workflow is ERP implementation and the ongoing management of custom ERP configurations, which is recurring and labor-intensive.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "pain_severity": {
+      "statement": "ERP implementation is described as labor-heavy, often missing budget and timeline targets, indicating severe pain for buyers.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "differentiation": {
+      "statement": "Trope differentiates by learning each ERP's custom configuration and deploying agents that are sandbox-tested and shadowed before acting, unlike generic agents or builders that leave implementation to the customer.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "expansion_potential": {
+      "statement": "Starting with ERP implementation, Trope could expand into ongoing ERP operations and adjacent workflows, potentially becoming a system of action, but this is speculative.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "score": 16
+  },
+  "market": {
+    "market_description": {
+      "statement": "The market is ERP implementation and related services, which the company claims involves billions in spending, but no specific market size figure is provided in the evidence.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "economic_buyer": {
+      "statement": "The economic buyer is mid-market companies that already spend heavily on ERP implementation services, representing an existing budget.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "competitive_landscape": [
+      {
+        "statement": "Unknown - insufficient public evidence on competitors or market landscape.",
+        "evidence_ids": [],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "Advances in AI agents enable automation of complex, customized workflows that were previously only feasible with human consultants.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "The company claims companies spend billions on ERP implementation services, indicating a large existing labor spend, but no specific figure is provided.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "score": 13
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "Trope is in YC Summer 2026 batch, which is a launch-stage signal but not evidence of customer traction.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      },
+      {
+        "statement": "Unknown - insufficient public evidence of customers, revenue, or usage.",
+        "evidence_ids": [],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "freshness": {
+      "statement": "Evidence retrieved September 2026, likely recent relative to YC batch, but no specific dates of product launch or usage.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "evidence_quality": "weak",
+    "score": 6
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "AI agents have recently become capable of handling complex, customized workflows, making automation of ERP implementation feasible.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "Trope's approach of learning each ERP's custom configuration and building agents creates workflow lock-in and potential proprietary data on ERP customizations.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "Trope relies on foundation models for agent intelligence, but its value lies in the custom integration and deployment layer, which may be less susceptible to model commoditization.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 6
+  },
+  "risks": [
+    {
+      "risk": "Services disguised as software",
+      "severity": "high",
+      "reasoning": "The description emphasizes custom deployment and engineering, which could lead to a services-heavy business model with low margins and poor scalability.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Lack of adoption evidence",
+      "severity": "high",
+      "reasoning": "No customers, revenue, or usage data is provided, making it impossible to validate product-market fit.",
+      "evidence_ids": [],
+      "inference": true
+    },
+    {
+      "risk": "Foundation model feature risk",
+      "severity": "medium",
+      "reasoning": "As foundation models improve, they may natively handle ERP customizations, eroding Trope's differentiation.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Regulatory and compliance concerns",
+      "severity": "medium",
+      "reasoning": "ERP systems often handle sensitive financial and operational data; deploying autonomous agents may raise compliance issues, but no evidence addresses this.",
+      "evidence_ids": [],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "Who are the specific founders and what is their verifiable technical and domain background?",
+      "why_it_matters": "To assess team quality and founder-market fit.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "Do they have any paying customers or pilot deployments? What is the evidence?",
+      "why_it_matters": "To validate product-market fit and traction.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the actual business model: software subscription, implementation fees, or a mix?",
+      "why_it_matters": "To determine if this is a scalable software business or a services firm.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How does Trope handle data security and compliance in ERP environments?",
+      "why_it_matters": "To assess regulatory risk and buyer trust.",
+      "would_change_recommendation": false
+    }
+  ],
+  "unknowns": [
+    "Unknown - insufficient public evidence on founder backgrounds, prior exits, and specific technical depth.",
+    "Unknown - insufficient public evidence on customer traction, revenue, or usage.",
+    "Unknown - insufficient public evidence on competitive landscape and market size.",
+    "Unknown - insufficient public evidence on business model and pricing.",
+    "Unknown - insufficient public evidence on regulatory/compliance approach."
+  ],
+  "recommendation_rationale": [
+    "Clear economic buyer with existing labor spend in ERP implementation, but no evidence of adoption or revenue.",
+    "Founders claim relevant technical experience but lack verifiable track record.",
+    "High risk of services-heavy model; unclear path to scalable software."
+  ],
+  "change_my_mind": [
+    "Evidence of paying customers or pilot deployments with measurable ROI.",
+    "Detailed founder backgrounds with relevant prior startup success.",
+    "Clear software-based business model with recurring revenue and low services component."
+  ]
+}

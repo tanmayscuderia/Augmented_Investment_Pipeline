@@ -1,0 +1,145 @@
+{
+  "company_id": "retell-ai",
+  "candidate": {
+    "id": "retell-ai",
+    "name": "Retell AI",
+    "normalized_name": "retell ai",
+    "website": "https://retellai.com",
+    "normalized_domain": "retellai.com",
+    "description": "Supercharge Your Contact Center Operations with AI Phone Agents The leading platform for building and managing AI voice agents that revolutionize contact center operations.",
+    "batch": "Winter 2024",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/retell-ai"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Winter 2024",
+        "observed_at": "2023-11-20T20:46:37Z",
+        "evidence_id": "E001"
+      },
+      {
+        "type": "hn_points",
+        "value": 1,
+        "observed_at": "2024-05-29T22:29:00Z",
+        "evidence_id": "E006"
+      },
+      {
+        "type": "hn_comments",
+        "value": 0,
+        "observed_at": "2024-05-29T22:29:00Z",
+        "evidence_id": "E006"
+      }
+    ],
+    "discovery_score": 0.7495,
+    "discovered_at": "2026-09-03T01:06:31.712688Z",
+    "one_liner": "Supercharge Your Contact Center Operations with AI Phone Agents",
+    "industries": [
+      "B2B"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "AI"
+    ],
+    "team_size": 50,
+    "location": "San Francisco, CA, USA",
+    "launched_at": "2023-11-20T20:46:37Z",
+    "ranking_components": {
+      "topic_relevance": 0.9437,
+      "freshness": 0.7881,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "retell-ai",
+      "source_type": "yc",
+      "title": "Retell AI - YC company profile",
+      "url": "https://www.ycombinator.com/companies/retell-ai",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:11.205812Z",
+      "excerpt": "Tl;dr: You can now use our API to build human-like voice AI agents with your LLM. We've achieved response times averaging 800ms, reaching the level of human interactions. (see our demo or call +1 (415) 831-7577 to try it out). Human-like interaction is hard: Building a voice AI agent that can talk seems easy (stitching together speech-to-text, LLM, and text-to-speech), but making it interact like humans is hard. In human conversation, one has to respond fast and handle all kinds of situations (handling interruptions, knowing when it's your turn to speak, etc). Long development time: Developers building voice products spend hundreds of hours focusing on the voice conversation experience alone. Quality often falls short: Current voice AI products often have long response latency (>3s), do not know when to appropriately speak (might interrupt you too much, or respond not quickly enough), and do not handle user interruptions well (AI and human talking over each other), and the list goes on. Human-Like Conversations: With our API, you can build a superior voice conversation experience with your LLM. We've achieved response times averaging 800ms, reaching the level of human interactions. We also handle interruptions and provide smart turn-taking determination to achieve seamless conversational exchanges. Connect your LLM easily: Plug in your LLM and create a human-like voice agent easily. WebSocket Support: Connect directly with your users through your web frontend or via phone. You won't have to manage audio bytes – we'll handle that for you. Anyone building a voice experience can benefit from using Retell AI. Whether you're developing AI call agents, AI coaching apps, or AI lifelike companions, we are your trusted ally in creating the best conversational experience for your users. Give us a try! We provide founder's support dedicated to helping you succeed. Please don't hesitate to schedule a meeting with us anytime! If you know anyone who could benefit from Retell AI, we would appreciate a warm introduction. :) Warm regards from the five-founders' team. (From left to right: Todd, Weijia, Zexia, Bing & Evie)",
+      "content_hash": "6392914e8ee66198597d871b86f2a5d53d365237790318ab69bec77ee7469258",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "retell-ai",
+      "source_type": "company_website",
+      "title": "AI Voice Agent Platform for Phone Call Centers",
+      "url": "https://www.retellai.com/",
+      "publisher": "retellai.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:12.532005Z",
+      "excerpt": "Built With Retell, we’ve increased scheduling NPS by 38%, and filled underutilized provider capacity, allowing our team to focus on meaningful patient care instead of phone tag. Lucas answers calls in seconds, handles urgent EV support at scale, cuts support costs by over 50%, and significantly improves our SaaS margins. Build, update, test, and deploy AI voice agents without relying on Retell for every change. Your team stays in control as your operation evolves. Proprietary Voice AI Orchestration Delivering Human-Quality, Low-Latency Phone Conversations At Scale Independent benchmarks confirm Retell as the leader in responsiveness. With ~600ms latency, conversations stay smooth and fluent. Built from real performance data and refined through human-guided training Proprietary turn-taking model that knows when to stop and when to listen. Handle the workflows that make production call centers complex, from routing and transfers to outbound campaigns, human intervention, and CRM automation. From data protection and compliance to uptime and system resilience, Retell delivers the enterprise-grade security and reliability required to run voice AI at production scale. An AI voice agent is an autonomous system that can listen, speak, and hold natural phone conversations like a human. It uses speech recognition, large language models, and text-to-speech technology to understand callers, respond intelligently, maintain context, and take actions such as booking appointments or updating systems without relying on rigid scripts or human intervention. Retell AI is a real-time conversational AI platform that uses proprietary voice AI orchestration with low-latency speech recognition, LLM-powered conversation understanding, and real-time function calling. The platform features a ~600ms latency (industry-leading responsiveness), ultra-realistic voices built from real performance data, and proprietary turn-taking models that know when to speak and listen. Creating a voice AI agent with Retell is easy! Sign up for a free account on the Retell dashboard, where you’ll receive $10 of free usage. From there, you can customize and configure your AI voice agent, integrating it seamlessly with your company’s data and workflows Yes. Retell supports integration with any telephony system through SIP trunking, making it easy to connect your existing phone number and deploy your AI-powered answering service or AI IVR without changing infrastructure. An AI call center uses AI phone agents to handle customer calls instead of routing every interaction to a person. The agent answers, understands what the caller wants, resolves routine requests, and escalates complex ones to a human with full context attached. AI call centers layer four technologies into one pipeline: a voice engine that converts speech to text and back in ~600ms, intent detection that identifies caller needs and pulls CRM history instantly, telephony APIs (Twilio, Vonage, SIP) that plug into your existing phone system, and post-call automation that logs data, creates tickets, and triggers follow-ups without human intervention. No. AI phone agents handle repetitive, high-volume work like appointment booking, order status, and qualification, which frees your team for calls that need judgment or empathy. Most Retell AI deployments run a hybrid model: the voice agent takes the routine volume and hands off to a person when the conversation calls for it. It answers inbound calls and places outbound ones, qualifies leads, books appointments, checks order status, and routes or transfers to a live agent when needed. Mid-call, it can pull and push data through your existing systems, so it acts on real customer information rather than reading from a script. Shorter wait times, calls answered 24/7, lower cost per call, and capacity that scales with volume instead of headcount. Because the agent handles routine calls end to end, average handle time drops and your team spends its hours on higher-value conversations. Every call is transcribed and available for review, so you evaluate 100 percent of interactions instead of a manual sample. Transcripts and call data surface recurring issues, drop-off points, and coaching opportunities across your full call volume, not a handful of spot checks. Yes. Voice agents can hold conversations in multiple languages, so you serve customers in their preferred language without staffing separate multilingual teams. Retell AI integrates with CRMs, calendars, and telephony through native connectors and APIs. The agent reads customer context before and during the call and writes outcomes back automatically, so records stay current without manual entry. Traditional IVR forces callers through fixed menus most people try to skip. A Retell AI voice agent understands natural speech, lets the caller say what they need in their own words, resolves simple requests directly, and routes the rest without menu trees.",
+      "content_hash": "92a7a37195457bb14e686ef8949b9b2edb76d5e1fdafa3e3f88b800fe8248fa5",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "retell-ai",
+      "source_type": "company_website",
+      "title": "About Retell AI | The Best AI Call Assistant Builder",
+      "url": "https://www.retellai.com/about-us",
+      "publisher": "retellai.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:12.729012Z",
+      "excerpt": "The world still runs on phone calls. We started Retell to make them intelligent. Our Mission A world where every business call is handled by AI that actually gets it right. Every day, billions of phone calls keep industries running: patients booking care, drivers confirming deliveries, customers filing claims. We're building the AI that handles those calls so people can do the work only people can do. What We Believe How We Build Why It Matters Our Manifesto Consciousness Shouldn't Wait on Hold. The world's first enterprise-grade voice AI platform, built so no one has to wait to be heard. Play Video Milestones Our Journey Nov. 2023 Accepted by Y Combinator Our team of five was accepted into YC, marking the beginning of an incredible journey. Public Launch We launched successfully on Hacker News and ProductHunt. Feb. 2024 May. 2024 Raised A Seed Round We raised a $4.6M seed round, backed by Alt Capital and an amazing group of angel investors. Backed by Industry Leaders Who Believe in AI-Driven Innovation Our investors believe in the power of AI phone agents to transform business communication. Their support fuels our mission to create the most advanced and intuitive AI voice platform available today. Jack Altman Managing Partner of Alt Capital Aaron Levie CEO at Box Siqi Chen CEO at Runway Michael Seibel YC group partner Peer Richelsen CEO at Cal.com Tyler Bosmeny ex CEO at Clever Rajat Suri ex CEO at Presto Alex Levin CEO at Regal Richard Aberman ex COO at WePay Andrés Pérez Soderi ex COO at Sanas Nino Tasca ex Director at Google Tim Shi CTO at Cresta Saroop Bharwani CEO at Senso Join Us Careers at Retell AI Join us in transforming the future of call centers Join Retell Help us build the communication layer of the AI-native businesses. Something went wrong. Please try again, or email support@retellai.com if it keeps happening. Check your inbox to confirm your subscription. Email I agree to receive the Retell newsletter and accept the data privacy statement. Subscribe You can unsubscribe at any time using the link in any email. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. We use Brevo as our marketing platform. By submitting this form you agree that the personal data you provided will be transferred to Brevo for processing in accordance with Brevo's Privacy Policy.",
+      "content_hash": "20e0b18b53b9e510a963fafcc666b66c3afddd7e3673c18e6f1de74982523eb8",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E004",
+      "company_id": "retell-ai",
+      "source_type": "company_website",
+      "title": "Pine Park Health: Scaling Senior Care With AI | Retell AI",
+      "url": "https://www.retellai.com/case-study/how-pine-park-health-elevates-senior-care-with-intelligent-voice-automation",
+      "publisher": "retellai.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:13.080109Z",
+      "excerpt": "Pine Park Health is one of the fastest-growing primary care practices serving seniors in the western United States. Founded in Oakland in 2021, the company has expanded to nearly 200 assisted and independent living communities across California, Arizona, and Nevada. The mission is simple but ambitious: bring high-quality geriatric care directly to where seniors live so they never struggle with transportation or access again. This model has earned Pine Park a reputation for reliability, warmth, and clinical excellence. However, as the organization scaled, one operational bottleneck threatened to slow everything down: the phone. Most Pine Park patients prefer to communicate by phone. They call to schedule visits, confirm appointment times, request changes to their care, or ask when a clinician will arrive. Families call as well. Community staff call on behalf of residents. Every interaction is important and every detail must be documented correctly so clinicians stay aligned and visits run smoothly. A single scheduling call typically takes about four minutes when accounting for preparation, identity verification, conversation, and documentation. When multiplied across thousands of patients, those minutes consumed hours of Medical Assistant time every day. During busy periods, documentation quality suffered and no-shows increased. The operational strain quickly became unsustainable. “We could feel the operational debt building,” says Mike Tadlock, COO of Pine Park Health. “Our care model was scaling, but our communication workflows were not.” Pine Park’s engineering and operations teams attempted to solve the communication burden on their own. They built an internal ambient AI dictation system and also experimented with building voice automation themselves. Later, they partnered with another vendor. None of these solutions met clinical-level standards. Real-time voice automation is extremely challenging. Latency disrupted the flow of conversation. Seniors needed slower pacing and clearer articulation. And the system required engineering adjustments for even small updates. It was not scalable. By early 2025, Pine Park recognized the need for a specialized voice automation partner. Retell AI stood out immediately. The technology was strong, but the partnership mattered even more. Retell interviewed Pine Park clinicians and operators, drafted initial prompts, shaped escalation logic, and designed a data workflow that allowed non-technical staff to make updates easily. “It felt like Retell became an extension of our team,” Mike says. “The onboarding was one of the best experiences I have ever seen.” Together with Retell, Pine Park launched two voice agents: Ava and Jay. Ava focuses on appointment reminders. She calls patients or responsible parties two days before each visit, verifies date of birth, confirms or reschedules the appointment, asks what the patient wants to focus on, and writes everything into the medical chart. If the patient becomes confused or uncomfortable, Ava transfers the call to a live Medical Assistant. Jay focuses on proactive scheduling. He scans upcoming PCP availability, identifies residents who have not been seen recently, calls to offer an appointment, verifies identity, and documents the result in the chart. A major surprise came from the patients. Many seniors did not realize Ava was AI. They appreciated her clarity and calm pacing. Some even shared personal updates such as recent hospitalizations, which then triggered Pine Park’s care coordination workflows. With each iteration, Pine Park refined Ava’s speaking cadence and phrasing until she felt natural and familiar to this population. Pine Park introduced Ava and Jay with the same discipline they apply to clinical protocols. They began with ten calls per day, personally selected by Mike. Every transcript and recording was reviewed. After hundreds of calls and consistent quality, the team expanded usage gradually. For several months, staff continued reviewing every interaction until the system consistently met expectations. Today, Ava handles all reminder calls and Jay fills open PCP slots. Medical Assistants now spend their time on higher-impact coordination work rather than repetitive scheduling calls. The results have been significant and measurable. Phone communication is central to nearly every workflow in senior care, from medication refill requests to lab follow-ups, imaging updates, specialty referrals, new patient onboarding, and records retrieval. Pine Park plans to expand voice automation across these workflows one by one. Their next initiative is an intelligent inbound system powered by Retell. Instead of asking seniors to navigate “Press 1 for scheduling,” callers will speak naturally with an agent that understands their needs and routes them instantly. Pine Park has always believed that great care begins with great communication. With Retell AI, that communication now scales to match the company’s mission and can continue to support growth without compromising quality.",
+      "content_hash": "9e8df3c621df48bb7c56781645405e3ba0659635fba5b451234ee809e78c12aa",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E005",
+      "company_id": "retell-ai",
+      "source_type": "company_website",
+      "title": "Swtch Energy: Always-On EV Driver Support | Retell AI",
+      "url": "https://www.retellai.com/case-study/how-swtch-keeps-ev-drivers-moving-with-always-on-voice-support-powered-by-retell",
+      "publisher": "retellai.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:13.344582Z",
+      "excerpt": "Swtch is a leading North American EV services provider operating one of the largest and most reliable charging networks across the United States and Canada. With tens of thousands of charging ports and hundreds of thousands of active drivers on its network, swtch plays a critical role in enabling everyday electric mobility for fleets, enterprises, and individual drivers. Reliability is foundational to swtch’s brand. Drivers depend on the network in real time, often while traveling with little room for delay. That expectation extends beyond hardware and software to customer support. When a driver calls, the issue must be addressed immediately. As EV adoption accelerated, swtch continued to scale rapidly while holding itself to a high bar for operational excellence and customer experience. As swtch’s network and customer base expanded, inbound support demand increased in both volume and volatility. Calls rose steadily with growth, but also spiked sharply during infrastructure or cloud-related incidents. These surges were difficult to handle with human staffing alone. Building a team large enough to cover worst-case scenarios would have been inefficient, yet long wait times were not acceptable for a mission-critical service. swtch needed a solution that could maintain instant response times, scale automatically during peak events, and do so in a cost-effective way. Why voice was essential For EV drivers, support is time-sensitive by nature. Most callers are standing in front of a charger that needs to work immediately so they can continue their trip. Email, chat, or ticket queues were simply too slow. Voice remained swtch’s most important support channel—and also the most challenging to scale. Even with continued hiring, wait times regularly exceeded internal standards during periods of high demand. To preserve service quality at scale, swtch began evaluating AI-powered voice platforms capable of handling high-volume, real-time interactions. After testing multiple platforms, swtch selected Retell to power its voice support operations. Retell’s ability to handle high-concurrency inbound calls and integrate cleanly into existing workflows made it well suited for swtch’s operational requirements. Rather than replacing human agents, Retell allowed swtch to absorb volume spikes instantly. This ensured drivers could always reach support when it mattered most. swtch built several AI agents on Retell, with Lucas becoming the cornerstone of its inbound driver support. Lucas is a driver-focused support agent built by swtch to handle high-volume, repeatable requests related to accessing its charging services. By managing the majority of routine inbound calls, Lucas ensures drivers receive immediate assistance while allowing human agents to focus on complex edge cases and high-touch situations. Lucas operates reliably during both normal demand and sudden call surges, making him a core part of swtch’s support infrastructure. The result is a faster, more reliable support experience for drivers and a more sustainable cost structure for the business. “The cost of our customer support team was increasing 300 to 400 percent a year. By introducing Lucas on Retell, we were able to reduce that burden by over 50 percent and drastically improve our SaaS margins.” Internally, voice AI quickly became a force multiplier rather than a disruption. Retell integrates alongside self-service portals, commissioning tools, and internal systems, enhancing existing workflows instead of replacing them. Support teams gained flexibility and efficiency, while leadership maintained confidence that service quality would not degrade as the company continued to grow. From the customer perspective, the experience remained seamless. Most drivers do not realize they are speaking with an AI agent, and feedback has been consistently positive due to faster response times and quicker resolution. “The majority of the time, people don’t realize they’re talking to a voice AI agent. And when they do, the feedback is usually, ‘Wow, your AI agent is so amazing.’” swtch continues to expand voice AI into other repeatable workflows, including areas such as accounts receivable and commissioning. By adopting AI organically where it delivers clear operational leverage, swtch is building a support foundation designed for long-term scale. With Retell, swtch has strengthened its ability to deliver reliable, real-time support across a rapidly growing EV ecosystem—ensuring drivers stay moving and operations scale without friction.",
+      "content_hash": "92b26ba0895a1549b3324c6d7d9df1406a6a0a64eed451e1f9a361546cf5ad58",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E006",
+      "company_id": "retell-ai",
+      "source_type": "hacker_news",
+      "title": "Retell AI: AI Voice Agents",
+      "url": "https://news.ycombinator.com/item?id=40517815",
+      "publisher": "Hacker News",
+      "published_at": "2024-05-29T22:29:00Z",
+      "retrieved_at": "2026-09-03T01:50:45.299534Z",
+      "excerpt": "\"Retell AI: AI Voice Agents\" - 1 points, 0 comments; links to https://www.retellai.com/; posted 2024-05-29",
+      "content_hash": "2979ab1641e8b287ba8af344efe36a127ba3229230d22cae83419b3f7b08082a",
+      "reliability": "community"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

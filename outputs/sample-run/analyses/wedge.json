@@ -1,0 +1,310 @@
+{
+  "company_id": "wedge",
+  "company_name": "Wedge",
+  "twenty_second_view": "Wedge is a YC S25 startup positioning itself as an 'operating system' for healthcare AI agents, deploying forward-deployed engineers into hospitals to build and maintain custom agentic back-office automations. The team is small and the product is early, with no public evidence of customers or revenue, and the model resembles high-touch services rather than scalable software.",
+  "why_it_matters": "Wedge targets a thesis-relevant workflow (healthcare back-office automation) with a clear economic buyer (hospitals/health plans) and measurable ROI framing. However, its forward-deployed engineer model looks like services disguised as software, and the lack of product evidence and adoption signals conflicts with the thesis's preference for narrow, scalable wedges with compounding defensibility.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Co-founders are Dev and Steven, both from top institutions (per company website).",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "No public evidence of their technical backgrounds, prior startups, or domain expertise.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "technical_depth": {
+      "statement": "Unknown - insufficient public evidence; founders claim top-institution backgrounds but no verifiable technical depth is shown.",
+      "evidence_ids": [],
+      "confidence": "high",
+      "inference": true
+    },
+    "prior_startup_experience": {
+      "statement": "Unknown - insufficient public evidence.",
+      "evidence_ids": [],
+      "confidence": "high",
+      "inference": true
+    },
+    "founder_market_fit": {
+      "statement": "Unknown - no evidence of prior healthcare or AI domain experience; the forward-deployed model suggests some operational intent but not verifiable fit.",
+      "evidence_ids": [],
+      "confidence": "medium",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "Founders are YC-backed and claim top-institution backgrounds, which may signal some credibility.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "Team size is only 2, which may limit ability to deliver forward-deployed engineering at scale.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": true
+      },
+      {
+        "statement": "No verifiable technical depth or prior startup success in public evidence.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "score": 9
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Wedge deploys engineers onsite at healthcare organizations to build custom AI agents for back-office tasks, then monitors and maintains them.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "Hospitals, health plans, and multi-physician organizations (director or C-suite buyers).",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "core_workflow": {
+      "statement": "Back-office automation across a health system, identified via workflow audits; recurring tasks are implied but not specified.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "pain_severity": {
+      "statement": "Healthcare back-office labor is costly, but no specific pain severity is quantified in evidence.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "differentiation": {
+      "statement": "Differentiation is the forward-deployed engineer model and full-stack management, but this resembles a services engagement rather than a product wedge.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "expansion_potential": {
+      "statement": "Company claims to expand from audits to multiple agents across the back office, but no concrete path to a system of action is shown.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "score": 10
+  },
+  "market": {
+    "market_description": {
+      "statement": "Healthcare organizations spend heavily on back-office labor, but no market size figure is provided in evidence.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "economic_buyer": {
+      "statement": "Clear economic buyer: hospitals and health plans with existing back-office labor budgets.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "competitive_landscape": [
+      {
+        "statement": "Unknown - no competitor or market evidence was found.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "Healthcare AI adoption is nascent, but no specific timing catalyst is evidenced.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "Healthcare back-office labor is a large existing spend category, but no quantitative figure is available.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "score": 10
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "Company claims 'when the need is great, traction is easy' but provides no specific numbers.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "YC Summer 2025 batch is a launch-stage signal, not customer traction.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "freshness": {
+      "statement": "Evidence retrieved September 2026, but no recent adoption or revenue updates are present.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "evidence_quality": "weak",
+    "score": 5
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "Healthcare organizations are beginning to explore AI, but no strong why-now is evidenced beyond general AI momentum.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "Potential workflow lock-in from deep integration and ongoing maintenance, but not yet proven.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "High dependency on foundation models; if models improve, custom agent building may become commoditized, though healthcare integration complexity may persist.",
+      "evidence_ids": [],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 3
+  },
+  "risks": [
+    {
+      "risk": "Services disguised as software: forward-deployed engineers building custom solutions is a consulting model, not scalable product.",
+      "severity": "critical",
+      "reasoning": "The core offering is custom development per client, which is labor-intensive and hard to scale; conflicts with thesis preference for software.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "No evidence of adoption or revenue; traction claims are vague.",
+      "severity": "high",
+      "reasoning": "Without customer proof, it's unclear if the product works or if there is real demand.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Regulatory and compliance burden in healthcare AI is high; no compliance path is mentioned.",
+      "severity": "high",
+      "reasoning": "Healthcare is heavily regulated; evidence lacks any compliance strategy, which could stall deployments.",
+      "evidence_ids": [],
+      "inference": true
+    },
+    {
+      "risk": "Foundation-model feature risk: as models improve, custom agent building may become a commodity, eroding differentiation.",
+      "severity": "medium",
+      "reasoning": "The value is in integration and workflow, but the core AI capability is not proprietary.",
+      "evidence_ids": [],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "What specific back-office workflows are being automated, and what is the measurable ROI achieved for any customer?",
+      "why_it_matters": "Determines if the workflow is recurring and if ROI is demonstrable within weeks, as required by thesis.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "Who are the paying customers, and what is the revenue or number of deployed agents?",
+      "why_it_matters": "Critical to assess traction and product-market fit.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the founders' technical and healthcare domain background?",
+      "why_it_matters": "Team score is low due to lack of evidence; strong backgrounds could change the assessment.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How does the forward-deployed model scale beyond a few clients?",
+      "why_it_matters": "If it's pure services, it's not a venture-scale software business.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the compliance and regulatory strategy for deploying AI in healthcare?",
+      "why_it_matters": "Regulatory risk could block adoption entirely.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "Founder backgrounds and technical depth",
+    "Prior startup experience or exits",
+    "Customer names, revenue, or usage metrics",
+    "Specific workflows automated and their recurrence",
+    "Measurable ROI achieved for any customer",
+    "Competitive landscape and market positioning",
+    "Compliance and regulatory approach",
+    "Scalability of the forward-deployed model",
+    "Market size figures (not provided in evidence)"
+  ],
+  "recommendation_rationale": [
+    "No evidence of product adoption, revenue, or even a working product; traction is vague and unsubstantiated.",
+    "The forward-deployed engineer model resembles services, not scalable software, conflicting with the thesis's preference for product wedges.",
+    "Team and product scores are low due to lack of verifiable technical depth and unclear differentiation; too many unknowns to justify investment."
+  ],
+  "change_my_mind": [
+    "Provide verifiable founder backgrounds with relevant healthcare AI experience.",
+    "Show at least one paying customer with measurable ROI and evidence of recurring workflow usage.",
+    "Demonstrate a scalable product architecture that reduces reliance on onsite engineers over time.",
+    "Present a credible compliance path and a clear expansion plan into a system of action."
+  ]
+}

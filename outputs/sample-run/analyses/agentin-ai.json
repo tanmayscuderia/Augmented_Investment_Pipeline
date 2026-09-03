@@ -1,0 +1,314 @@
+{
+  "company_id": "agentin-ai",
+  "company_name": "Agentin AI",
+  "twenty_second_view": "Agentin AI (YC W25) is building AI agents that automate Quote-to-Cash and Procure-to-Pay workflows across enterprise systems like SAP, Salesforce, and NetSuite. The company claims early pilot results showing dramatic cycle time and error reductions, but these are company-reported and unverified. The founding team is small with limited public evidence, and the market is real but competitive, with defensibility unclear.",
+  "why_it_matters": "Agentin AI fits the thesis's focus on AI-native B2B workflow automation with a clear economic buyer (finance/operations) and a recurring workflow (Quote-to-Cash). However, it faces risks of being an undifferentiated wrapper, unclear defensibility, and unproven traction, which are penalized by the thesis.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Founder is Sankeerth Rao Karingula, described as a YC founder with a background in machine learning and enterprise workflows.",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "The company has a team size of 2, indicating a very small founding team.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "technical_depth": {
+      "statement": "The founder claims a background in machine learning and enterprise workflows, but no specific technical credentials or prior achievements are provided in the evidence.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "confidence": "low",
+      "inference": false
+    },
+    "prior_startup_experience": {
+      "statement": "The founder is described as a 'YC founder', implying prior startup experience, but no details are given.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "confidence": "low",
+      "inference": false
+    },
+    "founder_market_fit": {
+      "statement": "The founder's claimed background in enterprise workflows suggests some alignment with the problem, but the evidence is too thin to confirm deep domain expertise.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "Founder has some YC affiliation and claims relevant background.",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "low",
+        "inference": false
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "Team size of 2 is very small for the ambitious scope of enterprise workflow automation.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": true
+      },
+      {
+        "statement": "No verifiable technical depth or prior startup success is evidenced.",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "score": 12
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Agentin AI builds AI agents that automate Quote-to-Cash and Procure-to-Pay workflows by connecting to enterprise systems like SAP, Salesforce, NetSuite, and ServiceNow, watching orders, detecting errors, and taking actions.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "The target customer is large enterprises with high order volumes that use systems like SAP, Salesforce, and NetSuite, likely in finance or operations roles.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "core_workflow": {
+      "statement": "The core workflow is Quote-to-Cash (QTC), a recurring, end-to-end business process from order to payment, and also Procure-to-Pay.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "pain_severity": {
+      "statement": "The company claims that slow QTC processes delay cash flow and add operational overhead, with cycle times extending from days to weeks.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "differentiation": {
+      "statement": "The company claims to use reinforcement learning to adapt from failures and handle customizations, but this is not independently verified and may be a common claim.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "expansion_potential": {
+      "statement": "The company states it focuses on end-to-end flows like QTC and P2P, not one-off automations, suggesting a path to broader workflow coverage.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 16
+  },
+  "market": {
+    "market_description": {
+      "statement": "The market is enterprise workflow automation for finance and operations processes like Quote-to-Cash and Procure-to-Pay, which involve significant labor costs and manual coordination.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "economic_buyer": {
+      "statement": "The economic buyer is likely the CFO or COO, as the workflow directly impacts cash flow and operational overhead.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "competitive_landscape": [
+      {
+        "statement": "Unknown - insufficient public evidence on competitors or market landscape.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "The rise of AI agents capable of taking actions across systems makes this type of automation feasible now.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "The market size is qualitative: enterprises incur significant labor costs in manual coordination across systems, as evidenced by the company's claims of reducing manual work.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 12
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "The company is in beta with select design partners, but no names or numbers are provided.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "The company claims early pilot results of 45→18 days cycle time, 12→0.5% error rate, and 83% less manual work, but these are company-reported and not independently verified.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "low",
+        "inference": false
+      }
+    ],
+    "freshness": {
+      "statement": "The evidence was retrieved in September 2026, and the company is from YC W25, indicating recent activity.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "evidence_quality": "weak",
+    "score": 8
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "The increasing capability of AI agents to interact with enterprise systems makes this a timely opportunity.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "The company claims to use reinforcement learning to adapt to customizations, which could create some defensibility, but this is unproven.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "inference": true
+      },
+      {
+        "statement": "Workflow lock-in may occur as the agents become embedded in customer processes, but this is not yet demonstrated.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "The product relies on foundation models for reasoning and action, and if these capabilities are absorbed by future models, the differentiation may erode.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 5
+  },
+  "risks": [
+    {
+      "risk": "Undifferentiated wrapper risk: The product may be easily replicated by foundation model improvements or competitors, as the core technology is not clearly proprietary.",
+      "severity": "high",
+      "reasoning": "The company's claims of reinforcement learning are not detailed or verified, and the market is crowded with similar AI workflow automation startups.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Unclear economic buyer and sales cycle: Selling to large enterprises with complex systems like SAP is notoriously difficult and may require long sales cycles, which is risky for a seed-stage company.",
+      "severity": "high",
+      "reasoning": "The target customer is large enterprises, but no evidence of customer engagement or sales traction is provided.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Team execution risk: With only two founders and no verifiable technical depth, the team may struggle to build and scale a complex enterprise product.",
+      "severity": "medium",
+      "reasoning": "The team size is small, and the founder's background is not substantiated.",
+      "evidence_ids": [
+        "E001",
+        "E003"
+      ],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "Who are the design partners and what is their feedback?",
+      "why_it_matters": "To validate traction and product-market fit.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What specific technical innovations or proprietary data does the team have?",
+      "why_it_matters": "To assess defensibility against model improvements and competitors.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the sales cycle and go-to-market strategy for large enterprises?",
+      "why_it_matters": "To evaluate market reach and revenue potential.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "Unknown - insufficient public evidence on founder's prior startup experience and technical credentials.",
+    "Unknown - insufficient public evidence on customer traction, design partners, or revenue.",
+    "Unknown - insufficient public evidence on competitive landscape and market size.",
+    "Unknown - insufficient public evidence on the proprietary nature of the reinforcement learning approach.",
+    "Unknown - insufficient public evidence on the sales cycle and go-to-market strategy."
+  ],
+  "recommendation_rationale": [
+    "Clear workflow and economic buyer, but traction is unverified and team is thin.",
+    "High risk of being an undifferentiated wrapper with unclear defensibility.",
+    "Market is real but competitive; no evidence of a wedge against incumbents."
+  ],
+  "change_my_mind": [
+    "Independent evidence of paying customers or strong design partner traction.",
+    "Detailed technical explanation of proprietary reinforcement learning or data moat.",
+    "Founder's prior startup success or deep domain expertise verified."
+  ]
+}

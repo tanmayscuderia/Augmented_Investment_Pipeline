@@ -1,0 +1,166 @@
+{
+  "company_id": "agentmail",
+  "candidate": {
+    "id": "agentmail",
+    "name": "AgentMail",
+    "normalized_name": "agentmail",
+    "website": "https://agentmail.to",
+    "normalized_domain": "agentmail.to",
+    "description": "Email Inboxes for AI Agents AgentMail is the email inbox API for AI agents. It gives agents their own email inboxes, like Gmail does for humans.",
+    "batch": "Summer 2025",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/agentmail"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Summer 2025",
+        "observed_at": "2025-06-27T02:11:56Z",
+        "evidence_id": "E001"
+      },
+      {
+        "type": "hn_points",
+        "value": 3,
+        "observed_at": "2026-06-21T10:41:01Z",
+        "evidence_id": "E006"
+      },
+      {
+        "type": "hn_comments",
+        "value": 0,
+        "observed_at": "2026-06-21T10:41:01Z",
+        "evidence_id": "E006"
+      },
+      {
+        "type": "recent_launch",
+        "value": "2026-06-21",
+        "observed_at": "2026-06-21T10:41:01Z",
+        "evidence_id": "E006"
+      }
+    ],
+    "discovery_score": 0.7895,
+    "discovered_at": "2026-09-03T01:06:31.712662Z",
+    "one_liner": "Email Inboxes for AI Agents",
+    "industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "tags": [
+      "Developer Tools",
+      "API",
+      "Email"
+    ],
+    "team_size": 10,
+    "location": "San Francisco, CA, USA",
+    "launched_at": "2025-06-27T02:11:56Z",
+    "ranking_components": {
+      "topic_relevance": 0.9476,
+      "freshness": 0.9783,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "agentmail",
+      "source_type": "yc",
+      "title": "AgentMail - YC company profile",
+      "url": "https://www.ycombinator.com/companies/agentmail",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:55.004304Z",
+      "excerpt": "AgentMail is the first email provider for AI agents. Use our API to give your agents their own email inboxes. We started building email agents because they can live within users’s inboxes in their inboxes and authenticate themselves with third-party applications. But building on top of legacy providers such as Gmail is a struggle. They These providers don’t scale with both inbox creation or volumes of emails sent/received that AI agents often face, so we’re rebuilding email infrastructure from scratch to enable this. AgentMail is an API-first email provider that gives agents their own inboxes to send, receive, and act upon emails. Think of it like Gmail, but with In this demo, we show how easy it is to build an email agent with AgentMail: https://youtu.be/1V7BISeFUTM In this demo, we show an example of a voice + email agent built with AgentMail: https://youtu.be/eG2fCsRK4RY If you are building agents that could use email capabilities, we would love to learn more about your company. You can reach us at founders@agentmail.cc",
+      "content_hash": "29e34d4ed5912f04cdf3d4c543d4970838bd6451352e9108cdf971e6cacf4beb",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "agentmail",
+      "source_type": "company_website",
+      "title": "AgentMail | Email Inbox API for AI Agents",
+      "url": "https://www.agentmail.to/",
+      "publisher": "agentmail.to",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:56.547829Z",
+      "excerpt": "\"AgentMail took email from the thing I worried the most about to the thing I worried the least about.\" AgentMail is the email inbox API for AI agents. It gives agents their own email inboxes, like Gmail does for humans. No credit card required New featureAgent ArmorScreen inbound mail before your agent reads it. This is a real email inbox just created for you. Send it an email and see it show up in real time. Create, manage, and operate email inboxes entirely via API. Give your agent an inbox in one paste. Across the globe, and counting. Built on redundant infrastructure across multiple regions. Your agents never miss a message. Spin up a new inbox in milliseconds. No domain verification, no waiting. RESTful endpoints, typed SDKs, and webhooks. Get started in minutes, not days. Powering every type of agent: from browser automation to customer service, AgentMail enables any agent to communicate via email. Enter your email to continue Navigated to acme.com/signup Browser Teams around the world use AgentMail to power their AI agent communications. \"It's a no brainer, agents into email. Everyone is going to be using AgentMail.\" \"It's the only solution designed for agents, not humans. Each agent gets a real address, reads its own mail, and replies in context. Shipped in a day.\" \"We needed a simple way to give every AI agent an email inbox, programmatically and reliably. The ease of use, reliability, and functionality of AgentMail is unparalleled.\" \"Email is a natural next step for agents that already get real work done in the browser, and AgentMail made it effortless to add.\" \"AgentMail was the only API built around the inbox as the primitive. We went from 'email isn't a supported channel' to 'email is a first-class platform' in under a week.\" \"AgentMail gave us domains and inboxes as primitives, not just a send API. Every agent could have its own durable identity, receive replies, and preserve thread context.\" \"We chose AgentMail because it was built for programmatic, two-way email, which fit how our AI agents work. It gave our agents the reliable email workflow they needed.\" \"When you're handling financial data, privacy and security are non-negotiable. AgentMail gave us watertight whitelists, programmatic inboxes, and EU hosting within 48 hours.\" \"An agent can only do real work if the world can tell who it's dealing with. AgentMail gives our agentic stack this identity out of the box.\" Subscribe to our weekly newsletter. © 2026 AgentMail, Inc. All rights reserved.",
+      "content_hash": "3e5c434ef1f308d4791a6ddeb58981196e544b90af6ca392f34943f60100a104",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "agentmail",
+      "source_type": "company_website",
+      "title": "Customer Stories | AgentMail",
+      "url": "https://www.agentmail.to/customers",
+      "publisher": "agentmail.to",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:57.517991Z",
+      "excerpt": "How teams building AI agents give them real email inboxes with AgentMail. Lanesurf is an AI platform for freight brokers and trucking that automates load matching, carrier communication, and dispatch. Their agents run high-volume carrier conversations over email. Hundreds of programmatic inboxes, millions of messages, thousands of loads a day. Alchemy built AgentCard, spend-controlled one-time-use credit cards that let AI agents pay for anything online. Purchases run on email, so every AgentCard agent gets an AgentMail inbox by default. ~70% increase in agentic transactions post-integration. Junior, by Kuse, is an AI employee that lives in Slack, Teams, Lark, and email. Every AI employee needed a real email identity for two-way conversations. Building it in-house was weeks of work; AgentMail made email a first-class channel in under a week. Locus Founder builds storefronts, sources products, runs ads, and handles vendor payments through an on-chain wallet. Each agent in the fleet gets its own AgentMail inbox so the world can actually reach it. Eragon is a centralized AI workspace that powers org-wide business intelligence. Their workspace agents needed email as both an input and an output, inbound to ingest as a knowledge source, outbound to act on insights. AgentMail provided the inbox. DoAnything is a general-purpose AI agent that does the work for you. Email was the last piece its agents needed to be real citizens online, an identity, trust, and a way to act in the world. AgentMail is the inbox behind it. Pancake is a superagent that runs autonomous squads for your company. They needed an inbox the agent fully owned, not a founder's personal address. Shipped in a day, zero-touch threads, response times from hours to minutes. Browser Use is the open-source framework for AI agents that control a browser. Every Browser Use Cloud session now ships with its own AgentMail inbox, so agents can sign up, verify, and stay logged in with no human in the loop. AISDR is a fully autonomous AI SDR. Hundreds of AgentMail inboxes in production, thousands of emails per week, no human in the loop. Balance built Bea, an AI accountant serving 50+ SMB customers across Europe. They needed programmatic inboxes with whitelists, blacklists, and EU hosting. Half a day per inbox became a single API call. Every Dossium user gets a dedicated AgentMail inbox provisioned automatically before they finish signing up. General Intelligence built Cofounder, a multi-agent workspace where each agent runs a department. They needed real inboxes per agent, not just a send API. 800+ emails through agent inboxes in week one. Subscribe to our weekly newsletter. © 2026 AgentMail, Inc. All rights reserved.",
+      "content_hash": "65b629f9c922bac49bb3bdb86ff6a51ec24039185da7ab03e580f28d54098a72",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E004",
+      "company_id": "agentmail",
+      "source_type": "company_website",
+      "title": "Pricing | AgentMail",
+      "url": "https://www.agentmail.to/pricing",
+      "publisher": "agentmail.to",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:58.315208Z",
+      "excerpt": "Transparent pricing that scales with you. How many inboxes? 10inboxes Your selection: 10 inboxes, 10K emails/mo, 10 custom domains. Add-ons are $2/mo per inbox or domain and $2/mo per 1,000 emails. Recommended Developer $20/mo No credit card required 3 inboxes 3,000 emails/month 3 GB storage 10 inboxes 10,000 emails/month 10 GB storage 10 custom domains 2 organization seats Email support 150 inboxes 150 custom domains 10 organization seats SOC 2 report Everything in Startup tier Unlimited inboxes available Bulk discounts White-label platform Usage-based pricing EU region cloud BYO cloud deployment Dedicated IPs OIDC/SAML SSO | Feature | Free | Developer | Startup | Enterprise | |---|---|---|---|---| | Core | | | | | | Inboxes | 3 | 10 | 150 | Up to unlimited | | Emails/month | 3,000 | 10,000 | | Custom | | Emails/day | 100 | 1,000 | 15,000 | Custom | | Emails/5 min | No separate cap | 100 | 1,500 | Custom | | Storage (GB) | 3 | 10 | | Custom | | Threads | | | | | | Labels | | | | | | Attachments | | | | | | Drafts | | | | | | Schedule Send | | | | | | SDKs | | | | | | MCP Server | | | | | | Advanced | | | | | | Inbox Pods | | | | | | Webhook Endpoints | | | | | | Websockets | | | | | | Metrics | | | | | | SMTP Relay | | | | | | White-label | | | | | | EU Cloud | | | | | | BYO Cloud | | | | | | SLA | | | | | | Deliverability | | | | | | Custom Domains | | 10 | 150 | Custom | | No \"Sent via AgentMail\" footer | | | | | | DKIM, SPF, DMARC | | | | | | Suppression List | | | | | | Optimized Shared IPs | | | | | | Dedicated IPs | | | | Contact us | | Security | | | | | | Team Members | 1 | 2 | 10 | Custom | | Social SSO | | | | | | Multi-factor Auth | | | | | | Signed Webhooks | | | | | | SOC 2 Report | | | | | | OIDC/SAML SSO | | | | | | Support | | | | | | Discord Community | | | | | | Slack Channel | | | | | Subscribe to our weekly newsletter. © 2026 AgentMail, Inc. All rights reserved.",
+      "content_hash": "3dbe2b3015e9ce70d65e884e0d5a4f62bfe9b117a983ca200743a7c69fce4c61",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E005",
+      "company_id": "agentmail",
+      "source_type": "company_website",
+      "title": "Careers | AgentMail",
+      "url": "https://www.agentmail.to/careers",
+      "publisher": "agentmail.to",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:59.152964Z",
+      "excerpt": "We're looking to grow fast as we reimagine email for AI agents. If you want to be a part of our story as we pioneer the realm of building something agents want, we'd love to hear from you. View open roles Our people come from some of the best companies in the world ranging from quant, big tech, private equity, and hyper-growth startups Full health, dental, and vision coverage + a $500/month Equinox membership Meaningful ownership stake so you share in the success you help build. Take the time you need to recharge. We trust you to manage your own schedule. Unlimited budget for any software that makes you productive. If it helps you do better work, we cover it, no questions asked. Courses, books, conferences, whatever fuels your curiosity and growth, we cover it. Endless tech budget to build out your ideal workspace. Subscribe to our weekly newsletter. © 2026 AgentMail, Inc. All rights reserved.",
+      "content_hash": "a4d57368a00f31333830698a8d196271aa947bb925499de2a380974e08911f41",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E006",
+      "company_id": "agentmail",
+      "source_type": "hacker_news",
+      "title": "We Do Not Build for Humans",
+      "url": "https://news.ycombinator.com/item?id=48617605",
+      "publisher": "Hacker News",
+      "published_at": "2026-06-21T10:41:01Z",
+      "retrieved_at": "2026-09-03T01:50:44.222300Z",
+      "excerpt": "\"We Do Not Build for Humans\" - 3 points, 0 comments; links to https://www.agentmail.to/blog/we-do-not-build-for-humans; posted 2026-06-21",
+      "content_hash": "dd2605c57eb58c1df222ac99ed5076a56bfa6f3082321cde3f4588ad1efeaf57",
+      "reliability": "community"
+    },
+    {
+      "id": "E007",
+      "company_id": "agentmail",
+      "source_type": "hacker_news",
+      "title": "Agent.email: A Landing Page for Agents",
+      "url": "https://news.ycombinator.com/item?id=47404293",
+      "publisher": "Hacker News",
+      "published_at": "2026-03-16T20:16:28Z",
+      "retrieved_at": "2026-09-03T01:50:44.222304Z",
+      "excerpt": "\"Agent.email: A Landing Page for Agents\" - 1 points, 0 comments; links to https://www.agentmail.to/blog/agent-email; posted 2026-03-16",
+      "content_hash": "40f7cd4b7cbe49aba54cddb3d0933ce2ccee41d42e2662f2ace89262be62ed6b",
+      "reliability": "community"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

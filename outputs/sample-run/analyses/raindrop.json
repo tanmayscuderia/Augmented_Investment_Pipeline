@@ -1,0 +1,327 @@
+{
+  "company_id": "raindrop",
+  "company_name": "Raindrop",
+  "twenty_second_view": "Raindrop is an AI agent observability platform that monitors production AI agents, detects silent failures, and alerts teams via Slack. The company claims 200+ customers including Vercel, Speak, and Clay, and has shipped a proprietary classification model (rd-signal-2) that it says approaches frontier accuracy at a fraction of the cost. The team is YC W24 and appears technically strong, but public evidence of traction is mostly company-reported, and the market is crowded with observability incumbents.",
+  "why_it_matters": "Raindrop fits the thesis as an AI-native B2B tool targeting a recurring workflow (monitoring AI agents) with a clear economic buyer (AI engineering teams) and measurable ROI (catching failures). It is not a generic wrapper; it has built proprietary classification models and a Slack-native workflow. However, the market is crowded with observability incumbents, and defensibility against both incumbents and foundation-model improvements is uncertain.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Founders are not individually identified in the provided evidence.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "technical_depth": {
+      "statement": "The company has shipped a proprietary model pipeline (rd-signal-2) and a platform for training custom classifiers, indicating strong technical capability.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "prior_startup_experience": null,
+    "founder_market_fit": {
+      "statement": "The company claims to build 'selfishly' and be its own customer, suggesting the founders are AI engineers themselves, but no direct evidence of founder backgrounds exists.",
+      "evidence_ids": [
+        "E004"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "The company has shipped multiple product updates (Signals 2.0, Deep Search) and a technical blog, indicating shipping velocity.",
+        "evidence_ids": [
+          "E001",
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "No public evidence of individual founders' backgrounds, prior startups, or domain expertise.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "score": 16
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Raindrop is an observability platform for AI agents that captures traces, detects silent failures (hallucinations, loops, broken tools), and alerts teams via Slack, with features like Deep Search and custom classifier training.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "AI engineers and engineering teams building AI agents, including companies like Vercel, Speak, and Clay (company-claimed).",
+      "evidence_ids": [
+        "E001",
+        "E004"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "core_workflow": {
+      "statement": "The core workflow is monitoring AI agents in production: tracing runs, detecting failures, alerting via Slack, and verifying fixes—a recurring, daily workflow for teams running agents.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "pain_severity": {
+      "statement": "The company claims thousands of AI engineers struggle to track issues with agents, and silent failures can be expensive or catastrophic, indicating a severe pain point.",
+      "evidence_ids": [
+        "E001",
+        "E004"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "differentiation": {
+      "statement": "Raindrop differentiates by focusing on production AI agent monitoring with proprietary classification models (rd-signal-2) that claim high accuracy at low cost, and a Slack-native interface.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "expansion_potential": {
+      "statement": "The company is expanding from monitoring to 'self-healing loops' and deep search, suggesting a path from observability to broader agent management.",
+      "evidence_ids": [
+        "E001",
+        "E004"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "score": 18
+  },
+  "market": {
+    "market_description": {
+      "statement": "The market is AI agent observability and monitoring, a segment within the broader AI infrastructure space. No market size figures are provided in the evidence.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "economic_buyer": {
+      "statement": "The economic buyer is the engineering team or AI team that owns the agent in production, with budget for developer tooling and observability.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "competitive_landscape": [
+      {
+        "statement": "No direct competitor evidence is provided; however, the company positions itself as 'Sentry for AI agents', implying competition from general observability tools and possibly other AI-specific monitoring startups.",
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "The rise of AI agents in production creates a new need for monitoring, as traditional evals are insufficient for production issues.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "The market size is unknown from evidence; however, the spend exists because AI engineering teams are already paying for observability and monitoring tools.",
+      "evidence_ids": [
+        "E002",
+        "E004"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "score": 12
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "The company claims 200+ customers including Vercel, Speak, Clay, and Fortune 100 enterprises.",
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "The company has posted multiple Show HN and blog posts on Hacker News, but points are low (3-30 points), indicating limited community traction.",
+        "evidence_ids": [
+          "E005",
+          "E006",
+          "E007",
+          "E008",
+          "E009"
+        ],
+        "confidence": "high",
+        "inference": false
+      },
+      {
+        "statement": "The company has shipped multiple product launches (Deep Search, Signals 2.0) indicating ongoing development.",
+        "evidence_ids": [
+          "E001",
+          "E003"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "freshness": {
+      "statement": "The most recent evidence is from 2026-09-03, with product launches and blog posts dated as recent as late 2025, indicating recent activity.",
+      "evidence_ids": [
+        "E001",
+        "E003",
+        "E005"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "evidence_quality": "weak",
+    "score": 12
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "AI agents are becoming more common in production, creating a need for monitoring and observability that did not exist before.",
+        "evidence_ids": [
+          "E001",
+          "E004"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "Raindrop's proprietary classification models (rd-signal-2) and Signal Builder platform may create a data moat as they train on production traces.",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": true
+      },
+      {
+        "statement": "Slack-native workflow and integration into engineering teams may create workflow lock-in.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "Raindrop's core value is monitoring AI agents, which could be partially absorbed by foundation model providers offering built-in observability, but the company's focus on production traces and custom classifiers may be harder to replicate.",
+      "evidence_ids": [
+        "E001",
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 6
+  },
+  "risks": [
+    {
+      "risk": "Crowded market with strong incumbents (e.g., Datadog, New Relic) expanding into AI observability.",
+      "severity": "high",
+      "reasoning": "The company positions as 'Sentry for AI agents', but no competitive evidence is provided; incumbents have distribution and resources.",
+      "evidence_ids": [
+        "E002",
+        "E006"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Foundation model providers may build monitoring features into their platforms, eroding Raindrop's differentiation.",
+      "severity": "high",
+      "reasoning": "If OpenAI/Anthropic add built-in observability, Raindrop's wedge could shrink.",
+      "evidence_ids": [
+        "E001",
+        "E003"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Company-reported customer numbers are unverified; actual traction may be lower.",
+      "severity": "medium",
+      "reasoning": "The 200+ customers claim comes from the company's own careers page, not independent sources.",
+      "evidence_ids": [
+        "E004"
+      ],
+      "inference": false
+    },
+    {
+      "risk": "Regulatory concerns in healthcare (mentioned in Signal Builder) may require compliance efforts, but the company claims Zero Data Retention to address this.",
+      "severity": "low",
+      "reasoning": "The company explicitly mentions healthcare and zero data retention, suggesting awareness and a path.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "Who are the founders and what is their technical background?",
+      "why_it_matters": "To assess team quality and founder-market fit.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the actual revenue and customer churn?",
+      "why_it_matters": "To validate traction claims and business model.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How does Raindrop differentiate from existing observability tools (e.g., Datadog, LangSmith) and other AI monitoring startups?",
+      "why_it_matters": "To assess competitive positioning and market share potential.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the customer acquisition cost and distribution strategy?",
+      "why_it_matters": "To evaluate go-to-market efficiency and scalability.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "Founder identities and backgrounds are unknown.",
+    "Revenue, funding, and valuation are unknown.",
+    "Customer names and usage metrics are unverified (company-claimed).",
+    "Competitive landscape and market size are unknown.",
+    "Technical architecture and proprietary model details are not fully disclosed."
+  ],
+  "recommendation_rationale": [
+    "Strong product-market fit signal: clear recurring workflow (AI agent monitoring) with a technical team shipping proprietary models.",
+    "Company-reported traction (200+ customers) is promising but unverified; HN traction is weak.",
+    "Market is crowded and defensibility against incumbents and model providers is uncertain."
+  ],
+  "change_my_mind": [
+    "Independent evidence of paying customers and revenue growth.",
+    "Detailed founder bios with relevant prior experience.",
+    "Clear differentiation and defensibility against incumbents (e.g., proprietary data moat)."
+  ]
+}

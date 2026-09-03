@@ -1,0 +1,296 @@
+{
+  "company_id": "sylvian",
+  "company_name": "Sylvian",
+  "twenty_second_view": "Sylvian is a YC Fall 2025 startup that gathers expert data for LLMs by hosting competitions, starting with tool-use data (e.g., Excel, VSCode). They claim 4,500+ experts producing 1B tokens/week, but this is company-reported and unverified. The team is two founders with no public technical depth or prior startup evidence, and the product is a data supply service rather than an AI-native workflow automation tool, conflicting with the thesis.",
+  "why_it_matters": "Sylvian operates in the AI data supply chain, not in B2B workflow automation. The thesis targets companies using software agents to automate recurring knowledge-work workflows with clear economic buyers and measurable ROI. Sylvian sells expert-generated data to LLM developers, a different buyer and value proposition. It lacks the workflow wedge, recurring buyer workflow, and software product characteristics central to the thesis.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Founders are William Huang and Niall Kehoe, as stated in the YC launch description.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "technical_depth": {
+      "statement": "Unknown - insufficient public evidence. No background, technical skills, or domain expertise is provided for either founder.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "prior_startup_experience": {
+      "statement": "Unknown - insufficient public evidence. No prior startup experience is mentioned.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "founder_market_fit": {
+      "statement": "Unknown - insufficient public evidence. No evidence connects the founders' backgrounds to the AI data or tool-use domain.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "The founders have articulated a clear problem (need for expert data for LLMs) and a novel solution (competitions) in their launch description.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "No verifiable technical depth or domain expertise is demonstrated in the evidence.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "score": 8
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Sylvian hosts competitions where expert participants produce data for LLMs, starting with tool-use data (e.g., Excel, VSCode).",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "The target customer is LLM developers or AI labs needing expert data, not a specific business workflow buyer.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "core_workflow": {
+      "statement": "The core workflow is data generation through competitions, not an automated recurring business workflow.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "pain_severity": {
+      "statement": "The pain addressed is the need for expert data for LLMs, but the severity for a specific economic buyer is not quantified in the evidence.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "differentiation": {
+      "statement": "Sylvian differentiates by using competitions and leaderboards to motivate experts, versus existing data vendors like Scale or Mercor who use part-time pay.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "expansion_potential": {
+      "statement": "Starting with tool-use data could expand to other expert data domains, but this is speculative and not evidenced.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "score": 8
+  },
+  "market": {
+    "market_description": {
+      "statement": "The market is for expert data provision to LLM developers, a segment of the AI training data market. No market size figures are provided.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "economic_buyer": {
+      "statement": "The economic buyer is likely LLM developers or AI labs, but no specific buyer or budget is identified in the evidence.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "competitive_landscape": [
+      {
+        "statement": "Existing data vendors include Scale and Mercor, as mentioned in the evidence.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "The need for expert data is driven by scaling laws and RL, but this is a general industry trend not specific to Sylvian.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "Qualitative: The market exists because LLMs require large amounts of expert data, but no quantitative size is provided.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 6
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "The company claims to have 4,500+ experts and produce 1B tokens/week, but this is company-reported and not independently verified.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "The company is in YC Fall 2025, which is a launch-stage signal.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "freshness": {
+      "statement": "Evidence retrieved 2026-09-02, but the launch date is not specified; likely recent given YC batch.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "evidence_quality": "weak",
+    "score": 6
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "The need for expert data is timely due to scaling laws and RL, but this is a general trend.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "Potential defensibility from a community of experts and proprietary data, but not yet demonstrated.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "The business depends on LLMs needing expert data; if models require less external data, demand could shrink.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 3
+  },
+  "risks": [
+    {
+      "risk": "Thesis mismatch: Sylvian is not an AI-native B2B workflow automation company; it is a data supply service.",
+      "severity": "critical",
+      "reasoning": "The thesis focuses on software agents automating workflows, while Sylvian provides data through competitions. This is a fundamental mismatch.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Unclear economic buyer and no evidence of recurring revenue or customer contracts.",
+      "severity": "high",
+      "reasoning": "No evidence identifies who pays or how much; the buyer is speculative.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Foundation model feature risk: as models improve, they may need less external expert data, reducing demand.",
+      "severity": "high",
+      "reasoning": "The business relies on a need that could diminish with model advances.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Competition from established data vendors like Scale and Mercor, who have more resources and existing relationships.",
+      "severity": "medium",
+      "reasoning": "The evidence mentions these competitors, but does not show how Sylvian will win.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "Who are the paying customers and what is the pricing model?",
+      "why_it_matters": "To assess if there is a clear economic buyer and revenue potential.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the founders' technical and domain background?",
+      "why_it_matters": "To evaluate team capability and founder-market fit.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How does Sylvian's data quality compare to competitors?",
+      "why_it_matters": "To assess differentiation and defensibility.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the actual usage and revenue traction beyond the claimed expert count?",
+      "why_it_matters": "To validate traction claims.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "Founder backgrounds and technical depth",
+    "Prior startup experience",
+    "Specific target customer and economic buyer",
+    "Pricing and revenue model",
+    "Customer traction and paying customers",
+    "Market size and growth",
+    "Competitive positioning details",
+    "Independent verification of claimed expert count and token production"
+  ],
+  "recommendation_rationale": [
+    "Fundamental thesis mismatch: Sylvian is a data supply business, not an AI-native workflow automation company.",
+    "No verifiable team depth or traction; all claims are company-reported and unverified.",
+    "Unclear economic buyer and high foundation-model dependency risk."
+  ],
+  "change_my_mind": [
+    "Evidence of paying customers and recurring revenue from LLM developers.",
+    "Founder backgrounds with strong technical and domain expertise.",
+    "Independent validation of data quality and demand."
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "company_id": "avallon-ai",
+  "company_name": "Avallon AI",
+  "twenty_second_view": "Avallon AI is a YC S25 startup using AI agents to automate insurance claims operations, starting with inbound/outbound call handling and document processing for carriers, TPAs, and MGAs. The founding team has relevant technical and domain experience, and the company claims early customer traction with a case study showing 2000+ calls handled monthly. However, all traction is company-reported, and the market and competitive landscape lack independent evidence, leaving key risks around differentiation and defensibility.",
+  "why_it_matters": "Avallon fits the thesis of AI-native B2B workflow automation by targeting a recurring, labor-intensive workflow (insurance claims) with a clear economic buyer (carriers/TPAs) and measurable ROI (reduced adjuster time). The narrow wedge of inbound/outbound call handling could expand into broader claims operations. However, the lack of independent traction evidence and potential for being an undifferentiated wrapper are concerns.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Cornelius Schramm is Founder/CEO, previously founding U.S. engineer at FINN, building fleet operations platform behind $15M ARR.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "Bryan Guin is Founder/CPO, previously ML researcher at Cornell, software engineer at Agentive (YC S23), and led product consulting at EY.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "technical_depth": {
+      "statement": "Both founders have technical backgrounds: Schramm as an engineer, Guin as an ML researcher and software engineer.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "prior_startup_experience": {
+      "statement": "Schramm was founding U.S. engineer at FINN, which reached $15M ARR; Guin worked at Agentive (YC S23).",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "founder_market_fit": {
+      "statement": "Schramm witnessed broken fleet claims processes at FINN, giving him direct domain exposure to insurance claims.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "Technical founders with relevant experience in AI/ML and domain exposure to claims.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "No evidence of prior startup founding success or exits; backgrounds are plausible but not verifiably strong.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "score": 17
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Avallon provides AI agents that automate insurance claims operations, including inbound call handling (intake, status checks) and outbound outreach, with human handoff and integration with claims systems.",
+      "evidence_ids": [
+        "E002",
+        "E003",
+        "E005"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "Target customers are carriers, TPAs, and MGAs in the US and Europe.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "core_workflow": {
+      "statement": "Core workflow is recurring: handling routine claims calls and documents, such as first notice of loss, status checks, and third-party outreach.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "pain_severity": {
+      "statement": "The company claims high call volume overwhelms adjusters, causing delays and interruptions, indicating significant pain.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "differentiation": {
+      "statement": "Differentiation appears to be domain-specific AI agents with claims context and integration, but no independent evidence of unique technology or data moat.",
+      "evidence_ids": [
+        "E002",
+        "E004"
+      ],
+      "confidence": "low",
+      "inference": true
+    },
+    "expansion_potential": {
+      "statement": "Product modules (Intaker, Receptionist, Reacher, Copilot) suggest expansion from call handling to broader claims operations, but evidence is limited.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 16
+  },
+  "market": {
+    "market_description": {
+      "statement": "Insurance claims operations involve significant labor costs for carriers and TPAs, with repetitive tasks like intake and status calls.",
+      "evidence_ids": [
+        "E004"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "economic_buyer": {
+      "statement": "Economic buyer is insurance carriers, TPAs, and MGAs who have existing budgets for claims operations and labor.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "competitive_landscape": [
+      {
+        "statement": "No competitor or market evidence was found; competitive landscape is unknown.",
+        "evidence_ids": [],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "Advances in conversational AI and machine learning enable automation of routine calls and document processing, which was previously not feasible.",
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "Insurance claims operations represent a large existing labor spend, but no specific market size figures are provided in the evidence.",
+      "evidence_ids": [
+        "E004"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 13
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "The company claims administrators across the US and Europe rely on Avallon.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "low",
+        "inference": false
+      },
+      {
+        "statement": "The company claims a case study with Athens showing 2000+ calls handled per month and improved CSAT.",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "low",
+        "inference": false
+      }
+    ],
+    "freshness": {
+      "statement": "Evidence retrieved 2026-09-03, but no dates of customer usage or case study are provided.",
+      "evidence_ids": [
+        "E001",
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "evidence_quality": "weak",
+    "score": 8
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "Aging workforce and rising claim volumes increase strain on claims operations, creating urgency for automation.",
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "Potential defensibility from workflow integration and domain-specific context, but no evidence of proprietary data or distribution moat.",
+        "evidence_ids": [
+          "E002",
+          "E004"
+        ],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "The product relies on conversational AI and machine learning, which could be commoditized by foundation model improvements, posing a risk.",
+      "evidence_ids": [
+        "E004"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 5
+  },
+  "risks": [
+    {
+      "risk": "Undifferentiated wrapper risk: AI agents for calls could be replicated by general-purpose voice AI platforms or foundation model features.",
+      "severity": "high",
+      "reasoning": "The evidence does not show proprietary technology or data moat; differentiation is unclear.",
+      "evidence_ids": [
+        "E002",
+        "E004"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Regulatory and compliance risk in insurance claims handling, especially with identity verification and audit trails.",
+      "severity": "high",
+      "reasoning": "The evidence mentions compliance features but no details on regulatory approvals or compliance path.",
+      "evidence_ids": [
+        "E003",
+        "E005"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "All traction is company-reported; no independent validation of customers or revenue.",
+      "severity": "medium",
+      "reasoning": "Case study and claims are from company website, not third-party sources.",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Services disguised as software: heavy customization and integration for each customer could limit scalability.",
+      "severity": "medium",
+      "reasoning": "Evidence mentions enterprise integration and custom setup, which may indicate services-heavy model.",
+      "evidence_ids": [
+        "E005"
+      ],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "What is the current number of paying customers and revenue?",
+      "why_it_matters": "To validate traction and economic buyer willingness to pay.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How does Avallon differentiate from generic voice AI platforms and competitors?",
+      "why_it_matters": "To assess defensibility and risk of being a wrapper.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the sales cycle and distribution strategy for reaching carriers/TPAs?",
+      "why_it_matters": "To evaluate go-to-market feasibility and scalability.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What compliance certifications or regulatory approvals does Avallon have?",
+      "why_it_matters": "To assess regulatory risk in insurance claims.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "No independent evidence of customer traction or revenue.",
+    "No evidence of competitive landscape or market size.",
+    "No evidence of technical architecture or proprietary data.",
+    "No evidence of founder prior exits or startup success.",
+    "No evidence of regulatory compliance path."
+  ],
+  "recommendation_rationale": [
+    "Strong technical founders with domain exposure to claims operations.",
+    "Clear recurring workflow with identifiable economic buyer and measurable ROI.",
+    "Lack of independent traction evidence and unclear differentiation/defensibility."
+  ],
+  "change_my_mind": [
+    "Independent evidence of paying customers and revenue.",
+    "Demonstration of proprietary data or distribution moat that compounds.",
+    "Clear differentiation from generic voice AI and evidence of regulatory compliance."
+  ]
+}

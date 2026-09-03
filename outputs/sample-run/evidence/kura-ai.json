@@ -1,0 +1,82 @@
+{
+  "company_id": "kura-ai",
+  "candidate": {
+    "id": "kura-ai",
+    "name": "Kura AI",
+    "normalized_name": "kura ai",
+    "website": "https://trykura.com",
+    "normalized_domain": "trykura.com",
+    "description": "New State of the Art for Browser Agents Kura breaks 87% on the WebVoyager Benchmark. That is 31% better than Claude's Computer Use demo and 14% better than the previous State of the Art.\r\n\r\nIn 10 years there will be more AI agents on the internet than humans. Kura is SOTA for giving AI agents the tools for interacting with websites.",
+    "batch": "Summer 2024",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/kura-ai"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Summer 2024",
+        "observed_at": "2024-11-14T17:21:10Z",
+        "evidence_id": "E001"
+      }
+    ],
+    "discovery_score": 0.757,
+    "discovered_at": "2026-09-03T01:06:31.712671Z",
+    "one_liner": "New State of the Art for Browser Agents",
+    "industries": [
+      "B2B"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Generative AI",
+      "AI"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "launched_at": "2024-11-14T17:21:10Z",
+    "ranking_components": {
+      "topic_relevance": 0.9119,
+      "freshness": 0.9051,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "kura-ai",
+      "source_type": "yc",
+      "title": "Kura AI - YC company profile",
+      "url": "https://www.ycombinator.com/companies/kura-ai",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:07.228485Z",
+      "excerpt": "Hey, We’re Darren and Ronit of Kura. We just built the State of the Art for Browser Agents and wanted to share our learnings. First, here’s what 87% accurate Browser Agents look like: https://www.youtube.com/watch?v=G62KRiW4ses\\ Browser What? Browser Agents. Generalized agents that can perform a task on the internet via computer vision and reading the DOM. How does it work TL;DR our agent is a multi agent system composed of a planner, executor and critic engaged in debate over each action. The agents have varying degrees of vision and HTML DOM context. For more information please refer to https://trykura.com/technical-deep-dive. Why is it better This debate architecture allows it to self heal and backtrack succeeding in several tasks other agents currently fail at. It's also largely model agnostic allowing a user to lower costs by up to 90% when compared to Claude’s Computer Use by swapping in cheaper models with slight impacts to accuracy. Why does this matter We believe, because of many of the companies here, there will be more agents than humans on the internet in 10 years. However, the internet today is made for humans. Significant functionality is locked behind UIs which don’t have APIs. That’s where generalized browser agents come in. Our browser agent converts any series of UIs into an API ready for consumption by the next generation of agentic companies. Schedule a demo",
+      "content_hash": "ab8386790b739ffa212cdf319e3ffb5555d9840d79fb56540cdd62e469a38014",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "kura-ai",
+      "source_type": "company_website",
+      "title": "Kura",
+      "url": "https://www.trykura.com/",
+      "publisher": "trykura.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:08.626374Z",
+      "excerpt": "You need to enable JavaScript to run this app.",
+      "content_hash": "69eca09463a751c3ee7f6188f3583eb93a2ba4dcdfa2da29a68c53c6fb4bc954",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": false,
+    "traction": false,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.3333
+  }
+}

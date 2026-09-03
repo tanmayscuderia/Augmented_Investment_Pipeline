@@ -1,0 +1,97 @@
+{
+  "company_id": "truffle-ai",
+  "candidate": {
+    "id": "truffle-ai",
+    "name": "Truffle AI",
+    "normalized_name": "truffle ai",
+    "website": "https://www.trytruffle.ai/",
+    "normalized_domain": "trytruffle.ai",
+    "description": "AWS for AI Agents Truffle AI makes it easy for developers to integrate AI agents into any software application. We do this by exposing agents as simple APIs that can be called from anywhere. Developers have used Truffle to add customer support agents into WhatsApp and analytics agents into Slack.",
+    "batch": "Winter 2025",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/truffle-ai"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Winter 2025",
+        "observed_at": "2025-02-25T18:51:10Z",
+        "evidence_id": "E001"
+      },
+      {
+        "type": "hn_points",
+        "value": 2,
+        "observed_at": "2024-11-08T05:23:30Z",
+        "evidence_id": "E002"
+      },
+      {
+        "type": "hn_comments",
+        "value": 0,
+        "observed_at": "2024-11-08T05:23:30Z",
+        "evidence_id": "E002"
+      }
+    ],
+    "discovery_score": 0.8077,
+    "discovered_at": "2026-09-03T01:06:31.712533Z",
+    "one_liner": "AWS for AI Agents",
+    "industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Generative AI",
+      "Infrastructure",
+      "AI Assistant"
+    ],
+    "team_size": 2,
+    "location": "Bengaluru, KA, India",
+    "launched_at": "2025-02-25T18:51:10Z",
+    "ranking_components": {
+      "topic_relevance": 1.0,
+      "freshness": 0.9386,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "truffle-ai",
+      "source_type": "yc",
+      "title": "Truffle AI - YC company profile",
+      "url": "https://www.ycombinator.com/companies/truffle-ai",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-02T23:54:11.386674Z",
+      "excerpt": "Hey YC! We’re Shaunak and Rahul and we are making it easy for developers to integrate AI Agents into any software application. We do this by making agents available as simple APIs that can be called from anywhere. Developers have used Truffle to add customer support agents into WhatsApp and integrate analytics agents into Slack. Check out our demo below 👇 While AI models have become more accessible, getting AI agents to production remains painfully complex. Developers don’t just need a model—they need to handle: Despite existing frameworks, developers still spend 60% of their time on \"glue code\" instead of building actual AI solutions. Companies burn $100K–$200K per year on DevOps overhead, just to manage AI agent infrastructure. AI should be easier to integrate than this. Truffle AI eliminates infrastructure headaches by turning AI agents into plug-and-play APIs: Most AI adoption today is being held back by engineering complexity—Truffle AI removes that bottleneck, making AI agents as simple to integrate as calling an API. As developers, we both hit the same frustrating wall: spending countless hours writing \"glue code\" for infrastructure instead of building innovative AI solutions. While exploring several frameworks to build AI agents, we discovered a critical gap - none addressed the massive infrastructure overhead required for production-ready AI systems. With Rahul's expertise in large-scale deployment and cluster management at AWS and Shaunak's background in AI research and product development, we realized we were uniquely positioned to solve this problem. Our mission became clear: make powerful AI accessible to businesses of all sizes by eliminating the infrastructure barriers that slow innovation. 👩💻 Software developers who want to add AI capabilities without becoming infrastructure experts 🏢 Startups and enterprises looking to quickly deploy AI solutions without hiring specialized DevOps teams 🔧 AI engineers who want to focus on agent design rather than deployment pipelines 🛠️ Product teams who need to iterate rapidly on AI features without getting bogged down in infrastructure With Truffle AI, developers have already built: 💬 Customer support agents that automate WhatsApp & Slack interactions 📊 Analytics agents that fetch and analyze data from spreadsheets 🤖 Multi-agent workflows that coordinate different AI tasks seamlessly Looking to integrate AI Agents into your organization? Truffle AI can help!",
+      "content_hash": "943a55e1925a949ae25e4046a77b9548b802abd3787793eae5aaa4a750502a03",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "truffle-ai",
+      "source_type": "hacker_news",
+      "title": "Show HN: Truffle AI – No-Code Serverless AI Agents Platform",
+      "url": "https://news.ycombinator.com/item?id=42084404",
+      "publisher": "Hacker News",
+      "published_at": "2024-11-08T05:23:30Z",
+      "retrieved_at": "2026-09-03T01:50:43.699216Z",
+      "excerpt": "\"Show HN: Truffle AI – No-Code Serverless AI Agents Platform\" - 2 points, 0 comments; links to https://www.trytruffle.ai/; posted 2024-11-08",
+      "content_hash": "fd3e0aef7221e828c016e175740d129490f4a83353226a369e4d033cc7b6eda7",
+      "reliability": "community"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": false,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.5
+  }
+}

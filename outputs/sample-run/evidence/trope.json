@@ -1,0 +1,82 @@
+{
+  "company_id": "trope",
+  "candidate": {
+    "id": "trope",
+    "name": "Trope",
+    "normalized_name": "trope",
+    "website": "https://trope.ai",
+    "normalized_domain": "trope.ai",
+    "description": "AI FDE that deploys custom AI agents into ERPs Trope deploys custom AI agents into ERPs for mid-market companies. Every ERP is heavily customized, so useful agents need custom deployment too. Trope’s AI FDE learns each business and ERP, then builds and deploys agents, turning the last mile from services into software.",
+    "batch": "Summer 2026",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/trope"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Summer 2026",
+        "observed_at": "2026-07-07T18:00:20Z",
+        "evidence_id": "E001"
+      }
+    ],
+    "discovery_score": 0.7925,
+    "discovered_at": "2026-09-03T01:06:31.712576Z",
+    "one_liner": "AI FDE that deploys custom AI agents into ERPs",
+    "industries": [
+      "B2B"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "SaaS",
+      "B2B"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "launched_at": "2026-07-07T18:00:20Z",
+    "ranking_components": {
+      "topic_relevance": 0.9451,
+      "freshness": 1.0,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "trope",
+      "source_type": "yc",
+      "title": "Trope - YC company profile",
+      "url": "https://www.ycombinator.com/companies/trope",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-02T23:54:15.386594Z",
+      "excerpt": "Hey everyone! We're Matthew and Victor - cofounders of Trope. We’re building the AI-native platform for ERP services. TLDR Launch Video: https://www.youtube.com/watch?v=mhDiw0nKB34 ❌ Problem Companies buy an ERP expecting it to become the most powerful software in their stack. It runs finance, inventory, procurement, operations, reporting, and the workflows the business depends on. Buying an ERP is easy. Implementing it is hard and requires labour heavy consultant work where: For implementation teams, the challenge is managing hundreds of stakeholders across concurrent projects, with thousands of documents, decisions, and system dependencies to track. That is why so many ERP projects miss their budget, timeline, and targets, and why companies spend billions on implementation services. ✅ Solution Trope is the AI-native platform that deploys agents to deliver successful implementations faster. Using Trope is like having a project manager, consultant, and developer working 24/7, so you can spend more time on the design and decisions. Trope connects to the systems where project work already lives. It compares what was promised with what is actually being built, then flags gaps across scope, configuration, data, testing, training, and documentation before they become expensive. Trope takes action by turning meetings into action items, scanning ERP configurations programmatically, and keeping documents, configurations, and stakeholders in sync. The Team We grew up in Vancouver and met at the University of British Columbia. We built operations and AI software at Tesla, Amazon, Zipline, and Schneider Electric. After speaking with ERP veterans who had built and sold practices, the pattern was clear: everyone knew the traditional services model was going to change, but no one knew how. Trope is defining the AI-native model for ERP services. Our Ask If you know anyone who works on ERP implementations (ie, consulting, system integration, or professional services) we’d love an intro. Email me at matthew@trope.ai. Take care, Matthew & Victor",
+      "content_hash": "f4b38917496dfee31031ab604624ffce70dd435e25b3b4cfa18377779cd8202c",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "trope",
+      "source_type": "company_website",
+      "title": "Trope: We deploy custom AI agents into your ERP",
+      "url": "https://trope.ai",
+      "publisher": "trope.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-02T23:54:19.209614Z",
+      "excerpt": "Custom to your ERP Built around your configuration, extensions, and data. Backed byCombinator Your ERP is custom. Your agent should be too. Trope handles the engineering and implementation. Trope is the AI FDE for ERP. Built by engineers who deployed AI agents and critical software at Your ERP has been reshaped over years to fit how you operate. The agent has to learn that before it touches a record. Learns your process from the systems and files you approve. Evaluated, sandbox tested, and shadowed before it acts. Trope covers the custom engineering. Trope delivers a working agent built for your ERP and proven in your environment. You buy a finished product, not an implementation project. General agents can be slow or wrong on company-specific ERP work. Builders and native agents still leave the custom implementation to your team or partner. We learn your ERP, build the agent, prove it in your sandbox and shadow mode, then keep it working after release. You see it work on your own data before it goes live. Implementation fee $0 Offer custom AI agents without taking on the R&D. Trope’s AI FDE handles engineering and deployment. The relationship stays yours. Cover customer-specific workflows that never fit the product roadmap. Add custom AI agents to the licenses and ERP implementations you already deliver. Add custom AI agents without building and maintaining the engineering capability. Help clients adopt frontier AI without taking on the upfront R&D. Start with one costly manual process, then reuse what works across the portfolio. We’ll tell you whether a custom agent is a fit.",
+      "content_hash": "8f2a6248a1b37d50b3f0d61ebadc8309be56ce5a6bb7b561c6d732167d3d28b5",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "company_id": "avallon-ai",
+  "candidate": {
+    "id": "avallon-ai",
+    "name": "Avallon AI",
+    "normalized_name": "avallon ai",
+    "website": "https://www.avallon.ai/",
+    "normalized_domain": "avallon.ai",
+    "description": "AI agents for insurance claims operations Avallon automates insurance claims operations with AI agents that handle routine calls and documents processing.",
+    "batch": "Spring 2025",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/avallon-ai"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Spring 2025",
+        "observed_at": "2025-04-10T20:57:43Z",
+        "evidence_id": "E001"
+      }
+    ],
+    "discovery_score": 0.7867,
+    "discovered_at": "2026-09-03T01:06:31.712740Z",
+    "one_liner": "AI agents for insurance claims operations",
+    "industries": [
+      "Fintech",
+      "Insurance"
+    ],
+    "tags": [],
+    "team_size": 7,
+    "location": "New York City, NY, USA",
+    "launched_at": "2025-04-10T20:57:43Z",
+    "ranking_components": {
+      "topic_relevance": 0.9523,
+      "freshness": 0.9529,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "avallon-ai",
+      "source_type": "yc",
+      "title": "Avallon AI - YC company profile",
+      "url": "https://www.ycombinator.com/companies/avallon-ai",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:58.069259Z",
+      "excerpt": "Avallon automates insurance claims operations with AI agents that handle routine calls and documents processing. Active Founders Cornelius Schramm Founder/CEO CEO of Avallon. Before Avallon, Cornelius was the founding U.S. engineer at FINN, building the fleet operations platform behind $15M ARR and witnessing firsthand how broken fleet claims processes are. Cornelius Schramm Founder/CEO CEO of Avallon. Before Avallon, Cornelius was the founding U.S. engineer at FINN, building the fleet operations platform behind $15M ARR and witnessing firsthand how broken fleet claims processes are. Bryan Guin Founder/CPO Bryan was previously a machine learning researcher at Cornell and a software engineer at Agentive (YC S23) where he built AI systems for auditors. He also led product consulting teams at EY, advising Fortune 500 clients on new product development and deployment. Bryan Guin Founder/CPO Bryan was previously a machine learning researcher at Cornell and a software engineer at Agentive (YC S23) where he built AI systems for auditors. He also led product consulting teams at EY, advising Fortune 500 clients on new product development and deployment. Company Launches Avallon – AI Agents for Insurance Claims Operations Insurance customer satisfaction is plummeting as manual processing creates endless delays. Avallon automates back-office claims work for carriers and TPAs with AI agents that handle calls, documents, and data entry so adjusters can resolve cases faster. Insurance adjusters are drowning in manual work to process claims. This creates delays, errors, and frustrated policyholders while burying adjusters in tedious work instead of decision-making. Adjusters face three major bottlenecks: Fragmented communication: Adjusters spend hours fielding routine calls and emails to gather and relay claim information. Phone tag with claimants, vendors, and internal teams creates delays and frustration. Slow document review: Sifting through unstructured documents, photos, and reports to validate evidence is time-intensive. Manual review of complex documentation slows case resolution. Tedious record keeping: Converting notes and decisions into structured data for claims management systems requires constant manual data entry. An aging workforce exacerbates these issues, creating a talent shortage as workloads grow. With median adjuster compensation already at $109k and razor-thin margins for carriers and TPAs, the economics of manual processing are unsustainable. Meet Avallon: Your Team of AI Claims Agents Avallon's AI agents plug directly into existing claims management systems and automate these tedious tasks, helping adjusters resolve cases more quickly. Our AI agents work autonomously to handle: Communication workflows: Our agents handle routine calls and emails, gathering claim information while eliminating phone tag and keeping all parties updated. Document analysis: Our AI instantly processes unstructured documents, photos, and reports, extracting key data points and validating coverage details in seconds. Data management: Our agents automatically convert all findings into structured data and populate your claims management system, eliminating manual data entry and errors. Avallon’s intelligent agents turn claims management from reactive to proactive, helping adjusters make faster decisions, reduce errors, and deliver exceptional customer experiences. Team: The team met as grad students at Cornell studying computer science and operations research. Cornelius had previously built the complete ops infrastructure to scale FINN US from 0 to $15M ARR as a founding engineer at the car subscription platform. There he saw firsthand how broken fleet claims processes are. Bryan previously led product teams consulting for Fortune 500s at EY and conducted ML research at Cornell. Jet studied quantitative trading algorithms, is a national champion policy debater, and taught debate at the Taipei American School. During a fall break hiking trip, the team brainstormed startup ideas until Avallon took shape. They shipped the first version around Christmas, landed their first customer weeks later, and dropped out to pursue the company full-time. Asks: We're excited to connect with: Insurance company executives and claims leaders who want faster, smarter claim resolutions. Industry advisors and operators passionate about digitizing and modernizing insurance processes. Journalists and thought leaders interested in highlighting innovation and transformation within the insurance industry. If you’re ready to streamline your claims operations with AI, email us at founders@avallon.ai or schedule a demo at avallon.ai.",
+      "content_hash": "4d8a5717c5ae2308fede3832640fdc5c763e3bb8f3d90539478c695adc718736",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "avallon-ai",
+      "source_type": "company_website",
+      "title": "Avallon",
+      "url": "https://www.avallon.ai/",
+      "publisher": "avallon.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:58.700371Z",
+      "excerpt": "AI Agents for Claims Operations AI Agents for Claims Operations Avallon turns complex claims operations into automated resolutions, cutting costs and supercharging productivity with agentic workflows. Built for carriers, TPAs, and their partners to automate claims operations Built for carriers, TPAs, and their partners to automate claims operations Administrators across the US and Europe rely on Avallon to eliminate busywork for claims teams. Workers Comp P & C Life Claim Intaker Captures new losses via phone, email, or file upload, filing claims with zero manual entry. Case Status Receptionist Answers inbound status request calls with real-time updates and full claim context. Third Party Reacher Auto-dials employers, providers, and injured workers while logging each response. Case Copilot Retrieves data, cites sources, analyzes claims and suggests actions. Workers Comp P & C Life Claim Intaker Captures new losses via phone, email, or file upload, filing claims with zero manual entry. Case Status Receptionist Answers inbound status request calls with real-time updates and full claim context. Third Party Reacher Auto-dials employers, providers, and injured workers while logging each response. Case Copilot Retrieves data, cites sources, analyzes claims and suggests actions. Everything your team needs in one platform Context-Aware AI Context-Aware AI Understands your workflows and claims data end-to-end, guiding decisions in real time. Scale phone calls with Dialer Scale phone calls with Dialer Handles inbound and outbound calls, extracts key details, and shares case updates. Automate emails with Orchestrator Automate emails with Orchestrator Converts inbox complexity into structured data and automates outreach to involved parties. Structure documents with Parser Structure documents with Parser Uses AI to turn any claim file into chronological, indexed data inside your CMS. Structure documents with Parser Uses AI to turn any claim file into chronological, indexed data inside your CMS. Supercharge workflows with Avallon Copilot Supercharge workflows with Avallon Copilot Pulls facts, cites sources, analyzes claims, and recommends next steps. Supercharge workflows with Avallon Copilot Pulls facts, cites sources, analyzes claims, and recommends next steps. Trusted by leading claims teams Learn more about how customers are partnering with Avallon to lead the way in claims management. - 0+Calls handled per month 0%Calls automatically resolved by AI agent \"Avallon has made it simple to integrate AI into our claims operations while ensuring our customers' experience is exceptional.\" Danny Smith, - 0%of weekly WC intake handled start to finish by the agent 0%first-pass accuracy \"Going in, we had two questions: would AI hold up on our complex claims, and could it work inside the systems we already use? The Proof of Value answered both. Seeing it run on real production claims in our own system put our leadership at ease. The surprise was how far past data entry it goes: on its own, it reads more than the form, pulls in the surrounding emails and faxes, and even turns a Spanish form into something our adjusters can use in English. The Avallon team's been great to work with, and we see this as a long-term partnership, with ten more things already on our list.\" Kevin Gallagher - 0/yearReports Processed 0%Labour Hours Saved “Give me a week with this thing, and we’re done. It’s beautiful, simple, easy to understand, and clean. Love it.” Colin Gallagher, CIO, JAG Source - 0+Calls handled per month 0%Calls automatically resolved by AI agent \"Avallon has made it simple to integrate AI into our claims operations while ensuring our customers' experience is exceptional.\" Danny Smith, - 0%of weekly WC intake handled start to finish by the agent 0%first-pass accuracy \"Going in, we had two questions: would AI hold up on our complex claims, and could it work inside the systems we already use? The Proof of Value answered both. Seeing it run on real production claims in our own system put our leadership at ease. The surprise was how far past data entry it goes: on its own, it reads more than the form, pulls in the surrounding emails and faxes, and even turns a Spanish form into something our adjusters can use in English. The Avallon team's been great to work with, and we see this as a long-term partnership, with ten more things already on our list.\" Kevin Gallagher - 0/yearReports Processed 0%Labour Hours Saved “Give me a week with this thing, and we’re done. It’s beautiful, simple, easy to understand, and clean. Love it.” Colin Gallagher, CIO, JAG Source - 0+Calls handled per month 0%Calls automatically resolved by AI agent \"Avallon has made it simple to integrate AI into our claims operations while ensuring our customers' experience is exceptional.\" Danny Smith, - 0%of weekly WC intake handled start to finish by the agent 0%first-pass accuracy \"Going in, we had two questions: would AI hold up on our complex claims, and could it work inside the systems we already use? The Proof of Value answered both. Seeing it run on real production claims in our own system put our leadership at ease. The surprise was how far past data entry it goes: on its own, it reads more than the form, pulls in the surrounding emails and faxes, and even turns a Spanish form into something our adjusters can use in English. The Avallon team's been great to work with, and we see this as a long-term partnership, with ten more things already on our list.\" Kevin Gallagher - 0/yearReports Processed 0%Labour Hours Saved “Give me a week with this thing, and we’re done. It’s beautiful, simple, easy to understand, and clean. Love it.” Colin Gallagher, CIO, JAG Source - 0+Calls handled per month 0%Calls automatically resolved by AI agent \"Avallon has made it simple to integrate AI into our claims operations while ensuring our customers' experience is exceptional.\" Danny Smith, - 0%of weekly WC intake handled start to finish by the agent 0%first-pass accura",
+      "content_hash": "1fa04a3e1ab18cbb20c81796defc019d321e21e2618ac1159a6cfa605c333fdb",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "avallon-ai",
+      "source_type": "company_website",
+      "title": "How Athens Administrators automatically resolves 64% of inbound calls with Avallon - Avallon Success Story",
+      "url": "https://www.avallon.ai/athens-case-study",
+      "publisher": "avallon.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:59.555104Z",
+      "excerpt": "Calls handled per month Calls automatically resolved by AI agent Average CSAT score Challenge High call volume overwhelms adjusters and delays critical claim work Call volume at Athens, especially around pay cycles, was overwhelming reception lines and claims examiners. Injured workers and medical providers called repeatedly with routine questions about bill status and payout cycles, constantly interrupting adjusters throughout the day and pulling them away from complex claims work. Callers faced long wait times and after-hours voicemails, creating frustration on both sides. Athens needed a scalable solution that could handle routine inquiries accurately, comply with identity verification requirements, and seamlessly escalate relevant calls to human adjusters. Solution AI voice agents handle inbound calls 24/7 with real-time claims system integration Results Athens saves adjuster time while improving caller experience The results: - 2000+ calls handled per month, removing massive volume from adjusters' workload - 64% of calls fully resolved by AI without human intervention - 4.6/5 average CSAT score from callers Adjusters are no longer constantly interrupted and can focus on complex claims investigation and decision-making. Injured workers and medical providers get instant answers anytime—evenings, weekends, holidays—without waiting on hold. What's Next Athens and Avallon are expanding their partnership beyond inbound call automation. The next phase includes: - Outbound communications to medical providers: Proactively checking on treatment status and documentation requirements - Document intelligence: Implementing contextual analysis and summarization of relevant claim information to streamline adjuster workflows As Athens continues to scale its AI capabilities with Avallon, the company is positioned to deliver even greater operational efficiency while maintaining the high-touch service that has defined its reputation in the workers' compensation industry.",
+      "content_hash": "6a6074f4cbe28c4505f39f5d2578c4a221c6dc58e0e7fa5976803e1205d06037",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E004",
+      "company_id": "avallon-ai",
+      "source_type": "company_website",
+      "title": "About - Avallon",
+      "url": "https://www.avallon.ai/about",
+      "publisher": "avallon.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:00.154452Z",
+      "excerpt": "Claims operations have long been bogged down by outdated systems and repetitive tasks. Adjusters are overwhelmed with administrative work, and an aging workforce adds to the strain as claim volumes rise. Inefficiencies in claim intake, subrogation, dispute resolutions, and after-hours operations slow down processing and reduce service quality. Avallon offers a better solution. Our platform uses conversational AI and cutting edge machine learning to automate tedious tasks, seamlessly integrating with your systems. Whether you’re a carrier, MGA, or TPA, Avallon adapts to your workflows, boosting productivity and eliminating friction. With our scalable context engine, every interaction is infused with the right information, freeing your team to focus on strategic decisions and creative problem‑solving. Avallon empowers operators to manage millions of claims workflows more efficiently, accurately, and with uninterrupted service, even after hours. The future of claims operations is here, and Avallon is leading the way. Leadership Team Avallon is led by a team of operators and engineers with deep industry expertise and technical knowledge, formed at Cornell University through a shared background in computer science and operations research. Moritz was among the first hires for Taktile’s U.S. office, where he scaled operations in the U.S. market and worked with some of the world’s largest insurance companies and fintechs to deploy AI-based decisioning systems. He studied computer science and business at the Technical University of Munich and machine learning and optimization at MIT. Leander was a senior software engineer at FINN, where he built core systems for subscription lifecycle, retention, and billing across a fleet of over 60,000 vehicles. He previously worked on AI automation, fraud prevention, and operational tooling, and studied computer science and economics at Stuttgart Media University. Backed by the Best We're backed by top venture capital firms and investors.",
+      "content_hash": "d4799177fd5e5af2453f5b9cda6a5bdb70a65eaa9ffa500e5c86e3a491ef996a",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E005",
+      "company_id": "avallon-ai",
+      "source_type": "company_website",
+      "title": "Pricing - Avallon",
+      "url": "https://www.avallon.ai/pricing",
+      "publisher": "avallon.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:00.987822Z",
+      "excerpt": "Pricing Avallon’s pricing is customized to fit your unique needs and scales with the value we provide. Inbound Agents Handle high-volume intake and inquiries 24/7 Inbound AI: Automates FNOL, status checks, and inquiries. Multichannel: Seamless support for calls, texts, chats, faxes, and emails. Zero Wait Times: Scales instantly for unlimited concurrent calls. Multilingual: Instant translation and support for any language. Human Handoff: Seamless fallback to your staff for complex scenarios. Product Support: Direct access via Slack, Teams, email, or phone. Enterprise Integration: Custom setup for your specific systems. Outbound Agents Automate repetitive phone calls, emails, and texts Outbound AI: Automates third-party outreach, status checks, and demands. Multichannel: Coordinates phone, email, and text for maximum contact rates. Compliance: Full audit trails and logging for every call. Dynamic Scripting: Adapts flow based on policy and claim specifics. Human Handoff: Intelligently transfers sensitive calls to humans. Product Support: Direct access via Slack, Teams, email, or phone. Enterprise Integration: Custom setup for your specific systems. AI Claim File Processing Turn unstructured files into structured data Data Extraction: Ingests FNOL files, medical records, and demand packets. Chronologies: Indexes and builds chronologies from claim records. Claim Summarization: Summarizes full claim history and documents. AI Copilot: Chat with claim files to get answers and recommended next steps. Auto-Entry: Syncs extracted data directly into your CMS. Product Support: Direct access via Slack, Teams, email, or phone. Enterprise Integration: Custom setup for your specific systems. Frequently Asked Questions How will Avallon integrate with my systems? Our forward deployed engineering team will work closely with yours to seamlessly integrate Avallon with your existing systems, including claims management platforms, REST APIs, ERP software, email, and more. How much does Avallon cost annually? Avallon's pricing is tailored to meet your specific needs and adjusts according to the value we deliver. Our pricing takes into account factors such as: - The volume of claims processed - The complexity of system integrations - The specific features and functionalities you require This ensures you only pay for what you need, with pricing that grows with the impact Avallon delivers to your claims operations. Can the Avallon voice AI agent adapt to a wide variety of call scripts? Yes, the Avallon voice AI agent can be configured to handle multiple variations of claims call scripts. Our engineering team will assist in setting up each version to meet your organization’s needs. If I own a smaller claims management operation, will Avallon still be effective for me? Absolutely. Avallon is designed to add value to claims teams of all sizes, with pricing that scales to suit your organization’s needs. What kind of support does Avallon offer after implementation? Avallon offers 24/7 assistance for critical issues, regular updates, and proactive monitoring. We’re available for troubleshooting, training, and any adjustments needed as your business evolves.",
+      "content_hash": "a5ca6aa361aae43f6e49e70d5c621ab25b728d266fcf365fb36f1a76871326d3",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

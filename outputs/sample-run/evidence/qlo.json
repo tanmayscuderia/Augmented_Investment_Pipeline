@@ -1,0 +1,96 @@
+{
+  "company_id": "qlo",
+  "candidate": {
+    "id": "qlo",
+    "name": "Qlo",
+    "normalized_name": "qlo",
+    "website": "https://www.getqlo.com/",
+    "normalized_domain": "getqlo.com",
+    "description": "Legora for commercial insurance carriers Qlo uses AI agents to run commercial underwriting operations from submission to renewal. Specialized agents handle each operational step, while supervisor agents coordinate the work and communicate with the underwriter.\r\n\r\nEvery commercial insurance program will be built and operated end to end by AI agents on Qlo.",
+    "batch": "Summer 2026",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/qlo"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Summer 2026",
+        "observed_at": "2026-08-07T05:25:12Z",
+        "evidence_id": "E001"
+      }
+    ],
+    "discovery_score": 0.7523,
+    "discovered_at": "2026-09-03T01:06:31.712626Z",
+    "one_liner": "Legora for commercial insurance carriers",
+    "industries": [
+      "Fintech",
+      "Insurance"
+    ],
+    "tags": [
+      "Insurance",
+      "Enterprise Software",
+      "AI"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "launched_at": "2026-08-07T05:25:12Z",
+    "ranking_components": {
+      "topic_relevance": 0.8646,
+      "freshness": 1.0,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "qlo",
+      "source_type": "yc",
+      "title": "Qlo - YC company profile",
+      "url": "https://www.ycombinator.com/companies/qlo",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:07.963714Z",
+      "excerpt": "TL;DR: Qlo uses AI agents to run commercial underwriting operations from submission to renewal. We rebuilt the underlying system so agents can operate across the entire workflow, not sit beside another legacy system. One enterprise client signed a two-year contract, went live in May, and has since tripled weekly primary quote throughput. The end state is autonomous underwriting that follows each company’s underwriting judgment and stays within the carrier’s appetite. Today, we’re launching the Qlo Inbox Agent. More than $110B in commercial insurance premium flows through U.S. MGAs every year. Much of the work still begins with an email from a broker. Commercial underwriters can spend up to 80% of their day in the inbox, chasing missing applications, loss runs, and other submission documents. Even a submission with roughly $50K in annual premium can take 48 hours to turn into a quote. Once the information arrives, teams still need to prepare the data, run the rater, and assemble the right endorsements and quote variants. When volume grows, teams add headcount. But underwriting judgment is hard to train and keep consistent. Costs rise, good submissions remain untouched, and inconsistent decisions can hurt loss ratios. More premium left on the table, now with more people on payroll. Qlo runs the commercial underwriting workflow from submission to renewal. Specialized agents handle each operational step, while supervisor agents coordinate the work and communicate with the underwriter. The Inbox Agent is one of those supervisors. An underwriter can message it from a phone like a teammate. It understands the instruction, calls the right subagents, and completes the work inside Qlo. The underwriter makes the call. The agents make it happen. One of those subagents is the Rater Converter we launched on Bookface. It turns an existing rating spreadsheet into a validated digital worksheet the rest of the workflow can use. This is what agent-compatible means to us: agents understand the workflow, have the right context, and can act across the system. Today, they execute the underwriter’s decisions. The end state is autonomous underwriting within each company’s judgment, appetite, and controls. The party has begun. Let the agents dance on top of Qlo. Guidewire and Vertafore helped define the last era of commercial insurance software. We’re building Qlo to define the next one. Before Qlo, Ryan spent 2.5 years building a commercial insurance marketplace and saw carrier-side systems up close. The company received acquisition terms from a public insurance company, and two founders who were customers there are now advisors to Qlo. Liv previously led backend at a Taiwanese baby-monitor company generating roughly $15M in annual revenue. Ryan and Liv had already built together before starting Qlo. We build alongside experienced underwriters who want to help define how commercial insurance will operate in the AI era. We’re looking for: If you run an MGA or program, want to build with us, or see the same future as an investor, email us at founders@getqlo.com. Commercial insurance moves slowly because distribution beats architecture. But distribution eventually stops scaling when the architecture underneath it no longer works. The system that solves the real problem will be adopted. Time will tell. We’ll keep building.",
+      "content_hash": "9b337d3dd873f9fbdba5d85268b863da35fb17e4772d18212a2373028cd1edb7",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "qlo",
+      "source_type": "company_website",
+      "title": "Qlo | AI for Commercial Underwriting",
+      "url": "https://www.getqlo.com/",
+      "publisher": "getqlo.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:08.815241Z",
+      "excerpt": "Qlo uses AI to handle the work from submission to renewal, while underwriters stay in control of appetite, pricing, and terms. Distinguished · Executive Lines · please complete the input below. Policy Period Covered Coverages Built with commercial underwriting teams Distinguished Programs Executive Lines is already achieving 3× primary quote throughput with Qlo. More submissions arrive than underwriters can process. In-appetite business sits untouched while teams move data, run raters, prep documents, and coordinate next steps. Hiring more people should not be the only way to write more premium. How it works Every submission and decision from clearance through renewal, in one place. Not scattered across inboxes, spreadsheets, and raters. Product Every stop where a subagent does real work, and what the underwriter walks away with. Qlo works alongside your existing policy administration system. Start with one workflow, one program, or one line of business—without a costly rip-and-replace. Vision Every era of insurance has run on an underwriting system of record. The AI era needs one built for it, where the workflow, the data, and the decisions live together on a surface underwriters actually trust. We believe Qlo will be that system. Design partner program We're partnering with a few commercial MGAs and program admins to co-build Qlo. Dense volume and complex raters? Let's talk. A few partner slots open for 2026 2 weeks setup on your real data. 30 days paid pilot with parity check, 100% refundable. Two-year partnership at a design-partner discount, flat fee in year one. Go live on Qlo, then expand across lines of business.",
+      "content_hash": "5dab7835b52db0d51dae0084578fc6e60decf5d8f9db58a2b64ae6d988a9a0ae",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "qlo",
+      "source_type": "company_website",
+      "title": "About — Qlo",
+      "url": "https://www.getqlo.com/about",
+      "publisher": "getqlo.com",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:09.630025Z",
+      "excerpt": "Underwriters spent days keying documents while submissions sat unseen. We didn’t want another system to manage. Qlo handles the work around the decision, so they keep the seat they have. You hold the pen. Convictions Founders Based in New York, minutes from most of our customers. We know the industry, we've done the work, and we bring the relationships to match. Ryan earned the problem over ~2.5 years inside MGA, carrier, and broker workflows at PinchLabs, his prior ~$500K-ARR product studio. The flagship engagement—a commercial insurance marketplace—received acquisition term sheets. That was the insurtech starting point. An engineer by trade and a college dropout who taught himself to ship—he grew up in Taiwan, published a technical book, and moved to New York. A competitive table-tennis athlete and school-team badminton player who also shoots amateur darts and billiards. Off the clock, he cooks and collects unusual reds and whites. Liv is a self-taught cross-disciplinary engineer with a background in educational psychology. She continuously invests in AI agent technology, driving AI adoption to make it accessible and impactful across all roles. Liv approaches engineering with a strong focus on human collaboration. She grew up in Taiwan. Outside of building systems, she loves hiking, skiing, and spending her downtime with her dog. Advisors Kenny brings 22+ years in management and professional liability insurance for financial institutions. He launched active products with The Hartford and Ascot, led financial institutions at Ascot US, and is a CFA charterholder and Michigan engineering grad. Henry brings 14+ years in underwriting management and professional liability, focused on financial institutions and asset managers, with acumen built across several major carriers. Finance degree, Magna Cum Laude, from Baruch College. Josh has built his career underwriting specialty risk one account at a time, and co-founded Greenhouse Specialty Insurance Services. He holds the CPCU designation and a Risk Management and Insurance degree from Virginia Commonwealth University. Based in New York. Book a walkthrough of what the platform can do today—or grab time with us in the city over coffee, drinks, or dinner to talk industry direction and swap war stories. Underwriters make the call. AI does everything else.",
+      "content_hash": "26effa906f9749cdb4676d35a2847dbc5396a24354dc6e793d390dfad9d200ae",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

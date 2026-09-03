@@ -1,0 +1,155 @@
+{
+  "company_id": "agentcard",
+  "candidate": {
+    "id": "agentcard",
+    "name": "Agentcard",
+    "normalized_name": "agentcard",
+    "website": "https://agentcard.sh",
+    "normalized_domain": "agentcard.sh",
+    "description": "debit cards for AI agents. Agentcard.sh is a debit card for AI agents. Agents can use Agentcard’s API to issue cards and pay for things online autonomously.",
+    "batch": "Summer 2026",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/agentcard"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Summer 2026",
+        "observed_at": "2026-06-05T18:05:46Z",
+        "evidence_id": "E001"
+      },
+      {
+        "type": "hn_points",
+        "value": 3,
+        "observed_at": "2026-06-20T00:38:12Z",
+        "evidence_id": "E004"
+      },
+      {
+        "type": "hn_comments",
+        "value": 5,
+        "observed_at": "2026-03-13T11:31:34Z",
+        "evidence_id": "E006"
+      },
+      {
+        "type": "recent_launch",
+        "value": "2026-06-20",
+        "observed_at": "2026-06-20T00:38:12Z",
+        "evidence_id": "E004"
+      }
+    ],
+    "discovery_score": 0.7849,
+    "discovered_at": "2026-09-03T01:06:31.712593Z",
+    "one_liner": "debit cards for AI agents.",
+    "industries": [
+      "Fintech"
+    ],
+    "tags": [
+      "Fintech"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "launched_at": "2026-06-05T18:05:46Z",
+    "ranking_components": {
+      "topic_relevance": 0.9631,
+      "freshness": 1.0,
+      "community": 0.1,
+      "data_completeness": 0.8333
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "agentcard",
+      "source_type": "yc",
+      "title": "Agentcard - YC company profile",
+      "url": "https://www.ycombinator.com/companies/agentcard",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:01.374076Z",
+      "excerpt": "TL;DR Buying online with agents is hard. You can't share your card with your agent, browser automations are broken and slow, and most checkout pages block agents, mistaking them for bots. Agentcard gives companies a solution for storing users' credit cards and completing checkout pages with a 99% success rate. Ask: building an agent that buys things on behalf of your users? send us a msg: founders@agentcard.sh Problem Companies building personal AI assistants want to give their users a simple way to buy using agents. Today, they need to 1) create browser automations to navigate online stores, 2) store users' cards, and 3) complete checkout pages. None of this is their main product. And current solutions don't work: agentic protocols for storing cards have an 8% card acceptance rate (i.e., most of your cards don't work) and are US-only; agentic browsers get blocked when trying to complete a checkout page; companies store cards without being PCI compliant; and, finally, any dispute becomes a problem for the merchant. Our solution How it works Team",
+      "content_hash": "3de618128858cdde30925a29a91a723433c05346948d430e79571a2c671e869b",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "agentcard",
+      "source_type": "company_website",
+      "title": "Agentcard · Let agents buy things",
+      "url": "https://www.agentcard.sh/",
+      "publisher": "agentcard.sh",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:02.079796Z",
+      "excerpt": "Letagentsbuy things Enable payments for your agents today. Connect the Agentcard Wallet to your app to give agents a way to pay One wallet. Two kinds of cards. Our two products explained in detail Accept user's cards Users share the credit and debit cards they already have, and their agent pays with them. Fast onboarding Adding a card takes an email code, and it's ready for the agent to spend in seconds. Safely stored and shared Card details live in our secure vault. Your app and the agent never see the real number. Users get points Every purchase runs on the user's own card, so their miles, points, and cash back keep adding up. Issue new cards Users create a fresh Agentcard in seconds, and their agent can spend with it wherever Visa is accepted. One-time and multi-use Single-use cards for one purchase, or multi-use cards with spending caps for things like subscriptions. Collect interchange and markup You earn 1% of every purchase, plus any markup you set from the dashboard. Safe for agents Each card is locked to one store and one amount. If it ever leaks, it buys nothing. How to fund issued cards Company balance You prefund one balance. Agentcards draw from it. One invoice, your accounting. User-funded Each user loads their own balance with Apple Pay or Google Pay. Their money, their approvals, their receipts. Let agents buy anything online. Use your own browser automations or our Purchase API with your Agentcard - Path ABrowser automationsBuild your own browser automations to complete payments online using Agentcard - Path BPurchase APIUse Agentcard's integrations to make purchases online. We add new integrations every month DoorDashGood EggsLocale✈ Flights Built for teams like yours. iMessage agents Give your agent a way to complete payments on behalf of users. Implement the Agentcard Wallet today in less than 10 min. Agent browsers Payments integrated into your agent browser. Give users a way to pay for things easily. “There will be a million single person successful companies all over the world some day, all operating through AI agents” “Real unlocks happening here to make agent payments easy. I'm impressed. Keep shipping and leading us into the new agentic world!” “Agents need to interact with the real world. The plumbing layer for agentic systems is massively underbuilt right now.” “Scoped spend limits + agent-specific cards feels like the safest path for real autonomous workflows.” “Giving agents scoped spending power, instead of full card access, is exactly the kind of guardrail this ecosystem needs to scale safely.” “Smart approach. The token waste from agents navigating checkout forms was one of those costs nobody talks about.” Agent-first card issuing Payments used to be a cost line. Here the interchange, your markup, and the rewards all point back at you. 10-min implementation One command reads your codebase and wires the integration: npx agent-cards companies wizard. Teams hit the sandbox the same afternoon. 1% interchange Every card swipe pays interchange. The card industry keeps it. On Agentcard, you get 1% of settled volume, paid to your balance. Rewards for your users Every purchase earns tokenback your users can redeem. A reason to route spend through you. Set your own markup Add your fee on top of any purchase from a settings page. Your margin, your number, changed anytime, no deploy. No sales calls No demos, no procurement cycle. Sign up and start integrating right away. Everything from the dashboard Keys, markup, limits, and payouts all run from the dashboard. Talk to us only if you want to. Pricing Flat monthly fee, no metered usage fees. No per-user or per-card fees. Cards Issue new Agentcards or connect the cards your users already have. - ✓One-time or multi-use cards - ✓Accepted at Visa merchants worldwide Purchases API DoorDash, Good Eggs, Uber Eats, Ticketmaster, and 100+ more. - ✓No per-order fees on covered purchases Compliance The regulated surface is ours, not yours. - ✓KYC in seconds, inside your flow - ✓Fraud, disputes, and chargebacks handled Every purchase pays you back. Six contracts, two quarters, one compliance hire. Every line below is its own vendor, invoice, and integration. - Cards - +BaaS issuing contract, opens at $5,000 a month - +Corporate card terms your users never agreed to - Purchases - +A per-order API whose meter never stops - +Approvals UI, designed and kept alive - Compliance - +Per-check KYC vendor and its platform fee - +Tokenization vault, billed per stored card - +Fraud tooling and the chargeback desk - Rails - +Ledger build, money movement, reconciliation - +The compliance hire you cannot skip - +Two quarters of engineering nobody scopes honestly Let's put a card in your agent's hands. Talk to a human No sales team. Two founders and a Slack channel. Not a company? Your agent can buy things too. Put $20 on a card for your AI. Groceries, the flight, the domain you keep forgetting. You approve every charge from your phone. Why do AI agents need a wallet? Because everything an agent buys still ends at a checkout built for humans, and humans pay from wallets. Agentcard gives the agent one: cards its user trusts, cards you issue, every purchase a single-use number carrying a human yes. An assistant is only as useful as what it can finish. We build a texting assistant (iMessage, WhatsApp, SMS). Is this for us? That's most of our customer base today. Your assistant keeps the conversation, approvals reach your user as a push or an email tap, and the card exists only for the order it's about to place. What can the agent actually see? A number that buys one thing at one store and then stops existing. Real card details never enter the model's context, your database, or your logs. Who's actually behind the cards? Agentcard, together with licensed banking partners. The legal responsibility sits with us, not you. Will stores accept these cards? Yes. They're real cards on the major networks, accepted anywhere cards work online. The store doesn'",
+      "content_hash": "b856e550ed77402123d5924f23191c23e726e537460f11b2b045118c8c06812a",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "agentcard",
+      "source_type": "company_website",
+      "title": "About · Agentcard",
+      "url": "https://www.agentcard.sh/about",
+      "publisher": "agentcard.sh",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:02.574461Z",
+      "excerpt": "About We are building Agentcard because we believe agents should have full autonomy to pay for things online. We want to give agents the freedom to operate in the world as it is today, not someday. That is why we are starting with cards. We are not hiring, but you can always send us an email. Paul GrahamCo-founder YC Tobi LütkeCEO Shopify Dharmesh ShahCTO HubSpot Michael GrinichCEO WorkOS Guillermo RauchCEO Vercel Adam D'AngeloBoard OpenAI Simón BorreroCEO Rappi Ken KociendaApple Felipe VillamarínCo-founder Rappi Charlie SonghurstBoard Meta Michelle BuStripe Sebastian BensusanEx-Stripe Greg ArreseRide Ventures Gabriel Benmerguisilver.dev Christopher StromeyerdLocal",
+      "content_hash": "ac93e26e559847209b0440857cc6bf8b20dfd165890b7fcedd073a8547d25ee1",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E004",
+      "company_id": "agentcard",
+      "source_type": "hacker_news",
+      "title": "Show HN: Agentcard – virtual cards for AI agents, now with DoorDash checkout",
+      "url": "https://news.ycombinator.com/item?id=48605055",
+      "publisher": "Hacker News",
+      "published_at": "2026-06-20T00:38:12Z",
+      "retrieved_at": "2026-09-03T01:50:46.720022Z",
+      "excerpt": "\"Show HN: Agentcard – virtual cards for AI agents, now with DoorDash checkout\" - 3 points, 0 comments; links to https://www.agentcard.sh; posted 2026-06-20",
+      "content_hash": "5abd9986d6040ec1e9ec5324ece8aed4571bc992dac96738da013108a11e7c35",
+      "reliability": "community"
+    },
+    {
+      "id": "E005",
+      "company_id": "agentcard",
+      "source_type": "hacker_news",
+      "title": "AgentCard – Prepaid virtual cards for agents",
+      "url": "https://news.ycombinator.com/item?id=47343576",
+      "publisher": "Hacker News",
+      "published_at": "2026-03-11T22:59:32Z",
+      "retrieved_at": "2026-09-03T01:50:46.720027Z",
+      "excerpt": "\"AgentCard – Prepaid virtual cards for agents\" - 3 points, 0 comments; links to https://agentcard.sh/; posted 2026-03-11",
+      "content_hash": "60f5b4b77cb97564f53ac160967f6c8311e5a8aff7f4924a6bbabccc0362fb1c",
+      "reliability": "community"
+    },
+    {
+      "id": "E006",
+      "company_id": "agentcard",
+      "source_type": "hacker_news",
+      "title": "If you can't trust AI with a credit card, just give it a prepaid card",
+      "url": "https://news.ycombinator.com/item?id=47363013",
+      "publisher": "Hacker News",
+      "published_at": "2026-03-13T11:31:34Z",
+      "retrieved_at": "2026-09-03T01:50:46.720030Z",
+      "excerpt": "\"If you can't trust AI with a credit card, just give it a prepaid card\" - 1 points, 5 comments; links to https://agentcard.sh/; posted 2026-03-13",
+      "content_hash": "cad5afe63f268f5ffa08cab8bd60e5cbfc273bff4be2a5e8009be337f2fe77d2",
+      "reliability": "community"
+    }
+  ],
+  "retrieval_errors": [
+    {
+      "url": "https://www.agentcard.sh/contact",
+      "reason": "HTTP 404"
+    }
+  ],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

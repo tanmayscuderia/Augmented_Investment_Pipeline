@@ -1,0 +1,95 @@
+{
+  "company_id": "care-gp",
+  "candidate": {
+    "id": "care-gp",
+    "name": "Care GP",
+    "normalized_name": "care gp",
+    "website": "https://caregp.com.au/",
+    "normalized_domain": "caregp.com.au",
+    "description": "AI agents to run primary healthcare operations Care GP is building AI agents to run operations for primary healthcare clinics",
+    "batch": "Summer 2026",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/care-gp"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Summer 2026",
+        "observed_at": "2026-06-04T10:30:41Z",
+        "evidence_id": "E001"
+      }
+    ],
+    "discovery_score": 0.7907,
+    "discovered_at": "2026-09-03T01:06:31.712732Z",
+    "one_liner": "AI agents to run primary healthcare operations",
+    "industries": [
+      "Healthcare"
+    ],
+    "tags": [
+      "SaaS",
+      "Healthcare",
+      "AI"
+    ],
+    "team_size": 10,
+    "location": "Sydney, NSW, Australia",
+    "launched_at": "2026-06-04T10:30:41Z",
+    "ranking_components": {
+      "topic_relevance": 0.9415,
+      "freshness": 1.0,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "care-gp",
+      "source_type": "yc",
+      "title": "Care GP - YC company profile",
+      "url": "https://www.ycombinator.com/companies/care-gp",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:54.962154Z",
+      "excerpt": "Care GP is building AI agents to run operations for primary healthcare clinics Active Founders Melvin Chen Founder/CEO Founder & CEO at Care GP (YC S26). Previously Co-founded Avigo and StarLake Group. Held roles in private equity at Terra Firma, Samena Capital and Goldman Sachs. Graduated Valedictorian with an Engineering triple major in Materials, Economics and Management from the University of Oxford. Featured in the Forbes ‘30 Under 30’ list for Finance & VC. Born in China and raised in the UK. Loves sports and fitness - lately the racket sports and golf if anyone wants a hit! Melvin Chen Founder/CEO Founder & CEO at Care GP (YC S26). Previously Co-founded Avigo and StarLake Group. Held roles in private equity at Terra Firma, Samena Capital and Goldman Sachs. Graduated Valedictorian with an Engineering triple major in Materials, Economics and Management from the University of Oxford. Featured in the Forbes ‘30 Under 30’ list for Finance & VC. Born in China and raised in the UK. Loves sports and fitness - lately the racket sports and golf if anyone wants a hit!",
+      "content_hash": "b71461f67cbd0ce6257c927477d54cc06933f65c5485ef3443cd14fe86999a34",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "care-gp",
+      "source_type": "company_website",
+      "title": "Care GP",
+      "url": "https://www.caregp.com.au/",
+      "publisher": "caregp.com.au",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:56.935052Z",
+      "excerpt": "Intelligent automation for Australian GP clinics Our team of AI agents transforms overburdened clinics into high-performing practices. One integrated system for every clinic workflow A suite of fully integrated AI agents that eliminate admin and handle every layer of clinic operations. Medical document allocation, automated by Samantha File every inbound email, fax and scan with zero errors or manual handling. Samantha Smart Medical Document Allocations Phone and booking management, automated by Veronica Answer inbound and outbound calls 24/7, without ever putting a patient on hold. Veronica Phone and booking management Have a workflow you want automated? We’ll build the agent for it. Fully compliant ISO27001 certified. All data stored onshore, encrypted and protected by multi-factor authentication. Trusted by Australia’s leading GP clinics More than 400 clinic operators are using Care GP to eliminate admin and transform their operations. Growing Groups Superclinics Other Select Brands Automate the admin and prioritise your people Care GP is a Sydney-based health-tech company that develops purpose-built, fully compliant and easily integrated AI tools for Australian healthcare providers. We solve the operational bottlenecks that make GP clinics costly to run.",
+      "content_hash": "0a825892b4d0181e709d16e1a3c7b60d3a85456d7a80206e8740d8704bae03df",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "care-gp",
+      "source_type": "company_website",
+      "title": "Care GP",
+      "url": "https://www.caregp.com.au/pricing",
+      "publisher": "caregp.com.au",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:18:57.561524Z",
+      "excerpt": "Pricing ROI-focused pricing Get off the ground with zero risk and scale through Growth and Enterprise. Launch Complimentary Zero risk 2-week trial What's Included: - Dedicated customer support channel - Onboarding & setup session - Weekly guided check-in call - No setup fee, no credit card required Growth Contact for Pricing 1-19 sites What's included: - Dedicated customer support channel - Onboarding & setup session - Weekly guided check-in call - No setup fee, no credit card required - Basic analytics - Priority onboarding & customer support Enterprise Contact for pricing 20 sites or more What's Included: - Dedicated customer support channel - Onboarding & setup session - Weekly guided check-in call - No setup fee, no credit card required - Advanced analytics - Multi site management - Priority onboarding & customer support - Dedicated account management",
+      "content_hash": "50c9831f98f3d15a68e1151f8f5de7efe6bc55118ad69d63105f43f63b8fc9e5",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "company_id": "altur",
+  "candidate": {
+    "id": "altur",
+    "name": "Altur",
+    "normalized_name": "altur",
+    "website": "https://altur.io",
+    "normalized_domain": "altur.io",
+    "description": "Voice AI Agents for Debt Collection Voice AI Agents for Debt Collection",
+    "batch": "Summer 2025",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/altur"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Summer 2025",
+        "observed_at": "2025-06-22T20:09:24Z",
+        "evidence_id": "E001"
+      }
+    ],
+    "discovery_score": 0.8001,
+    "discovered_at": "2026-09-03T01:06:31.712618Z",
+    "one_liner": "Voice AI Agents for Debt Collection",
+    "industries": [
+      "B2B"
+    ],
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "team_size": 5,
+    "location": "Mexico City, CDMX, Mexico",
+    "launched_at": "2025-06-22T20:09:24Z",
+    "ranking_components": {
+      "topic_relevance": 0.9696,
+      "freshness": 0.9767,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "altur",
+      "source_type": "yc",
+      "title": "Altur - YC company profile",
+      "url": "https://www.ycombinator.com/companies/altur",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-02T23:54:14.111694Z",
+      "excerpt": "We use autonomous voice/text agents to collect debt for banks. Since launching in Mexico 6 months ago, we have collected over $6M USD using only AI agents. Collecting debt for banks is expensive and labor intensive: High churn and uneven quality: Traditional contact centers rely on underpaid, undertrained agents, which drives turnover, inconsistent conversations, and compliance risk. Expensive and slow stacks: Many vendors sit on third party telephony and tooling, which adds latency and cost and limits control. Weak follow up: One shot phone calls with no coordinated text or WhatsApp follow through means low connect and conversion. Blind spots and poor iteration: Conversational data is fragmented, so teams cannot A/B scripts, enforce policy, or grade calls at scale. Result = low recovery rates, high operating costs, and regulatory exposure.ㅤ Our Solution Altur provides autonomous agents that negotiate, handle objections, and secure payments while maintaining full regulatory compliance. We run on our own telephony infrastructure, so calls are low latency and costs are predictable and scalable. Voice agents with natural prosody and median sub second response. Automatic follow up on WhatsApp that continues the same conversation. Compliance and policy engine aligned to client rules, with automatic QA and call grading.ㅤ Pricing Usage based. Per minute pricing with a monthly minimum commit, includes a block of concurrency and standard reporting. Outcome based option. We can also operate as the debt collector. Fixed platform fee plus a success component tied to collected amounts.ㅤ What's Under the Hood A 100% in-house product The Team We are Luis Olave and Pedro Fernández. We have spent the last 2 years operating in debt collections in Mexico, first with WhatsApp chatbots and now with voice. Our Asks We’re working with a great set of bank and call center contacts, and would welcome introductions to more. Especially debt collection teams at banks, fintech lenders, BNPLs, and contact centers in the US and Latin America. Advice on US collections compliance and vendor onboarding, including Reg F and PCI.",
+      "content_hash": "2b6bc0bdfff34d182a50afd7b38c5b367570b9fc64c8410b1079875616170988",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "altur",
+      "source_type": "company_website",
+      "title": "Altur | Voice AI Agents",
+      "url": "https://www.altur.io/en",
+      "publisher": "altur.io",
+      "published_at": null,
+      "retrieved_at": "2026-09-02T23:54:14.859793Z",
+      "excerpt": "Backed by Combinator Our agents make millions of calls every month for: We segment each account based on its attributes. We choose the channel, timing, frequency, and tone to maximize the probability of contact and conversion. Proprietary dialer optimized for debt collection and banking sales in Latin America. Up to 6x more effective contact vs. traditional dialers with human agents. Every conversation adapts to each customer's profile. Our agents negotiate, offer alternatives, and close deals just like your best operator would — on every call. Our agents maintain full context on every account. If a customer promised to pay on Friday, the agent remembers and follows up that day. No rotation, no starting over. From defining strategy, modifying flow, personality, and behavior, to monitoring and analyzing results — Altur lets you take your collection operation to the next level. We comply with the highest security standards such as ISO 27001. We monitor our agents' reasoning in real time to detect and correct errors automatically. We maintain detailed records of all interactions to comply with applicable laws and ensure transparency in our operations. We analyze our interaction data to improve the efficiency and effectiveness of our agents.",
+      "content_hash": "7d625b7090e9b59e9a4d73530c93bd4d37ce813431742dcd424c57d099de1b4d",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "altur",
+      "source_type": "company_website",
+      "title": "Careers | Altur",
+      "url": "https://www.altur.io/en/careers",
+      "publisher": "altur.io",
+      "published_at": null,
+      "retrieved_at": "2026-09-02T23:54:15.092295Z",
+      "excerpt": "Daily conversations Major financial institutions YC Backed Your code talks to hundreds of thousands of people daily. Not users clicking buttons, real conversations with real humans about real money. We're a small team. You won't only be assigned tickets, you'll own entire systems end-to-end, from architecture decisions to production. Real-time voice pipelines, LLM orchestration, telephony at scale, multi-channel AI agents. This isn't a CRUD app. You'll help define how we build product and software, how we review code, and who we hire next. Early team members set the standard. Make your own decisions and be responsible for them. Think long term and act with integrity. Concise, clear, and efficient work. Hold strong opinions loosely. Winning as a team comes first. Take pride in the work you do. Competitive salary + significant equity Medical insurance Gym membership Top-notch office setup Annual company offsite Visa sponsorship if needed Flexible PTO Daily office lunch included We’re always looking for exceptional people. If you think Altur is the right place for you, send us an email.",
+      "content_hash": "dc6f967119574bce185481cc56d0df11845d51ba61556d47a1d051cd841bb202",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

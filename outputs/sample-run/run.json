@@ -1,0 +1,37 @@
+{
+  "run_id": "sample-run",
+  "started_at": "2026-09-03T01:06:31.409550Z",
+  "finished_at": "2026-09-03T01:12:38.395221Z",
+  "input": {
+    "type": "topic",
+    "value": "AI agents for SMBs"
+  },
+  "thesis": "ai_workflow_automation_v1",
+  "candidate_count": 15,
+  "models": {
+    "analysis": {
+      "provider": "openai-compatible",
+      "base_url": "https://api.deepseek.com",
+      "model": "deepseek-v4-flash",
+      "prompt_version": "v1",
+      "temperature": 0.2,
+      "thinking": "disabled"
+    }
+  },
+  "sources": [
+    "yc",
+    "hacker_news"
+  ],
+  "usage": {
+    "llm_calls": 25,
+    "search_calls": 0,
+    "prompt_tokens": 126071,
+    "completion_tokens": 66531,
+    "total_tokens": 192602
+  },
+  "pipeline_version": "0.1.0",
+  "notes": [
+    "retrieval cache hits: 91",
+    "analyses + memos regenerated 2026-09-03T02:00Z from the same cached evidence after two pipeline fixes (DeepSeek thinking disabled; HN story matching strengthened); usage reflects the original full run"
+  ]
+}

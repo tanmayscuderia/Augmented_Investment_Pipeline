@@ -1,0 +1,511 @@
+{
+  "run_id": "sample-run",
+  "seed": {
+    "type": "topic",
+    "value": "AI agents for SMBs"
+  },
+  "candidates": [
+    {
+      "id": "sylvian",
+      "name": "Sylvian",
+      "normalized_name": "sylvian",
+      "website": "https://sylvian.ai",
+      "normalized_domain": "sylvian.ai",
+      "description": "Specialized AI Agents. Sylvian helps companies build specialized AI agents.",
+      "batch": "Fall 2025",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/sylvian"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.8162,
+      "discovered_at": "2026-09-03T01:06:31.712568Z",
+      "one_liner": "Specialized AI Agents.",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Reinforcement Learning",
+        "B2B",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2025-11-03T18:52:18Z",
+      "ranking_components": {
+        "topic_relevance": 0.9923,
+        "freshness": 1.0,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "truffle-ai",
+      "name": "Truffle AI",
+      "normalized_name": "truffle ai",
+      "website": "https://www.trytruffle.ai/",
+      "normalized_domain": "trytruffle.ai",
+      "description": "AWS for AI Agents Truffle AI makes it easy for developers to integrate AI agents into any software application. We do this by exposing agents as simple APIs that can be called from anywhere. Developers have used Truffle to add customer support agents into WhatsApp and analytics agents into Slack.",
+      "batch": "Winter 2025",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/truffle-ai"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.8077,
+      "discovered_at": "2026-09-03T01:06:31.712533Z",
+      "one_liner": "AWS for AI Agents",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Generative AI",
+        "Infrastructure",
+        "AI Assistant"
+      ],
+      "team_size": 2,
+      "location": "Bengaluru, KA, India",
+      "launched_at": "2025-02-25T18:51:10Z",
+      "ranking_components": {
+        "topic_relevance": 1.0,
+        "freshness": 0.9386,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "wedge",
+      "name": "Wedge",
+      "normalized_name": "wedge",
+      "website": "https://www.wedge.health",
+      "normalized_domain": "wedge.health",
+      "description": "Palantir for Healthcare AI Agents The Operating System for Health AI: we deploy, govern, and scale AI agents across healthcare organizations.",
+      "batch": "Summer 2025",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/wedge"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.8051,
+      "discovered_at": "2026-09-03T01:06:31.712601Z",
+      "one_liner": "Palantir for Healthcare AI Agents",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2025-07-29T20:56:48Z",
+      "ranking_components": {
+        "topic_relevance": 0.9748,
+        "freshness": 0.9887,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "altur",
+      "name": "Altur",
+      "normalized_name": "altur",
+      "website": "https://altur.io",
+      "normalized_domain": "altur.io",
+      "description": "Voice AI Agents for Debt Collection Voice AI Agents for Debt Collection",
+      "batch": "Summer 2025",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/altur"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.8001,
+      "discovered_at": "2026-09-03T01:06:31.712618Z",
+      "one_liner": "Voice AI Agents for Debt Collection",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "team_size": 5,
+      "location": "Mexico City, CDMX, Mexico",
+      "launched_at": "2025-06-22T20:09:24Z",
+      "ranking_components": {
+        "topic_relevance": 0.9696,
+        "freshness": 0.9767,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "trope",
+      "name": "Trope",
+      "normalized_name": "trope",
+      "website": "https://trope.ai",
+      "normalized_domain": "trope.ai",
+      "description": "AI FDE that deploys custom AI agents into ERPs Trope deploys custom AI agents into ERPs for mid-market companies. Every ERP is heavily customized, so useful agents need custom deployment too. Trope’s AI FDE learns each business and ERP, then builds and deploys agents, turning the last mile from services into software.",
+      "batch": "Summer 2026",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/trope"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7925,
+      "discovered_at": "2026-09-03T01:06:31.712576Z",
+      "one_liner": "AI FDE that deploys custom AI agents into ERPs",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2026-07-07T18:00:20Z",
+      "ranking_components": {
+        "topic_relevance": 0.9451,
+        "freshness": 1.0,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "care-gp",
+      "name": "Care GP",
+      "normalized_name": "care gp",
+      "website": "https://caregp.com.au/",
+      "normalized_domain": "caregp.com.au",
+      "description": "AI agents to run primary healthcare operations Care GP is building AI agents to run operations for primary healthcare clinics",
+      "batch": "Summer 2026",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/care-gp"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7907,
+      "discovered_at": "2026-09-03T01:06:31.712732Z",
+      "one_liner": "AI agents to run primary healthcare operations",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "SaaS",
+        "Healthcare",
+        "AI"
+      ],
+      "team_size": 10,
+      "location": "Sydney, NSW, Australia",
+      "launched_at": "2026-06-04T10:30:41Z",
+      "ranking_components": {
+        "topic_relevance": 0.9415,
+        "freshness": 1.0,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "agentmail",
+      "name": "AgentMail",
+      "normalized_name": "agentmail",
+      "website": "https://agentmail.to",
+      "normalized_domain": "agentmail.to",
+      "description": "Email Inboxes for AI Agents AgentMail is the email inbox API for AI agents. It gives agents their own email inboxes, like Gmail does for humans.",
+      "batch": "Summer 2025",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/agentmail"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7895,
+      "discovered_at": "2026-09-03T01:06:31.712662Z",
+      "one_liner": "Email Inboxes for AI Agents",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Developer Tools",
+        "API",
+        "Email"
+      ],
+      "team_size": 10,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2025-06-27T02:11:56Z",
+      "ranking_components": {
+        "topic_relevance": 0.9476,
+        "freshness": 0.9783,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "avallon-ai",
+      "name": "Avallon AI",
+      "normalized_name": "avallon ai",
+      "website": "https://www.avallon.ai/",
+      "normalized_domain": "avallon.ai",
+      "description": "AI agents for insurance claims operations Avallon automates insurance claims operations with AI agents that handle routine calls and documents processing.",
+      "batch": "Spring 2025",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/avallon-ai"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7867,
+      "discovered_at": "2026-09-03T01:06:31.712740Z",
+      "one_liner": "AI agents for insurance claims operations",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "tags": [],
+      "team_size": 7,
+      "location": "New York City, NY, USA",
+      "launched_at": "2025-04-10T20:57:43Z",
+      "ranking_components": {
+        "topic_relevance": 0.9523,
+        "freshness": 0.9529,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "agentcard",
+      "name": "Agentcard",
+      "normalized_name": "agentcard",
+      "website": "https://agentcard.sh",
+      "normalized_domain": "agentcard.sh",
+      "description": "debit cards for AI agents. Agentcard.sh is a debit card for AI agents. Agents can use Agentcard’s API to issue cards and pay for things online autonomously.",
+      "batch": "Summer 2026",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/agentcard"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7849,
+      "discovered_at": "2026-09-03T01:06:31.712593Z",
+      "one_liner": "debit cards for AI agents.",
+      "industries": [
+        "Fintech"
+      ],
+      "tags": [
+        "Fintech"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2026-06-05T18:05:46Z",
+      "ranking_components": {
+        "topic_relevance": 0.9631,
+        "freshness": 1.0,
+        "community": 0.1,
+        "data_completeness": 0.8333
+      }
+    },
+    {
+      "id": "agentin-ai",
+      "name": "Agentin AI",
+      "normalized_name": "agentin ai",
+      "website": "https://www.agentin.ai",
+      "normalized_domain": "agentin.ai",
+      "description": "AI Agents that automate enterprise software processes At Agentin AI, we build Agents that move data and take actions across enterprise systems, like Salesforce, NetSuite and SAP. These agents are difficult to build because each enterprise heavily customizes their systems but we solved that by training our Agents to learn and adapt from failures, applying reinforcement learning techniques we developed.",
+      "batch": "Winter 2025",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/agentin-ai"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7736,
+      "discovered_at": "2026-09-03T01:06:31.712585Z",
+      "one_liner": "AI Agents that automate enterprise software processes",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Reinforcement Learning",
+        "Enterprise",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2025-02-20T06:29:06Z",
+      "ranking_components": {
+        "topic_relevance": 0.9323,
+        "freshness": 0.937,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "getbalance",
+      "name": "Balance",
+      "normalized_name": "balance",
+      "website": "https://getbalance.ai",
+      "normalized_domain": "getbalance.ai",
+      "description": "Full-Stack AI Accounting Balance is an AI accounting firm that helps SMBs close their monthly books. Our agents do the work of an in-house finance hire, reconciling books in real time and flagging issues before they become problems.",
+      "batch": "Winter 2026",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/getbalance"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7723,
+      "discovered_at": "2026-09-03T01:06:31.712280Z",
+      "one_liner": "Full-Stack AI Accounting",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "tags": [],
+      "team_size": 4,
+      "location": "London, England, United Kingdom",
+      "launched_at": "2026-01-21T06:21:12Z",
+      "ranking_components": {
+        "topic_relevance": 0.9046,
+        "freshness": 1.0,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "kura-ai",
+      "name": "Kura AI",
+      "normalized_name": "kura ai",
+      "website": "https://trykura.com",
+      "normalized_domain": "trykura.com",
+      "description": "New State of the Art for Browser Agents Kura breaks 87% on the WebVoyager Benchmark. That is 31% better than Claude's Computer Use demo and 14% better than the previous State of the Art.\r\n\r\nIn 10 years there will be more AI agents on the internet than humans. Kura is SOTA for giving AI agents the tools for interacting with websites.",
+      "batch": "Summer 2024",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/kura-ai"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.757,
+      "discovered_at": "2026-09-03T01:06:31.712671Z",
+      "one_liner": "New State of the Art for Browser Agents",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2024-11-14T17:21:10Z",
+      "ranking_components": {
+        "topic_relevance": 0.9119,
+        "freshness": 0.9051,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "raindrop",
+      "name": "Raindrop",
+      "normalized_name": "raindrop",
+      "website": "https://www.raindrop.ai",
+      "normalized_domain": "raindrop.ai",
+      "description": "Sentry for AI Agents Monitor your AI agents the right way.\r\n\r\nAI engineers use Raindrop to get alerts about silent failures in their AI agents.\r\n\r\nRaindrop sends you alerts when your AI misbehaves and links straight to the events, so you can dig into the conversations or traces, understand the root cause, and fix it, fast.",
+      "batch": "Winter 2024",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/raindrop"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7554,
+      "discovered_at": "2026-09-03T01:06:31.712724Z",
+      "one_liner": "Sentry for AI Agents",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Monitoring",
+        "AI"
+      ],
+      "team_size": 9,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2024-03-21T01:46:57Z",
+      "ranking_components": {
+        "topic_relevance": 0.9396,
+        "freshness": 0.8278,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "qlo",
+      "name": "Qlo",
+      "normalized_name": "qlo",
+      "website": "https://www.getqlo.com/",
+      "normalized_domain": "getqlo.com",
+      "description": "Legora for commercial insurance carriers Qlo uses AI agents to run commercial underwriting operations from submission to renewal. Specialized agents handle each operational step, while supervisor agents coordinate the work and communicate with the underwriter.\r\n\r\nEvery commercial insurance program will be built and operated end to end by AI agents on Qlo.",
+      "batch": "Summer 2026",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/qlo"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7523,
+      "discovered_at": "2026-09-03T01:06:31.712626Z",
+      "one_liner": "Legora for commercial insurance carriers",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "tags": [
+        "Insurance",
+        "Enterprise Software",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2026-08-07T05:25:12Z",
+      "ranking_components": {
+        "topic_relevance": 0.8646,
+        "freshness": 1.0,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    },
+    {
+      "id": "retell-ai",
+      "name": "Retell AI",
+      "normalized_name": "retell ai",
+      "website": "https://retellai.com",
+      "normalized_domain": "retellai.com",
+      "description": "Supercharge Your Contact Center Operations with AI Phone Agents The leading platform for building and managing AI voice agents that revolutionize contact center operations.",
+      "batch": "Winter 2024",
+      "source_refs": [
+        "https://www.ycombinator.com/companies/retell-ai"
+      ],
+      "founder_signals": [],
+      "freshness_signals": [],
+      "discovery_score": 0.7495,
+      "discovered_at": "2026-09-03T01:06:31.712688Z",
+      "one_liner": "Supercharge Your Contact Center Operations with AI Phone Agents",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "AI"
+      ],
+      "team_size": 50,
+      "location": "San Francisco, CA, USA",
+      "launched_at": "2023-11-20T20:46:37Z",
+      "ranking_components": {
+        "topic_relevance": 0.9437,
+        "freshness": 0.7881,
+        "community": 0.1,
+        "data_completeness": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "company_id": "qlo",
+  "company_name": "Qlo",
+  "twenty_second_view": "Qlo is an AI-agent platform for commercial insurance underwriting, automating workflows from submission to renewal. It claims one enterprise client tripled weekly quote throughput after going live, and targets the $110B+ MGA premium market. The founding team has domain experience, but traction is company-reported and the competitive landscape is unknown.",
+  "why_it_matters": "Qlo fits the thesis of AI-native B2B workflow automation: it targets a recurring, labor-intensive workflow (underwriting) with a clear economic buyer (carriers/MGAs) and measurable ROI (throughput). The narrow wedge (inbox agent) and expansion path to full underwriting operations align with the thesis, but defensibility and market competition remain unproven.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Founders are Ryan and Liv, based in New York, with Ryan having ~2.5 years inside MGA, carrier, and broker workflows at PinchLabs, his prior ~$500K-ARR product studio.",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "Ryan is an engineer by trade and a college dropout who taught himself to ship; Liv is a self-taught cross-disciplinary engineer.",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "technical_depth": {
+      "statement": "Both founders are described as engineers (Ryan self-taught, Liv self-taught cross-disciplinary), indicating technical capability, but no specific technical achievements or depth are evidenced.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "prior_startup_experience": {
+      "statement": "Ryan's prior product studio PinchLabs reached ~$500K ARR and its flagship engagement received acquisition term sheets, indicating some entrepreneurial experience.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "founder_market_fit": {
+      "statement": "Ryan spent ~2.5 years inside MGA, carrier, and broker workflows, suggesting strong domain familiarity and relationships in commercial insurance.",
+      "evidence_ids": [
+        "E003"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "Founders have direct experience in the target industry (commercial insurance workflows).",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": true
+      },
+      {
+        "statement": "Ryan has prior startup experience with a product studio that reached ~$500K ARR and received acquisition interest.",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "No evidence of prior startup success at scale (e.g., a large exit or significant funding).",
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": true
+      },
+      {
+        "statement": "Team size is only 2, which may limit execution capacity.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "score": 17
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Qlo uses AI agents to run commercial underwriting operations from submission to renewal, with specialized agents handling each step and supervisor agents coordinating with the underwriter.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "Target customers are commercial insurance carriers and MGAs (managing general agents) that handle submissions and underwriting.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": true
+    },
+    "core_workflow": {
+      "statement": "The core workflow is recurring: underwriting submissions from brokers, including chasing missing documents, preparing data, running raters, and assembling quotes.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "pain_severity": {
+      "statement": "Underwriters can spend up to 80% of their day in the inbox, and a submission with ~$50K in annual premium can take 48 hours to turn into a quote, indicating significant pain.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "differentiation": {
+      "statement": "Qlo claims to have rebuilt the underlying system so agents operate across the entire workflow, not just sit beside a legacy system, which may differentiate from wrappers.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "expansion_potential": {
+      "statement": "The product starts with one workflow/program/line of business and aims to expand to full underwriting operations from submission to renewal, indicating a path to a system of action.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 18
+  },
+  "market": {
+    "market_description": {
+      "statement": "The market is commercial insurance underwriting operations, with more than $110B in commercial insurance premium flowing through U.S. MGAs every year.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "economic_buyer": {
+      "statement": "The economic buyer is the commercial insurance carrier or MGA, which already incurs labor costs for underwriting staff and has budget for operational tools.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": true
+    },
+    "competitive_landscape": [
+      {
+        "statement": "Unknown - insufficient public evidence; no competitor or market evidence was found.",
+        "evidence_ids": [],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "AI agents have recently become capable of handling multi-step workflows, enabling automation of underwriting operations.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "The evidence cites $110B in commercial insurance premium flowing through U.S. MGAs annually, indicating a large spend category.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "score": 14
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "The company claims one enterprise client signed a two-year contract, went live in May, and has since tripled weekly primary quote throughput.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "The company website claims Distinguished Programs Executive Lines is achieving 3× primary quote throughput with Qlo.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "freshness": {
+      "statement": "The evidence is from September 2026, and the client went live in May (presumably 2026), indicating recent activity.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "evidence_quality": "weak",
+    "score": 12
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "AI agents have recently become capable of handling multi-step workflows, enabling automation of underwriting operations.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "Workflow lock-in is plausible as Qlo integrates into the carrier's operations and handles the entire workflow, creating switching costs.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": true
+      },
+      {
+        "statement": "Proprietary data may accumulate from processing submissions and underwriting decisions, potentially improving models and creating a data moat.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "The product relies on foundation models for agent capabilities; if models improve to natively handle underwriting workflows, Qlo's differentiation could erode unless it builds proprietary workflow data and integrations.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 6
+  },
+  "risks": [
+    {
+      "risk": "Foundation model feature risk: as models improve, they may natively handle underwriting workflows, eroding Qlo's differentiation.",
+      "severity": "high",
+      "reasoning": "The product is built on AI agents; if the underlying models become capable of end-to-end underwriting without Qlo's orchestration, the value proposition diminishes.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Regulatory and compliance risk: commercial insurance underwriting is regulated; Qlo must ensure its agents comply with state and federal regulations, which could slow adoption.",
+      "severity": "medium",
+      "reasoning": "The evidence does not mention compliance or regulatory strategy, and regulated workflows require credible compliance paths.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Services disguised as software: if Qlo requires heavy customization for each carrier, it may become a services business rather than scalable software.",
+      "severity": "medium",
+      "reasoning": "The evidence mentions working alongside existing policy systems and starting with one workflow, but does not clarify the level of customization.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Single customer concentration: traction is based on one enterprise client; if that client churns or does not expand, growth may stall.",
+      "severity": "high",
+      "reasoning": "The evidence cites only one enterprise client, and no other customer evidence is provided.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "What is the competitive landscape for AI underwriting automation?",
+      "why_it_matters": "Without competitor evidence, it is unclear if Qlo has a unique wedge or faces established incumbents.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How does Qlo handle regulatory compliance in underwriting?",
+      "why_it_matters": "Regulated workflows require credible compliance paths; lack of clarity could be a dealbreaker.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the actual revenue and customer count beyond the one claimed client?",
+      "why_it_matters": "Traction is company-reported and based on a single client; independent verification is needed.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How much customization is required per carrier, and what is the implementation time?",
+      "why_it_matters": "High customization could indicate a services model, reducing scalability.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What proprietary data or distribution advantages does Qlo have that will compound over time?",
+      "why_it_matters": "Defensibility against model improvements depends on data or distribution moats.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "No competitor or market evidence was found.",
+    "No independent verification of the claimed client or throughput numbers.",
+    "No evidence of the founding team's prior startup success beyond a small product studio.",
+    "No evidence of regulatory compliance strategy.",
+    "No evidence of the product's technical architecture or how it integrates with legacy systems.",
+    "No evidence of the team's ability to scale beyond the initial client."
+  ],
+  "recommendation_rationale": [
+    "Strong fit with thesis: recurring workflow, clear economic buyer, measurable ROI, and expansion path.",
+    "Founders have domain experience and technical capability, but lack proven scale.",
+    "Traction is promising but company-reported and single-customer; market competition unknown."
+  ],
+  "change_my_mind": [
+    "Independent verification of multiple paying customers and revenue.",
+    "Evidence of a defensible data moat or distribution advantage.",
+    "Clear competitive differentiation against known incumbents."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "company_id": "agentin-ai",
+  "candidate": {
+    "id": "agentin-ai",
+    "name": "Agentin AI",
+    "normalized_name": "agentin ai",
+    "website": "https://www.agentin.ai",
+    "normalized_domain": "agentin.ai",
+    "description": "AI Agents that automate enterprise software processes At Agentin AI, we build Agents that move data and take actions across enterprise systems, like Salesforce, NetSuite and SAP. These agents are difficult to build because each enterprise heavily customizes their systems but we solved that by training our Agents to learn and adapt from failures, applying reinforcement learning techniques we developed.",
+    "batch": "Winter 2025",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/agentin-ai"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Winter 2025",
+        "observed_at": "2025-02-20T06:29:06Z",
+        "evidence_id": "E001"
+      }
+    ],
+    "discovery_score": 0.7736,
+    "discovered_at": "2026-09-03T01:06:31.712585Z",
+    "one_liner": "AI Agents that automate enterprise software processes",
+    "industries": [
+      "B2B"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Enterprise",
+      "AI"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "launched_at": "2025-02-20T06:29:06Z",
+    "ranking_components": {
+      "topic_relevance": 0.9323,
+      "freshness": 0.937,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "agentin-ai",
+      "source_type": "yc",
+      "title": "Agentin AI - YC company profile",
+      "url": "https://www.ycombinator.com/companies/agentin-ai",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:03.233922Z",
+      "excerpt": "Watch our AI Agents in action: TL;DR: Agentin AI builds AI Agents that automate the entire Quote-to-Cash (QTC) workflow by connecting with enterprise systems like Salesforce, NetSuite, and SAP. We eliminate incomplete orders, mismatched data and delayed payments, cutting down QTC from weeks to minutes and boosting cash flow. Here's a quick podcast overview. What is Quote-to-Cash (QTC)? Quote to Cash is the full business process from receiving customer orders through fulfillment, invoicing, payment collection, and reconciliation. Why this matters: Slow or inefficient QTC processes directly delay cash flow, add operational overhead, and limit business growth. The Problem: Companies dealing with high order volumes typically struggle with: These issues often extend QTC from days to weeks, impacting revenue and productivity. Our Solution: Agentin AI’s Agents connect with existing enterprise CRM and ERP systems to: Backstory: I am Sankeerth Rao Karingula, founder of Agentin AI (YC W25) and an ex-Google Research Scientist. At Agentin AI, we develop reinforcement learning algorithms so our AI Agents can learn and adapt from failures. After seeing how manual QTC processes slow businesses down, I built Agentin AI to solve these inefficiencies. Our Ask: Thank you! We’re dedicated to automating away manual Quote-to-Cash inefficiencies so teams can focus on higher-value tasks.",
+      "content_hash": "feb88c9c19fcb008b2b44aebccc203523d027fb978506fe9590d0876d5cda0cf",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "agentin-ai",
+      "source_type": "company_website",
+      "title": "Agentin | The Intelligence Layer on Enterprise Software",
+      "url": "https://www.agentin.ai",
+      "publisher": "agentin.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:03.849252Z",
+      "excerpt": "AI agents that operate Quote-to-Cash and Procure-to-Pay workflows across your ERP, CRM and procurement systems. Instead of people logging into multiple systems and manually coordinating work, our agents handle that: Watch Orders, POs, invoices, tickets and approvals across systems Detect Errors, delays, duplicates, bad prices and policy violations Act Hold orders, cancel duplicate POs, escalate invoices, notify owners One AI layer that understands your data across SAP, Salesforce, NetSuite, ServiceNow, Workday and Dynamics. Focused on end-to-end flows like Quote-to-Cash and Procure-to-Pay, not one-off automations. Agents propose actions with clear reasons. Your team decides what to approve or automate. Early pilot results 45→18 days cycle time 12→0.5% error rate 83% less manual work Currently in beta with select design partners. Talk to us if you want early access. We connect to SAP, Salesforce, NetSuite, ServiceNow, Workday using standard APIs. No changes to your core configuration. We map how work actually flows - how quotes become orders, how POs get approved, how invoices get paid - including edge cases. Agents start by watching and proposing actions, then move to automated execution where you are comfortable. Every action is logged. For IT and security details, we provide a technical brief on request. Request it here We work with ecosystem partners to ensure our agents are first-class citizens in your stack. 45 → 18 days Quote-to-Cash cycle time when agents handle order creation and reconciliation 12% → 0.5% Order error rate once agents validate data before orders hit ERP 83% fewer Manual touchpoints across Salesforce, SAP and billing systems *Based on early pilots in enterprise environments. Results vary by implementation. 30-minute session. We will map your workflow and show you where agents can run it end-to-end. Book a workflow session",
+      "content_hash": "94609e8592ec7de6746678d5330ebef028a13395bd0f4fd63cf1ade4cb9f39dd",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "agentin-ai",
+      "source_type": "company_website",
+      "title": "Agentin | The Intelligence Layer on Enterprise Software",
+      "url": "https://www.agentin.ai/about",
+      "publisher": "agentin.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:04.272632Z",
+      "excerpt": "Build the intelligence layer on top of enterprise software, so companies can run the workflows that move money with AI operators instead of manual coordination across systems. Agentin operates Revenue (Quote-to-Cash) and Spend (Procure-to-Pay) workflows on top of SAP, Salesforce, NetSuite, ServiceNow, Workday and Dynamics. Our agents watch orders, POs, invoices and tickets across these systems, and fix the ones that waste money or time before they hit your P&L. Every large company runs dozens of systems - ERP, CRM, procurement, ticketing - but the workflows that move money are still held together by email, spreadsheets and manual coordination. Agentin is building the intelligence layer on top of those systems: one AI brain that understands your customers, vendors, orders and POs across tools, and runs core workflows end-to-end. Agentin was founded by Sankeerth Rao Karingula, a YC founder with a background in machine learning and enterprise workflows. The company is based in San Francisco and works with global enterprises. We would love to show you how Agentin can work for your organization.",
+      "content_hash": "ebed68e62268b51e89b4b0090f1ba7e8103e87e3a595e7ae86b6e0103f88576a",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E004",
+      "company_id": "agentin-ai",
+      "source_type": "company_website",
+      "title": "Agentin | The Intelligence Layer on Enterprise Software",
+      "url": "https://www.agentin.ai/contact",
+      "publisher": "agentin.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:04.708556Z",
+      "excerpt": "If you want to explore how AI agents could operate your revenue or spend workflows, we would love to talk. The fastest way to see if Agentin is right for you. We will spend 30 minutes mapping your current workflow and show you where agents can help. Book a 30-minute session Location San Francisco, CA For investor conversations, email sankeerthrao@agentin.ai with \"Investor\" in the subject.",
+      "content_hash": "5daaff1484a66ca0d67a6cdd2a93272413ab85185905476bcf82c6f832159b11",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

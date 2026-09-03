@@ -1,0 +1,79 @@
+{
+  "company_id": "getbalance",
+  "candidate": {
+    "id": "getbalance",
+    "name": "Balance",
+    "normalized_name": "balance",
+    "website": "https://getbalance.ai",
+    "normalized_domain": "getbalance.ai",
+    "description": "Full-Stack AI Accounting Balance is an AI accounting firm that helps SMBs close their monthly books. Our agents do the work of an in-house finance hire, reconciling books in real time and flagging issues before they become problems.",
+    "batch": "Winter 2026",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/getbalance"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Winter 2026",
+        "observed_at": "2026-01-21T06:21:12Z",
+        "evidence_id": "E001"
+      }
+    ],
+    "discovery_score": 0.7723,
+    "discovered_at": "2026-09-03T01:06:31.712280Z",
+    "one_liner": "Full-Stack AI Accounting",
+    "industries": [
+      "B2B",
+      "Finance and Accounting"
+    ],
+    "tags": [],
+    "team_size": 4,
+    "location": "London, England, United Kingdom",
+    "launched_at": "2026-01-21T06:21:12Z",
+    "ranking_components": {
+      "topic_relevance": 0.9046,
+      "freshness": 1.0,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "getbalance",
+      "source_type": "yc",
+      "title": "Balance - YC company profile",
+      "url": "https://www.ycombinator.com/companies/getbalance",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:03.758145Z",
+      "excerpt": "Hey everyone 👋 We’re Emil, Mathias and Gus - Co-founders of Balance. Balance provides real-time, audit-ready bookkeeping & accounting - run by AI, signed off by real accountants. 👉 Ask: Know a founder or small business paying too much for messy, slow accounting? Introduce them to us, or contact: founders@getbalance.ai / book a demo here. The finance & accounting industry is broken - so we’re building Balance to fix it. Companies spend over $680B each year on accounting services. Yet +80% of firms still rely on manual, spreadsheet-based reconciliation processes, and small business owners spend 20+ hours every week managing their books, from invoicing and expenses to reporting and taxes. As former CFOs and business owners, we’ve lived the problem for years: Why hasn’t this been solved? Because bookkeeping isn’t just rules - it’s judgment. And traditional firms aren’t built to solve this with AI. But companies needed this yesterday; Despite only incorporating in January, we are already active across multiple industries helping some of the most forward-looking and modern companies in everything from tech, ecommerce, florists, to digital consultants, close their books faster, cheaper and more accurately. We’re building the accounting firm we always wished existed; combining AI systems with human experts to deliver clean books, real-time insights, and instant answers. Our AI agents ingest your business context — revenue, payroll, banking, expenses, ledger, and automate the full back-office finance stack. Our agents categorize transactions, reconcile accounts, and surface anomalies in real time, with a human in the loop for review and accuracy. Once the books are clean, Balance becomes the easiest way to actually understand them. Founders can dive into costs, audit subscriptions, break down revenue, and validate taxes; all from where they work (Slack, WhatsApp, email), without waiting on PDFs or parsing spreadsheets. It’s your outsourced finance function. Accurate books, responsive, and always up-to-date. We're a team of repeat founders, CFOs, and AI engineers who built finance teams at high-growth startups and scaled vertical AI applications globally, across McKinsey and 3 YC companies. Mathias: Former CFO at Female Invest (YC S21), founder of an accountancy, and small business owner. Lived this problem firsthand, chasing external accountants, correcting their mistakes and spending hours on manual processes that should be automated. Gus: Maths, CS & AI Research at Imperial and Oxford. Built agentic AI systems across education and legal. Emil: Previously at McKinsey, Kapa AI (YC S23), and worked within product at Encord (YC W21).",
+      "content_hash": "07b3637a5ea31004a0fa774835a2cfd09a5dcd2b563d49486ec93c20e92c54ce",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "getbalance",
+      "source_type": "company_website",
+      "title": "Balance | Competent Accounting",
+      "url": "https://getbalance.ai",
+      "publisher": "getbalance.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:04.473018Z",
+      "excerpt": "Already trusted by About Balance Balance gives you real-time, audit-ready books & accounting with flat pricing. Documents Processed Last updated: 3 minutes ago Books that never fall behind Financial operations powered by AI ensures your finances are processed... What are our projections for Q1 looking like? - Analyzing memory - Retrieving financials from January 1st - March 31st - Collecting invoices, payments, random payments and other income - Collecting expenses and reimbursements - Collating data and writing report… - Here you are! I have collected all of your income and expenses between January 1st to March 31st. Q1 Projections January 1st - March 31st A dedicated financial partner You’re paired with an accountant who knows your business, handles the details, and takes responsibility for getting things right — backed by automation that removes busywork. Clear answers, when you need them With Bea by Balance, ask questions in plain language and get clear, reliable answers — from runway and burn to tax timing and payroll — without digging through reports or spreadsheets. Customers For businesses who need a trusted partner at an affordable price. Balance works with businesses who want to grow without worrying about finances. Integrations We work where you are. Balance connects directly to the tools you already use and quietly keeps everything in sync behind the scenes - like extracting receipts straight from your Gmail. It pulls your financial data together, processes it continuously, and turns it into clear, reliable answers and actions. Instead of logging into yet another finance platform, Balance shows up where your team already works so finance stays accurate, up to date, and out of your way. Ready to explore how smooth accounting can be? Balance - the accounting firm rebuilt for the AI era.",
+      "content_hash": "22b7151b2c1fad3fa1fac398af683318ef9901ba89eaeaf70f44319b63eff34c",
+      "reliability": "first_party"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}

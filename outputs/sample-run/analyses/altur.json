@@ -1,0 +1,295 @@
+{
+  "company_id": "altur",
+  "company_name": "Altur",
+  "twenty_second_view": "Altur is a YC S25 startup using AI voice/text agents to automate debt collection for banks in Mexico. The company claims to have collected over $6M USD in six months, targeting a clear economic buyer with existing labor costs. However, public evidence on the founding team is absent, and traction claims are company-reported without independent corroboration.",
+  "why_it_matters": "Altur fits the thesis as a narrow workflow wedge (debt collection) with a clear economic buyer (banks) and measurable ROI (recovery rates). It addresses a recurring, labor-intensive workflow and claims a proprietary dialer, aligning with the thesis's favor for domain-specific agents. However, the lack of team evidence and independent traction verification are significant gaps.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "No public evidence identifies the founders or their backgrounds.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "technical_depth": {
+      "statement": "Unknown - insufficient public evidence; no founder technical background is disclosed.",
+      "evidence_ids": [],
+      "confidence": "high",
+      "inference": true
+    },
+    "prior_startup_experience": null,
+    "founder_market_fit": {
+      "statement": "Unknown - insufficient public evidence; no founder domain experience in debt collection or fintech is shown.",
+      "evidence_ids": [],
+      "confidence": "high",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "The company is YC-backed (Summer 2025), indicating some selection validation.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "No founder names, backgrounds, or technical credentials are provided in the evidence.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "score": 5
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Altur provides autonomous voice and text AI agents that negotiate, handle objections, and secure payments for debt collection, with a proprietary dialer and multi-channel follow-up.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "Banks and major financial institutions in Latin America, particularly Mexico.",
+      "evidence_ids": [
+        "E001",
+        "E003"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "core_workflow": {
+      "statement": "Recurring debt collection workflow: contacting debtors, negotiating, handling objections, and securing payments, with follow-up on promises.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "pain_severity": {
+      "statement": "The company claims traditional contact centers are expensive, have high churn, uneven quality, and compliance risk, leading to low recovery rates.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "differentiation": {
+      "statement": "Altur claims a proprietary dialer optimized for debt collection, up to 6x more effective contact than traditional dialers, and full context maintenance across conversations.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "expansion_potential": {
+      "statement": "The platform could expand from debt collection to other banking sales workflows, as suggested by 'banking sales' in the evidence.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 18
+  },
+  "market": {
+    "market_description": {
+      "statement": "Debt collection for banks is a labor-intensive, expensive process with existing spend on contact centers and third-party telephony.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "economic_buyer": {
+      "statement": "Banks are the economic buyer, with existing budgets for collection operations and a clear financial incentive to improve recovery rates.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "competitive_landscape": [
+      {
+        "statement": "Unknown - insufficient public evidence; no competitor or market evidence was found.",
+        "evidence_ids": [],
+        "confidence": "high",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "AI voice agents have become capable enough to handle negotiations and compliance, enabling automation of debt collection.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "Debt collection is a large labor-cost category for banks, but no specific market size figure is provided in the evidence.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 14
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "The company claims to have collected over $6M USD using AI agents since launching in Mexico 6 months ago.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "The company claims its agents make millions of calls every month for major financial institutions.",
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "YC backing (Summer 2025) is a launch-stage signal.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "freshness": {
+      "statement": "Evidence retrieved September 2026, approximately one year after YC batch, indicating recent traction claims.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "evidence_quality": "weak",
+    "score": 12
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "AI voice agents have reached a capability level to handle complex negotiations and maintain compliance, making automation feasible.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "The company claims a proprietary dialer and real-time monitoring of agent reasoning, which could create workflow lock-in.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": true
+      },
+      {
+        "statement": "Accumulated conversational data and operational playbooks could improve effectiveness over time, creating a data moat.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "The core technology relies on LLMs for conversation, but the company claims proprietary telephony and workflow optimization, which may reduce dependency on raw model capabilities.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 7
+  },
+  "risks": [
+    {
+      "risk": "Regulatory compliance risk in debt collection, especially in Mexico, could be a barrier if not handled credibly.",
+      "severity": "high",
+      "reasoning": "Debt collection is heavily regulated; the company claims compliance but no evidence of regulatory approvals or compliance path is provided.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Foundation model feature risk: as LLMs improve, generic voice agents may absorb capabilities, eroding differentiation.",
+      "severity": "medium",
+      "reasoning": "The company's differentiation relies on proprietary dialer and workflow, but core conversation is LLM-based; model improvements could reduce moat.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Lack of verifiable team and traction could indicate overhyped claims or inability to execute at scale.",
+      "severity": "medium",
+      "reasoning": "No independent evidence of revenue or customers; all claims are company-reported.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "Who are the founders and what is their technical and domain background?",
+      "why_it_matters": "Assessing team capability is critical for seed-stage investment.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "Can the company provide independent verification of the $6M collected and the number of paying bank customers?",
+      "why_it_matters": "Traction claims are company-reported; independent validation is needed to confirm adoption.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the regulatory compliance approach in Mexico and other LATAM markets?",
+      "why_it_matters": "Regulatory risk could be a critical barrier to scaling.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How does Altur's solution compare to existing debt collection software and AI competitors?",
+      "why_it_matters": "Understanding competitive landscape is essential to assess market positioning.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "Founder identities and backgrounds",
+    "Independent verification of revenue and customer claims",
+    "Competitive landscape and market size",
+    "Regulatory compliance details",
+    "Technical architecture specifics",
+    "Customer names and retention metrics"
+  ],
+  "recommendation_rationale": [
+    "Strong product-market fit signal: clear economic buyer (banks) with existing labor cost and measurable ROI (recovery rates).",
+    "Company-reported traction ($6M collected) suggests early adoption, but lacks independent verification.",
+    "Critical gap: no public team evidence, making it impossible to assess execution capability."
+  ],
+  "change_my_mind": [
+    "Provide verifiable founder backgrounds with relevant domain expertise.",
+    "Provide independent confirmation of paying customers and revenue (e.g., customer testimonials, third-party audits).",
+    "Demonstrate a clear regulatory compliance path and a defensible moat beyond LLM capabilities."
+  ]
+}

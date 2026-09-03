@@ -1,0 +1,262 @@
+{
+  "company_id": "kura-ai",
+  "company_name": "Kura AI",
+  "twenty_second_view": "Kura AI is a two-person YC S24 startup building a state-of-the-art browser agent that uses a multi-agent debate architecture to achieve 87% on WebVoyager, claiming 31% better than Claude's Computer Use and 14% better than prior SOTA. However, there is no evidence of a specific B2B workflow, economic buyer, or customer traction, making it a promising technology without a clear product-market fit.",
+  "why_it_matters": "Kura AI fits the thesis's interest in AI-native automation but conflicts on several key dimensions: it is a horizontal browser agent rather than a narrow workflow wedge, lacks a clear economic buyer, and shows no evidence of adoption or a path to a system of action. The technical achievement is notable, but the absence of a defined market and workflow makes it a poor fit for the thesis's focus on measurable ROI and clear buyer.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Founders are Darren and Ronit, but no background details are provided in the evidence.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      }
+    ],
+    "technical_depth": {
+      "statement": "The founders demonstrate technical capability by building a state-of-the-art browser agent with a novel multi-agent debate architecture, as described in their YC post.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "prior_startup_experience": {
+      "statement": "Unknown - insufficient public evidence",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "founder_market_fit": {
+      "statement": "Unknown - insufficient public evidence; no evidence of domain experience in a specific workflow or industry.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "Technical ability to build a complex multi-agent system and achieve SOTA benchmark results.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "No evidence of prior startup experience or domain expertise in a specific B2B workflow.",
+        "evidence_ids": [],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "score": 12
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Kura is a browser agent that can perform tasks on websites using computer vision and DOM reading, powered by a multi-agent system with planner, executor, and critic components.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "Unknown - insufficient public evidence; no specific customer segment is identified.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "core_workflow": {
+      "statement": "Unknown - insufficient public evidence; the product is a general browser agent, not tied to a specific recurring workflow.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "pain_severity": {
+      "statement": "Unknown - insufficient public evidence; no specific pain point or labor cost is quantified.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "differentiation": {
+      "statement": "The company claims its debate architecture enables self-healing and backtracking, achieving 87% on WebVoyager, which is 31% better than Claude's Computer Use and 14% better than previous SOTA.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "expansion_potential": {
+      "statement": "Unknown - insufficient public evidence; no path to a system of action is described.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "score": 10
+  },
+  "market": {
+    "market_description": {
+      "statement": "Unknown - insufficient public evidence; no market description or size is provided.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "economic_buyer": {
+      "statement": "Unknown - insufficient public evidence; no economic buyer or budget is identified.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "competitive_landscape": [
+      {
+        "statement": "The company claims its performance is 31% better than Claude's Computer Use and 14% better than previous SOTA, indicating competition from major AI labs.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "The rise of foundation models with computer use capabilities creates a timing opportunity for specialized browser agents.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "Unknown - insufficient public evidence; no market size figures are provided.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "score": 4
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "The company is in YC Summer 2024 batch, which is a launch-stage signal.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "high",
+        "inference": false
+      },
+      {
+        "statement": "The company claims SOTA benchmark results on WebVoyager, but this is a technical benchmark, not customer traction.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "freshness": {
+      "statement": "Evidence retrieved in 2026-09-03, but the YC batch is Summer 2024, indicating the information may be over two years old.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": true
+    },
+    "evidence_quality": "weak",
+    "score": 6
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "Foundation models are increasingly capable of computer use, creating a window for specialized agents that can outperform them.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "The company claims a model-agnostic architecture that can lower costs by up to 90% by swapping in cheaper models, suggesting some technical differentiation.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "The product is model-agnostic, but the underlying capability could be absorbed by future foundation models, posing a risk.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 4
+  },
+  "risks": [
+    {
+      "risk": "Foundation model feature risk: Major AI labs like Anthropic are building computer use capabilities directly into their models, which could make specialized browser agents obsolete.",
+      "severity": "critical",
+      "reasoning": "The company's differentiation is based on benchmark performance, but as foundation models improve, they may match or exceed this performance, eroding Kura's advantage.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Lack of clear market and buyer: The product is a horizontal browser agent without a defined workflow or economic buyer, making it difficult to achieve product-market fit.",
+      "severity": "high",
+      "reasoning": "The thesis requires a clear economic buyer and recurring workflow, but Kura has not identified one.",
+      "evidence_ids": [],
+      "inference": true
+    },
+    {
+      "risk": "No evidence of adoption or shipping: There is no evidence of customers, usage, or revenue, indicating the company may still be in research/development stage.",
+      "severity": "high",
+      "reasoning": "Without adoption, it is unclear if the technology translates into a viable business.",
+      "evidence_ids": [],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "Who is the target customer and what specific workflow does Kura automate?",
+      "why_it_matters": "The thesis requires a clear economic buyer and recurring workflow; without this, the product is a horizontal tool with no obvious market.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the evidence of customer adoption or revenue?",
+      "why_it_matters": "Traction is a key scoring dimension; no evidence of adoption suggests the company may not have product-market fit.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the founders' background and prior startup experience?",
+      "why_it_matters": "Team quality is critical for seed investments; lack of evidence makes it hard to assess execution capability.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "Founder backgrounds and prior startup experience",
+    "Target customer and specific workflow",
+    "Evidence of customer adoption, revenue, or usage",
+    "Market size and competitive landscape",
+    "Technical details beyond the YC post",
+    "Current status of the company as of 2026"
+  ],
+  "recommendation_rationale": [
+    "No clear economic buyer or recurring workflow, conflicting with thesis focus.",
+    "No evidence of adoption or traction beyond a YC launch and benchmark claims.",
+    "High foundation model feature risk with no clear defensibility or data moat."
+  ],
+  "change_my_mind": [
+    "Evidence of a specific workflow with a paying customer and measurable ROI.",
+    "Founder backgrounds with relevant domain expertise and prior startup success.",
+    "Independent validation of customer traction and a clear path to a system of action."
+  ]
+}

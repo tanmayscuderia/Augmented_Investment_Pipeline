@@ -1,0 +1,311 @@
+{
+  "company_id": "getbalance",
+  "company_name": "Balance",
+  "twenty_second_view": "Balance is an AI-native accounting firm for SMBs, using agents to reconcile books in real time with human accountant sign-off. The founders are former CFOs/business owners targeting a massive labor-cost category, but public evidence of traction is thin and mostly self-reported. It fits the thesis as a narrow workflow wedge with a clear economic buyer, but defensibility and adoption remain unproven.",
+  "why_it_matters": "Balance directly targets a recurring, high-labor-cost workflow (monthly bookkeeping) with a clear economic buyer (SMBs already paying for accounting). The team claims domain depth as former CFOs, aligning with the thesis's preference for technical founders with relevant experience. However, the product's reliance on foundation models and lack of independent traction evidence raise concerns about differentiation and defensibility.",
+  "team": {
+    "founder_summary": [
+      {
+        "statement": "Co-founders are Emil, Mathias, and Gus, described as former CFOs and business owners.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      },
+      {
+        "statement": "The founders claim to have lived the accounting problem for years.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "technical_depth": {
+      "statement": "Founders have finance/operations backgrounds (CFO/business owners), but no specific technical or AI engineering credentials are evidenced.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "prior_startup_experience": {
+      "statement": "Unknown - insufficient public evidence of prior startup success.",
+      "evidence_ids": [],
+      "confidence": "low",
+      "inference": true
+    },
+    "founder_market_fit": {
+      "statement": "Strong founder-market fit inferred from claimed CFO/business owner experience in the accounting domain.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "strengths": [
+      {
+        "statement": "Founders claim direct experience as CFOs and business owners, indicating domain pain.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": false
+      }
+    ],
+    "concerns": [
+      {
+        "statement": "No evidence of technical or AI engineering depth among founders.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "score": 16
+  },
+  "product": {
+    "plain_english_description": {
+      "statement": "Balance provides real-time, audit-ready bookkeeping and accounting for SMBs, using AI agents to process documents and reconcile books, with human accountants providing oversight.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "target_customer": {
+      "statement": "SMBs that currently pay for accounting services or spend significant time on bookkeeping.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "core_workflow": {
+      "statement": "Monthly book closing and ongoing reconciliation, including invoicing, expenses, and reporting.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "pain_severity": {
+      "statement": "The company claims SMB owners spend 20+ hours per week on bookkeeping, indicating high pain.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "differentiation": {
+      "statement": "Differentiation is claimed via AI agents plus human accountant sign-off, but no unique technology or data advantage is evidenced.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "expansion_potential": {
+      "statement": "Potential to expand from bookkeeping into broader financial operations (e.g., projections, Q&A), as hinted by the product demo.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 16
+  },
+  "market": {
+    "market_description": {
+      "statement": "The company claims the global accounting services market is over $680B annually, with 80% of firms using manual processes.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "economic_buyer": {
+      "statement": "SMBs already paying for accounting services or incurring labor costs for bookkeeping are the economic buyers.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "competitive_landscape": [
+      {
+        "statement": "Unknown - insufficient public evidence on competitors.",
+        "evidence_ids": [],
+        "confidence": "low",
+        "inference": true
+      }
+    ],
+    "why_now": [
+      {
+        "statement": "The company claims the industry is broken and that AI can now handle judgment-based bookkeeping.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "market_size_hint": {
+      "statement": "The evidence cites $680B annual spend on accounting services, indicating a large existing labor market.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "confidence": "medium",
+      "inference": false
+    },
+    "score": 14
+  },
+  "traction": {
+    "signals": [
+      {
+        "statement": "The company claims to be 'already trusted by' clients, but no specific numbers or independent verification are provided.",
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "low",
+        "inference": false
+      },
+      {
+        "statement": "The company incorporated in January and is already in YC Winter 2026, indicating early-stage momentum.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "freshness": {
+      "statement": "Evidence retrieved September 2026, likely current as of YC batch.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "high",
+      "inference": false
+    },
+    "evidence_quality": "weak",
+    "score": 8
+  },
+  "timing": {
+    "why_now": [
+      {
+        "statement": "Advances in AI enable automation of judgment-based bookkeeping tasks, as claimed by the company.",
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "defensibility": [
+      {
+        "statement": "Potential defensibility from workflow lock-in and human accountant relationships, but no proprietary data or distribution moat is evidenced.",
+        "evidence_ids": [
+          "E001",
+          "E002"
+        ],
+        "confidence": "medium",
+        "inference": true
+      }
+    ],
+    "model_platform_dependency": {
+      "statement": "The product likely relies on foundation models for document processing and reconciliation; no proprietary model or data advantage is shown, making it vulnerable to model improvements.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "confidence": "medium",
+      "inference": true
+    },
+    "score": 5
+  },
+  "risks": [
+    {
+      "risk": "Foundation model feature risk: core capabilities may be absorbed by next-gen models, eroding differentiation.",
+      "severity": "high",
+      "reasoning": "No proprietary data or technology is evidenced; product appears to be an AI wrapper on top of LLMs.",
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Services disguised as software: reliance on human accountants may limit scalability and margins.",
+      "severity": "medium",
+      "reasoning": "The company describes itself as an 'AI accounting firm' with human sign-off, suggesting a services component.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Regulatory and compliance risk in accounting without a clear compliance path.",
+      "severity": "medium",
+      "reasoning": "Accounting is regulated; evidence does not detail compliance approach.",
+      "evidence_ids": [
+        "E001"
+      ],
+      "inference": true
+    },
+    {
+      "risk": "Weak switching costs: SMBs may churn if a cheaper or better option appears.",
+      "severity": "medium",
+      "reasoning": "No evidence of deep workflow integration or proprietary data lock-in.",
+      "evidence_ids": [
+        "E002"
+      ],
+      "inference": true
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "What specific technical capabilities do the founders have in AI/ML engineering?",
+      "why_it_matters": "Determines ability to build and iterate on the AI product.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the current number of paying customers and revenue?",
+      "why_it_matters": "Validates traction and product-market fit.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "How do they differentiate from existing accounting software and AI bookkeeping competitors?",
+      "why_it_matters": "Assesses competitive moat and market positioning.",
+      "would_change_recommendation": true
+    },
+    {
+      "question": "What is the compliance and regulatory strategy for audit-ready books?",
+      "why_it_matters": "Regulatory risk could be critical in accounting.",
+      "would_change_recommendation": true
+    }
+  ],
+  "unknowns": [
+    "Unknown - insufficient public evidence on prior startup experience of founders.",
+    "Unknown - insufficient public evidence on specific technical/AI engineering skills of founders.",
+    "Unknown - insufficient public evidence on number of customers, revenue, or usage metrics.",
+    "Unknown - insufficient public evidence on competitive landscape.",
+    "Unknown - insufficient public evidence on regulatory compliance approach.",
+    "Unknown - insufficient public evidence on proprietary data or technology moat."
+  ],
+  "recommendation_rationale": [
+    "Clear economic buyer with existing labor cost in a large market ($680B accounting services).",
+    "Founders claim domain expertise as former CFOs, indicating founder-market fit.",
+    "However, weak evidence of traction, technical depth, and defensibility against model improvements."
+  ],
+  "change_my_mind": [
+    "Evidence of paying customers with measurable ROI and retention.",
+    "Demonstrated proprietary data or workflow moat that compounds.",
+    "Founders with verifiable AI/technical credentials or prior startup success."
+  ]
+}

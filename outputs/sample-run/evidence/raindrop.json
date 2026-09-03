@@ -1,0 +1,187 @@
+{
+  "company_id": "raindrop",
+  "candidate": {
+    "id": "raindrop",
+    "name": "Raindrop",
+    "normalized_name": "raindrop",
+    "website": "https://www.raindrop.ai",
+    "normalized_domain": "raindrop.ai",
+    "description": "Sentry for AI Agents Monitor your AI agents the right way.\r\n\r\nAI engineers use Raindrop to get alerts about silent failures in their AI agents.\r\n\r\nRaindrop sends you alerts when your AI misbehaves and links straight to the events, so you can dig into the conversations or traces, understand the root cause, and fix it, fast.",
+    "batch": "Winter 2024",
+    "source_refs": [
+      "https://www.ycombinator.com/companies/raindrop"
+    ],
+    "founder_signals": [],
+    "freshness_signals": [
+      {
+        "type": "batch_recency",
+        "value": "Winter 2024",
+        "observed_at": "2024-03-21T01:46:57Z",
+        "evidence_id": "E001"
+      },
+      {
+        "type": "hn_points",
+        "value": 30,
+        "observed_at": "2025-11-14T07:30:55Z",
+        "evidence_id": "E005"
+      },
+      {
+        "type": "hn_comments",
+        "value": 16,
+        "observed_at": "2025-11-14T07:30:55Z",
+        "evidence_id": "E005"
+      }
+    ],
+    "discovery_score": 0.7554,
+    "discovered_at": "2026-09-03T01:06:31.712724Z",
+    "one_liner": "Sentry for AI Agents",
+    "industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "B2B",
+      "Monitoring",
+      "AI"
+    ],
+    "team_size": 9,
+    "location": "San Francisco, CA, USA",
+    "launched_at": "2024-03-21T01:46:57Z",
+    "ranking_components": {
+      "topic_relevance": 0.9396,
+      "freshness": 0.8278,
+      "community": 0.1,
+      "data_completeness": 1.0
+    }
+  },
+  "evidence": [
+    {
+      "id": "E001",
+      "company_id": "raindrop",
+      "source_type": "yc",
+      "title": "Raindrop - YC company profile",
+      "url": "https://www.ycombinator.com/companies/raindrop",
+      "publisher": "Y Combinator",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:07.703142Z",
+      "excerpt": "https://www.youtube.com/watch?v=pN82WxN-_G0 Today, we're excited to launch Raindrop Deep Search It’s like Deep Research for your Production AI Data Search for anything, and Raindrop automatically trains little models to accurately classify any topic or issue, across millions of events. 𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 We’ve heard from thousands of AI engineers and they’re struggling to track issues with their agents. Imagine a user reports a problem: your agent is saying it can’t search the web for documentation. You need to know if this is a one-off problem or a much bigger issue… but how? Keyword search, or even semantic search, doesn’t tell the full story. 𝗖𝗮𝗻’𝘁 𝘄𝗲 𝗷𝘂𝘀𝘁 𝘂𝘀𝗲 𝗧𝗿𝗮𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗘𝘃𝗮𝗹𝘀? Offline evals work well as unit tests. But since they’re running on preset data, you have no visibility into what’s actually happening in production. Online evals just run these unit tests on a tiny sample of production data, leaving you blind to how widespread problems are. 𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝗥𝗮𝗶𝗻𝗱𝗿𝗼𝗽 𝗗𝗲𝗲𝗽 𝗦𝗲𝗮𝗿𝗰𝗵 That’s why we built Deep Search. It’s like Deep Research for your production data. How Deep Search works: 1. Describe the issue (eg. agent failing to search the web) 2. Deep Search finds examples out of millions of events 3. Refine search with feedback 4. Start tracking the issue Deep Search runs across all of your production data to give you an accurate metric of issue frequency. Traditional classification systems require humans to manually label thousands of data points. So to achieve this, Raindrop Deep Search introduces a new research breakthrough, bespoke few-shot classifiers, which only need a few examples. It’s essentially bootstrapping weaker systems from stronger systems, ultimately training custom small models that analyze millions of events a day. You can think of it like creating materialized views for natural language. Once you start tracking the issue you can use Raindrop to dive into traces and tool calls to find the root cause. And you can quickly confirm whether your fixes are effective by monitoring issue frequency and receiving real-time Slack alerts. You can try out Deep Search at raindrop.ai. We’re excited to hear what you think!",
+      "content_hash": "45ede76689048ef8a91e8976476f7747fc3997954559716931cff76670412632",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E002",
+      "company_id": "raindrop",
+      "source_type": "company_website",
+      "title": "Raindrop | AI Agent Monitoring & Observability",
+      "url": "https://www.raindrop.ai",
+      "publisher": "raindrop.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:08.210103Z",
+      "excerpt": "Your agent, monitored. From local testing to enterprise deployments, Raindrop has you covered. Trace every run. Auto-fix silent failures. Ship confidently. Trusted by engineering teams at One workflow, every surface Every production run leaves a trail of messages, tool calls, retries, and errors. Raindrop captures it all in one place. Raindrop reads the trace and sends the real failures to Slack, from hallucinations and loops to broken tools. Just like a teammate, Raindrop lives in Slack. Ask questions, triage issues, create signals, and more. Ship the fix, run an experiment against live traffic, and confirm the regression is gone for good. Here's what developers building with Raindrop are saying Andrzej Dąbrowski @ardabrowski Hey this is awesome! Finally a product where you can \"look at your data\" in a beautiful way, not just a soulless dump of jsons for nerds. I've been building sth along those lines for customer support (not observability, and not as polished). I display convo history as blocks, similar to Notion, and you get notion-like collaboration too for feedback. Is this possible in raindrop? Amjad Masad @amasad If you're building an agent, I recommend looking into Raindrop for monitoring. We use it. Jeremy Fischer @Jeremy_JFischer I’ve been using this all day today. Soooo much easier to iterate. Spans, token count, cost, timing, a sane view of each tools input-output. jason @jxnlco Heard it works with your codex subscription. Now you can use codex to build agents as well as inspect them I tried it out yesterday and it works great in the in app browser of the codex desktop app bani @banisgh Observability needs to be more actionable. Raindrop was already one of my most used tools and it just keeps getting better (!) Reid Draper @reiddraper absolute 🔥, all other trajectory viewers are unusable in comparison Hamel Husain @HamelHusain Really like the UX/data viz in some of these Increasingly important for sorting through multi-agent / parallel workflows to tame the trace spagetthi samyok @samyok !! we're using this new sdk to page us every time something breaks austin petersmith @awwstn huge fan of Raindrop, it has been immensely helpful for us and i use it every day. congrats on the round! Rob Haisfield @RobertHaisfield @benhylak @raindrop_ai We recently got an influx of users from China and used Deep Search to make a classifier for \"the user speaking chinese\" this morning. Raindrop translates them, so we're able to get to know a group of users we'd otherwise have no insight into. Feels like I'm living in the future Devin Stein @devstein64 loved the onboarding experience Jake Colling @JacobColling Very good. Immediately useful. Going to be using this as default for local agent work now Also looking at instrument Claude code sessions with it to improve skills etc Danny Aziz @DannyAziz97 @aviflombaum I’m a huge fan of @raindrop_ai for agent monitoring Scott Stevenson @scottastevenson @jmwind @benhylak We are loving Raindrop! This is very well done. Built in chat that plugs into your local codex/claude is perfect. Need someone to make this for general otel too Pratyush Rai @pratyush_r8 This is insanely cool. 🔥🔥 One of the best products out there (by far) for anyone building agents just released an OSS version to play with. We’ve already been using Raindrop heavily across Thine / Merlin. Excited to now use it across personal projects too. Mitch @mitchellhynes Spellbook has been using this for weeks and it feels like magic. It raises silent bugs daily. Feels like my agent is a team member that advocates for itself telling us the most important bugs for us to fix. Raindrop feels like extremely futuristic software. It lets you explore user intent and agent trajectories in a way that didn't feel possible years ago. Big fan of them. Every part of what they've built is thoughtful, solving design problems for a new kind of observability. Sam Whitmore @sjwhitmore once again the @raindrop_ai is ahead of the curve…imagine searching for expensive, error prone, or slow tool calls across all your agent traces. nothing like this exists yet Evan Goldschmidt @evangoldschmidt @tolanworld runs on raindrop. highly recommend just made a feature request for @raindrop_ai and they shipped it in less than 3 hours Peter @peter58587 This is actually incredible. I've been building out a project that involved running Pi in a cloudflare container, it's been a nightmare locally to try and get decent observability on what's happening and to get a feedback loop going. This really came at the perfect time! Nikita 🤙 @Hormold nice, it works awesome for voice agents too! Define custom classifiers for the behaviors that matter. Aesthetic Complaints details match 83% trend rising Investigate and resolve agent issues directly from Slack or the web. #agent-issues Prove improvements behind a feature flag before rolling them out. model_fix_v2 feature flag control variant Connect your tools and let Raindrop run auto-fix loops for your agent. trace patch verify Customer story Andrew Hsu, CTO of Speak, on how his team uses Raindrop to monitor and continuously improve the agents behind a language app used by millions. Full visibility into your agents, backed by the security guarantees your organization already runs on. SOC 2 Type II compliant, independently audited each year. Full reports available in our Trust Center. View our Trust Center → Intelligent server-side PII redaction keeps sensitive user data protected. SSO, audit logs, access controls, procurement support, and dedicated implementation help. Pricing Start free, no credit card required. Upgrade as you grow. 1,000 events1 event = user message + agent response (including tool calls, sub-agents, etc) — or \"run\" of a background agent./mo included $0.003 / event1 event = user message + agent response (including tool calls, sub-agents, etc) — or \"run\" of a background agent. to 1M, then $0.002 / event1 event = user message + agent response (including tool calls, sub-agents, e",
+      "content_hash": "58dbed693e29334ac3cd75542d67ccf809c087d7035e924c371bdf5559092da2",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E003",
+      "company_id": "raindrop",
+      "source_type": "company_website",
+      "title": "rd-signal-2: Frontier Classification at Production Scale – Raindrop Blog",
+      "url": "https://www.raindrop.ai/blog/signals-2-frontier-classification/",
+      "publisher": "raindrop.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:08.539652Z",
+      "excerpt": "rd-signal-2: Frontier Classification at Production Scale Today we're launching Signals 2.0, powered by rd-signal-2, our new model pipeline for building task-specific binary classifiers from production traces. rd-signal-2 approaches GPT-5.6 Sol xhigh accuracy while costing 1600x less, and 260x less than GPT-5.6 Luna xhigh. This model is available to all Raindrop customers today (at no additional cost). We are also releasing Signal Builder: a platform for training and hosting custom classifiers with Zero Data Retention. Signal Builder brings the power of Signals to the strictest of enviroments (including healthcare). Everything is a binary classification problem Last year, OpenAI published a paper called \"Why Language Models Hallucinate\". Hallucination, they said, is simply a binary classification problem: any statement is either true or not. The LinkedIn headlines were immediately victorious: \"OpenAI solved hallucination.\" And, if being binary made classification easy, they would have. But, as it would turn out, everything in life is just binary classification too. You either should or should not get married; the UI is either good or not. ...and a given agent behavior is either good or bad. Binary classification is a hard alignment problem. You need to align the humans within a company on the definition of good/bad, and then explore all of the edge cases, and then - and only then - you must align a model or pipeline to that definition. Raindrop covers the entire journey of training accurate classifiers for agent behavior. Classifiers for Agents In June 2025, we launched the first version of Signals: an automated pipeline for training tiny classification models. At the time, our classifiers evaluated a single input-and-output pair for a given behavior. That worked for the chatbot era, when the relevant evidence was contained within a single turn. Our competitors still have that limitation. But agent failures now unfold across multiple turns, tool calls, and subagents, sometimes spanning hundreds of thousands of tokens. These failures are often nuanced and sparse. Finding them requires both deterministic filtering to assemble the relevant evidence and semantic judgment to interpret it. Running a frontier model over every trace is the obvious solution, but, among other problems, it becomes prohibitively expensive and slow at production scale. Smaller models are affordable, but they struggle with complex behaviors and are often limited by how much context they can consume. rd-signal-2 solves this through an automated research loop. For each behavior, it studies production traces, writes code to assemble the context that matters, and uses that context to train a task-specific model. How rd-signal-2 builds Signals When an agent produces this trace: The failure is not contained in any single step. It is the relationship between the repeated tool failures and the assistant's final response. rd-signal-2 can express that relationship: The code finds the relevant tool calls, compares their inputs, and checks whether they failed. If those conditions are not met, the Signal returns a non-match without calling a model. If they are met, the Signal extracts the failed attempts and the assistant's final response from the trace. The remaining semantic judgment goes to a combination of a \"task-specific classification head\" and our in-house semantic reasoning model, optimized for binary classification. This was an easy example, constrained to a single turn. Signals are built to efficiently and dynamically collect context from sessions that span days and weeks. Reasoning at build time rd-signal-2 separates the reasoning required to construct a classifier from the computation required to execute it. Traditional LLM Judges waste reasoning tokens rediscovering the same evidence and making slightly different judgments each time. Prompt classifier cost = traffic × full-trace reasoning rd-signal-2 pays a one-time cost that can be spread across every future trace: rd-signal-2 cost = build once + deterministic execution + ambiguous candidates × compact context By iterating and enforcing strict self-verification, the system can try several approaches before finding one that matches the customer's intent. Model calls should scale with uncertainty, not traffic. As a result, Signals are inexpensive enough to include with the Raindrop platform and run across billions of traces per month. This stands in stark contrast to platforms like Braintrust and Langchain that require customers to pay out-of-pocket for inference. Binary classification is an alignment problem The hardest part of building an effective classifier is often discovering what the user actually means. We quickly realized that this is as much a product problem as it is a machine-learning problem. Return to the repeated tool-call example. Should the Signal match if: - the arguments changed slightly but the strategy did not? - the first three attempts failed but the fourth succeeded? - the agent admitted that the operation failed? - the agent handed the task to a subagent that completed it? Each decision is rooted in our customers' judgment. Translating their nuanced requirements into a faithful classifier is a non-trivial product problem. To illustrate how challenging finding this line can be, we wrote four variations of the same one-sentence behavior and ran all four over the same 2,000 production traces. Match rates ranged from 0.9% to 4.6%, and 67% of matched traces were contested by at least one variation. Human-model alignment will remain an active area of research at Raindrop. A Signal is never truly finished Building an accurate classifier is just the first step. Raindrop helps keep it accurate. As models and harnesses change, the shape of traces changes too. Customers also discover specification errors as they see their Signal operate on more data. A Signal can become less accurate even when its code has not changed. After deployment, we continue watchi",
+      "content_hash": "d1275cc36ce6652ac9cf7772b54ec960c97f19f9f7d1a11da0b825ac61817ee7",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E004",
+      "company_id": "raindrop",
+      "source_type": "company_website",
+      "title": "Careers – Raindrop AI",
+      "url": "https://www.raindrop.ai/careers/",
+      "publisher": "raindrop.ai",
+      "published_at": null,
+      "retrieved_at": "2026-09-03T00:19:09.321240Z",
+      "excerpt": "Careers Help us solve humanity's last problem. Agents will soon be responsible for the majority of the world's economic output — and they make mistakes. At best, those mistakes are expensive. At worst, catastrophic. Monitoring the machines is humanity's last problem, and Raindrop exists to solve it: catching the failures nobody sees and building self-healing loops so agents fix themselves. Teams at Vercel, Speak, Clay and Fortune 100 enterprises already rely on us. - Location - San Francisco - Team - <20 - Customers - 200+ The team Currently shipping | Our values Ship to Learn We don't debate in a vacuum. We build prototypes, ship, and iterate. Speed is our advantage. Do it Well Any idea can be invalidated by building it poorly. When we care about something, we do it well. Build Selfishly Whenever possible, we prioritize ways of becoming our own customer. Instead of having to ask someone else their opinion at every turn, we prefer to ask ourselves when possible. Connect the Dots When something is right, it feels right; all of the good ideas snap together like Lego bricks. It's our job (not our customers!) to figure out the pieces, how they go together, and which pieces we can throw away. Growth Mindset We're direct with each other. In the moment when possible. We give feedback because we believe in each other. Be Squirby We are all squirby people. We want to win. We care about making beautiful things, and having fun doing it.",
+      "content_hash": "12f5e5a73fd3adb65190ff424d5d23f107872ad141c8ba4ff11a9efd3db91681",
+      "reliability": "first_party"
+    },
+    {
+      "id": "E005",
+      "company_id": "raindrop",
+      "source_type": "hacker_news",
+      "title": "Thoughts on Evals",
+      "url": "https://news.ycombinator.com/item?id=45924712",
+      "publisher": "Hacker News",
+      "published_at": "2025-11-14T07:30:55Z",
+      "retrieved_at": "2026-09-03T01:50:44.985573Z",
+      "excerpt": "\"Thoughts on Evals\" - 30 points, 16 comments; links to https://www.raindrop.ai/blog/thoughts-on-evals/; posted 2025-11-14",
+      "content_hash": "8734f1c1c0de7d65d078797a43235994fe6c54f6150a00687dfee12d8b77528e",
+      "reliability": "community"
+    },
+    {
+      "id": "E006",
+      "company_id": "raindrop",
+      "source_type": "hacker_news",
+      "title": "Show HN: Raindrop – Sentry for AI Products",
+      "url": "https://news.ycombinator.com/item?id=43825442",
+      "publisher": "Hacker News",
+      "published_at": "2025-04-28T20:00:16Z",
+      "retrieved_at": "2026-09-03T01:50:44.985577Z",
+      "excerpt": "\"Show HN: Raindrop – Sentry for AI Products\" - 11 points, 2 comments; links to https://www.raindrop.ai/; posted 2025-04-28",
+      "content_hash": "8d01831c86c3c215f93239a800dfec4f0e6a9f11944bf4d8b71170b43d273bcc",
+      "reliability": "community"
+    },
+    {
+      "id": "E007",
+      "company_id": "raindrop",
+      "source_type": "hacker_news",
+      "title": "Thoughts on Evals",
+      "url": "https://news.ycombinator.com/item?id=45146492",
+      "publisher": "Hacker News",
+      "published_at": "2025-09-06T04:00:47Z",
+      "retrieved_at": "2026-09-03T01:50:44.985579Z",
+      "excerpt": "\"Thoughts on Evals\" - 5 points, 0 comments; links to https://www.raindrop.ai/blog/thoughts-on-evals/; posted 2025-09-06",
+      "content_hash": "61a767c85d25f1753d0d4fe3153d67f778b0a595556694af7f7812e55f162ed7",
+      "reliability": "community"
+    },
+    {
+      "id": "E008",
+      "company_id": "raindrop",
+      "source_type": "hacker_news",
+      "title": "Show HN: Raindrop Deep Search: Deep Research for Your Production AI Data",
+      "url": "https://news.ycombinator.com/item?id=44322362",
+      "publisher": "Hacker News",
+      "published_at": "2025-06-19T20:43:00Z",
+      "retrieved_at": "2026-09-03T01:50:44.985581Z",
+      "excerpt": "\"Show HN: Raindrop Deep Search: Deep Research for Your Production AI Data\" - 3 points, 0 comments; links to https://www.raindrop.ai/; posted 2025-06-19",
+      "content_hash": "c2be8ba1f902b7e70674dddae22990a132a50606cfc5af4096f71cfc1da4fb62",
+      "reliability": "community"
+    },
+    {
+      "id": "E009",
+      "company_id": "raindrop",
+      "source_type": "hacker_news",
+      "title": "Thoughts on Evals",
+      "url": "https://news.ycombinator.com/item?id=45581896",
+      "publisher": "Hacker News",
+      "published_at": "2025-10-14T16:20:09Z",
+      "retrieved_at": "2026-09-03T01:50:44.985583Z",
+      "excerpt": "\"Thoughts on Evals\" - 2 points, 1 comments; links to https://www.raindrop.ai/blog/thoughts-on-evals/; posted 2025-10-14",
+      "content_hash": "aae114405b0897f5233ff69825c0f6fa2e40fbaf0a84ea75baae237565b06d8a",
+      "reliability": "community"
+    }
+  ],
+  "retrieval_errors": [],
+  "completeness": {
+    "company_identity": true,
+    "product": true,
+    "founders": true,
+    "traction": true,
+    "market": false,
+    "competitors": false,
+    "coverage_ratio": 0.6667
+  }
+}
