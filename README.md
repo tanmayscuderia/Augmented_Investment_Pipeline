@@ -15,7 +15,7 @@ a URL, a source, and a retrieval timestamp. The LLM never supplies facts.
 A complete committed run lives in `outputs/sample-run/`: 15 candidates for
 *"AI agents for SMBs"* (YC + Hacker News), per-company evidence bundles,
 structured analyses, 15 one-page memos, and a ranked `INDEX.md`. Model:
-`deepseek-v4-flash` (thinking disabled), temperature 0.2, prompt v1 — recorded
+`deepseek-v4-flash`, temperature 0.2, prompt v1 — recorded
 in `run.json` alongside token usage and call counts.
 
 Scores spread 29–65 with sensible calibration: one WATCH at the threshold,
