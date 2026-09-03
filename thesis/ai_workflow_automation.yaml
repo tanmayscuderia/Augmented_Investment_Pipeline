@@ -1,0 +1,100 @@
+id: ai_workflow_automation_v1
+
+name: AI-native B2B workflow automation
+
+summary: >
+  Seed-stage AI-native B2B companies using software agents to automate
+  recurring knowledge-work workflows where the buyer already incurs meaningful
+  labor cost, the product can demonstrate measurable ROI within weeks rather
+  than years, and the founding team shows strong technical/product-building
+  capability. We favor narrow workflow wedges capable of expanding into
+  systems of action and penalize undifferentiated wrappers, unclear buyers,
+  weak distribution paths, and businesses whose advantage is likely to
+  disappear as foundation models improve.
+
+positive_signals:
+  - clear economic buyer with existing budget for the workflow
+  - recurring workflow (weekly or daily), not one-off projects
+  - measurable labor or revenue impact observable within weeks
+  - narrow initial wedge with a path to a system of action
+  - technical founding team with relevant domain depth
+  - early usage, shipping velocity, or adoption evidence
+  - proprietary data or distribution that compounds
+
+negative_signals:
+  - generic horizontal AI wrapper
+  - unclear economic buyer
+  - weak switching costs or shallow workflow lock-in
+  - foundation-model feature risk (capability absorbed by the next model)
+  - services disguised as software
+  - regulated workflow without a credible compliance path
+  - no evidence of adoption or shipping
+
+weights:
+  team: 25
+  product: 25
+  market: 20
+  traction: 20
+  timing_defensibility: 10
+
+recommendation_thresholds:
+  take_meeting: 80
+  watch: 65
+
+# Rubric bands the analysis model must use when assigning subscores.
+scoring_anchors:
+  - dimension: team
+    max_score: 25
+    anchors:
+      - band: 0-8
+        description: No public founder evidence; team cannot be assessed.
+      - band: 9-15
+        description: Founders identified with plausible but unverified backgrounds; no demonstrated technical depth.
+      - band: 16-20
+        description: Verifiable technical founders with relevant domain experience.
+      - band: 21-25
+        description: Verifiably strong technical founders with prior startup success and clear founder-market fit.
+  - dimension: product
+    max_score: 25
+    anchors:
+      - band: 0-8
+        description: Product unclear or evidence contradicts the claims.
+      - band: 9-15
+        description: Coherent product for a defined workflow, but differentiation or buyer clarity is weak.
+      - band: 16-20
+        description: Clear recurring workflow with an identifiable economic buyer and a plausible wedge.
+      - band: 21-25
+        description: Sharp wedge with evidence of adoption and a credible expansion path into a system of action.
+  - dimension: market
+    max_score: 20
+    anchors:
+      - band: 0-5
+        description: Buyer or budget unclear; the market cannot be reasoned about from the evidence.
+      - band: 6-11
+        description: Real spend category but crowded or hard-to-reach buyer.
+      - band: 12-16
+        description: Clear economic buyer with existing labor cost; a competitive wedge is visible.
+      - band: 17-20
+        description: Large existing labor spend, favorable timing, and a plausible wedge against incumbents.
+  - dimension: traction
+    max_score: 20
+    anchors:
+      - band: 0-5
+        description: No public adoption or momentum signals.
+      - band: 6-11
+        description: Launch-stage signals only (e.g., recent YC batch, a single Show HN).
+      - band: 12-16
+        description: Sustained community or customer signals; company-reported usage with some corroboration.
+      - band: 17-20
+        description: Independent evidence of paying customers or rapid compounding adoption.
+  - dimension: timing_defensibility
+    max_score: 10
+    anchors:
+      - band: 0-2
+        description: No discernible timing advantage or defensibility; likely an undifferentiated wrapper.
+      - band: 3-5
+        description: Partial timing story or thin defensibility (e.g., workflow lock-in only).
+      - band: 6-8
+        description: Clear why-now with a plausible data or distribution moat forming.
+      - band: 9-10
+        description: Strong why-now plus compounding defensibility unlikely to be eroded by model improvements.
