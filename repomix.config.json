@@ -1,0 +1,33 @@
+{
+  "$schema": "https://repomix.com/schemas/latest/schema.json",
+  "output": {
+    "filePath": "repomix-output.xml",
+    "style": "xml",
+    "headerText": "This file is a Repomix pack of the repository 'Augmented_Investment_Pipeline' (AI-Augmented Investment Pipeline).\n\nWHAT IT IS\nAn evidence-grounded seed-stage investment triage pipeline (Python 3.12+, uv). Given a topic, a YC batch, or a URL list, it discovers 10-20 startups (YC via the yc-oss index + Hacker News), collects cited public evidence per company (YC profile, company website, HN, optional Tavily), runs one evidence-constrained structured LLM analysis, applies a YAML-configured thesis, computes a deterministic 0-100 score in Python, and renders one-page Markdown memos with PASS/WATCH/TAKE_A_MEETING.\n\nHOW TO VERIFY LOCALLY\n- uv sync && uv run pytest          (31 offline tests)\n- uv run ruff check src tests\n- uv run pipeline run --topic \"AI agents for SMBs\"\n- uv run pipeline eval              (static eval cases; --live for LLM-backed)\n\nWHERE TO LOOK\n- src/investment_pipeline/models.py       - all typed schemas (Evidence is the heart)\n- src/investment_pipeline/sourcing/       - deterministic discovery (BM25, dedupe, ranking)\n- src/investment_pipeline/research/       - evidence collection with provenance\n- src/investment_pipeline/analysis/       - evidence-constrained prompt, validator, analyzers\n- src/investment_pipeline/scoring/        - deterministic score + recommendation gate\n- process/                                - real decision log and AI work log\n- thesis/, prompts/, evals/               - thesis config, versioned prompts, eval cases\n\nKNOWN SCOPE CUTS (deliberate)\nNo frontend, no database, no queues, no vector store, no agent frameworks.\nFilesystem artifacts are the data store. Sample run (outputs/) is excluded from this pack.",
+    "directoryStructure": true,
+    "files": true,
+    "removeComments": false,
+    "removeEmptyLines": false,
+    "compress": false,
+    "topFilesLength": 5,
+    "showLineNumbers": false,
+    "copyToClipboard": false
+  },
+  "include": [],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultIgnore": true,
+    "customPatterns": [
+      "uv.lock",
+      ".cache/**",
+      ".venv/**",
+      "outputs/**",
+      "repomix-output.*",
+      ".claude/**",
+      ".clinerules/**"
+    ]
+  },
+  "security": {
+    "enableSecurityCheck": true
+  }
+}

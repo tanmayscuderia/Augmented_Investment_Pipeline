@@ -1,4 +1,4 @@
-.PHONY: install run sample test lint fmt eval clean
+.PHONY: install run sample test lint fmt eval pack clean
 
 install:
 	uv sync
@@ -22,6 +22,9 @@ fmt:
 
 eval:
 	uv run pipeline eval
+
+pack:
+	npx --yes repomix@latest .
 
 clean:
 	rm -rf .cache .pytest_cache .ruff_cache
