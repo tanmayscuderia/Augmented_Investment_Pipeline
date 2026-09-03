@@ -1,0 +1,91 @@
+# {{ candidate.name }}
+
+**Recommendation:** {{ rec.call }} · **Score:** {{ score }}/100 · **Evidence confidence:** {{ confidence }} (coverage {{ coverage_pct }})
+
+{% if rec.override_reason %}
+> **Call adjusted:** {{ rec.override_reason }}
+{% endif %}
+## 20-second view
+
+{{ analysis.twenty_second_view }}
+
+## Why this matters
+
+{{ analysis.why_it_matters }}
+
+## Team — {{ score_breakdown.team }}/25
+
+{% for line in team.founders %}- {{ line }}
+{% endfor %}
+- Technical depth: {{ team.technical_depth }}
+{% if team.prior_startup_experience %}- Prior startups: {{ team.prior_startup_experience }}
+{% endif %}- Founder-market fit: {{ team.founder_market_fit }}
+{% for line in team.strengths %}- Strength: {{ line }}
+{% endfor %}{% for line in team.concerns %}- Concern: {{ line }}
+{% endfor %}
+## Product — {{ score_breakdown.product }}/25
+
+- What they do: {{ product.description }}
+- Target customer: {{ product.target_customer }}
+- Core workflow: {{ product.core_workflow }}
+- Pain severity: {{ product.pain_severity }}
+- Differentiation: {{ product.differentiation }}
+- Expansion potential: {{ product.expansion }}
+
+## Market — {{ score_breakdown.market }}/20
+
+- Market: {{ market.description }}
+- Economic buyer: {{ market.buyer }}
+- Market size: {{ market.size_hint }}
+{% for line in market.why_now %}- Why now: {{ line }}
+{% endfor %}
+{% for line in market.competitors %}- Competitive landscape: {{ line }}
+{% endfor %}
+## Traction — {{ score_breakdown.traction }}/20 *(community/launch signals, not revenue)*
+
+{% for line in traction.signals %}- {{ line }}
+{% endfor %}- Freshness: {{ traction.freshness }}
+- Evidence quality: {{ traction.evidence_quality }}
+
+## Timing & defensibility — {{ score_breakdown.timing }}/10
+
+{% for line in timing.why_now %}- Why now: {{ line }}
+{% endfor %}
+{% for line in timing.defensibility %}- Defensibility: {{ line }}
+{% endfor %}- Platform dependency: {{ timing.platform_dependency }}
+
+## What could kill this
+
+{% for r in risks %}{{ loop.index }}. **({{ r.severity }})** {{ r.risk }} — {{ r.reasoning }}{{ r.citations }}
+{% endfor %}
+## What would change our mind
+
+{% for line in change_my_mind %}{{ loop.index }}. {{ line }}
+{% endfor %}
+{% if open_questions %}
+## Open questions for diligence
+
+{% for q in open_questions %}{{ loop.index }}. {{ q.question }} — *{{ q.why_it_matters }}*{% if q.would_change_recommendation %} **[would change the call]**{% endif %}
+{% endfor %}{% endif %}
+{% if unknowns %}
+## Unknowns (insufficient public evidence)
+
+{% for u in unknowns %}- {{ u }}
+{% endfor %}{% endif %}
+## Scorecard
+
+| Dimension | Score |
+|---|---:|
+| Team | {{ score_breakdown.team }}/25 |
+| Product | {{ score_breakdown.product }}/25 |
+| Market | {{ score_breakdown.market }}/20 |
+| Traction | {{ score_breakdown.traction }}/20 |
+| Timing / defensibility | {{ score_breakdown.timing }}/10 |
+| **Total** | **{{ score }}/100** |
+
+## Sources
+
+{% for s in sources %}[{{ s.id }}] {{ s.source_label }} — {{ s.publisher }} — {{ s.title }} — <{{ s.url }}> (retrieved {{ s.retrieved_at }}; {{ s.reliability }})
+{% endfor %}
+---
+*investment-pipeline {{ run.pipeline_version }} · run {{ run.run_id }} · model {{ run.model }} · prompt {{ run.prompt_version }} · {{ run.generated_at }}*

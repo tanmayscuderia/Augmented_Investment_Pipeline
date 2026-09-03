@@ -1,0 +1,4 @@
+# One company URL per line - input for `pipeline run --urls examples/urls.txt`
+https://trope.ai
+https://agentmail.to
+https://retellai.com

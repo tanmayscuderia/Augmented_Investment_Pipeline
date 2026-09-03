@@ -1,0 +1,4 @@
+# One topic per line - example inputs for `pipeline run --topic <text>`
+AI agents for SMBs
+AI compliance workflows for fintechs
+Voice AI for medical intake

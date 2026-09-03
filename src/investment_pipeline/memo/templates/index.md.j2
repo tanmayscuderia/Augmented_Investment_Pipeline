@@ -1,0 +1,17 @@
+# {{ run_id }} — candidate ranking
+
+**Thesis:** {{ thesis_name }} · **Input:** {{ input_desc }} · **Model:** {{ model }} (prompt {{ prompt_version }}) · **Generated:** {{ generated_at }}
+
+| Rank | Startup | Score | Call | Evidence confidence |
+|---:|---|---:|---|---|
+{% for r in rows %}| {{ loop.index }} | [{{ r.name }}]({{ r.link }}) | {{ r.score }} | {{ r.call }} | {{ r.confidence }} |
+{% endfor %}
+{% if failures %}
+## Failed analyses
+
+| Startup | Reason |
+|---|---|
+{% for f in failures %}| {{ f.name }} | {{ f.reason }} |
+{% endfor %}{% endif %}
+---
+*investment-pipeline {{ pipeline_version }} · scores are thesis-sums of LLM subscores; evidence confidence is independent of score*
