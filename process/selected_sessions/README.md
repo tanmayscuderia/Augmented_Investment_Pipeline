@@ -4,7 +4,7 @@ Exported excerpts of real conversations with the coding agent, chosen because
 they changed an outcome: a suggestion rejected, a failure diagnosed, a design
 corrected. Volume is deliberately small.
 
-Worth exporting (timestamps approximate):
+Exported (2026-09-03):
 
 1. `01-architecture-review.md` — the initial plan and the owner's 12-point
    review (commit targets, v2 placeholder, LLM rerank, score cap, and the

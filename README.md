@@ -18,11 +18,11 @@ structured analyses, 15 one-page memos, and a ranked `INDEX.md`. Model:
 `deepseek-v4-flash`, temperature 0.2, prompt v1 — recorded
 in `run.json` alongside token usage and call counts.
 
-Scores spread 29–65 with sensible calibration: one WATCH at the threshold,
+Scores spread 31–67 with sensible calibration: one WATCH at the threshold,
 fourteen conservative PASSes for thin public evidence, evidence confidence
-MEDIUM/LOW exposed separately. Two independent runs scored the same companies
-nearly identically (e.g. 62/62, 61/61), so scores track evidence rather than
-generation noise. Regenerate with:
+MEDIUM/LOW exposed separately. Repeat runs on the same evidence land within a
+few points of each other (Qlo scored 64/65/67 across three runs), so scores
+track evidence rather than generation noise. Regenerate with:
 
 ```bash
 make sample
