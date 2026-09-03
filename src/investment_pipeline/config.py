@@ -51,6 +51,11 @@ class Settings:
     openai_base_url: str
     analysis_model: str
     analysis_temperature: float
+    # DeepSeek v4 defaults to extended thinking, which consumes the output
+    # token budget and truncates the JSON payload. "disabled" is the right
+    # default for deterministic structured extraction; empty string = send
+    # nothing (provider default).
+    analysis_thinking: str
     # Optional enrichment
     tavily_api_key: str | None
     # Filesystem
@@ -79,6 +84,7 @@ def get_settings() -> Settings:
         openai_base_url=_env("OPENAI_BASE_URL", "https://api.deepseek.com"),
         analysis_model=_env("ANALYSIS_MODEL", "deepseek-v4-flash"),
         analysis_temperature=_env_float("ANALYSIS_TEMPERATURE", 0.2),
+        analysis_thinking=_env("ANALYSIS_THINKING", "disabled"),
         tavily_api_key=_env("TAVILY_API_KEY"),
         cache_dir=Path(_env("CACHE_DIR", str(ROOT / ".cache"))),
         cache_ttl_hours=_env_float("CACHE_TTL_HOURS", 24.0),

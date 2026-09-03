@@ -12,14 +12,21 @@ a URL, a source, and a retrieval timestamp. The LLM never supplies facts.
 
 ## Demo result
 
-`make sample` runs the committed sample configuration end to end:
+A complete committed run lives in `outputs/sample-run/`: 15 candidates for
+*"AI agents for SMBs"* (YC + Hacker News), per-company evidence bundles,
+structured analyses, 15 one-page memos, and a ranked `INDEX.md`. Model:
+`deepseek-v4-flash` (thinking disabled), temperature 0.2, prompt v1 — recorded
+in `run.json` alongside token usage and call counts.
+
+Scores spread 29–65 with sensible calibration: one WATCH at the threshold,
+fourteen conservative PASSes for thin public evidence, evidence confidence
+MEDIUM/LOW exposed separately. Two independent runs scored the same companies
+nearly identically (e.g. 62/62, 61/61), so scores track evidence rather than
+generation noise. Regenerate with:
 
 ```bash
-uv run pipeline run --topic "AI agents for SMBs" --limit 15 --run-id sample_run
+make sample
 ```
-
-and produces `outputs/sample_run/` with `run.json`, `candidates.json`,
-`evidence/`, `analyses/`, `memos/`, and a ranked `INDEX.md`.
 
 ## Investment thesis
 
@@ -167,9 +174,12 @@ There is no model-controlled fatal-risk override; critical risks surface in
 ## Reliability and failure handling
 
 A single failure never kills a run: YC down → continue on HN; site 403/SSL →
-recorded `retrieval_errors`, continue; Tavily absent → skipped; LLM/schema/
-citation failure → one bounded retry with the validator's complaints, then the
-company is marked failed and the rest continue. HTTP is bounded (15s timeout,
+recorded `retrieval_errors`, continue (one candidate's site had an expired TLS
+certificate; the memo was still produced from the YC record); Tavily absent →
+skipped; LLM/schema/citation failure → one bounded retry with the validator's
+complaints, then the company is marked failed and the rest continue — in the
+committed sample run every retry was the validator catching an uncited founder
+claim, and all 15 analyses in the final batch passed full citation validation. HTTP is bounded (15s timeout,
 2 retries, backoff, concurrency 5) with a filesystem cache (`.cache/`, 24h
 TTL, SHA-256 keys) — reruns mostly hit cache (a 5-company rerun made 0 API
 calls).
@@ -182,8 +192,17 @@ rejection, and the thin-evidence gate (a 97/100 on 33% evidence must stay
 score 97 / confidence LOW / call WATCH). Live cases run a real model against
 fixture bundles: no invented founder backgrounds, no unsourced numeric TAM,
 and a mandatory defensibility concern for an obvious wrapper. The harness was
-built from a real observed failure: HN enrichment once matched a company named
-Trope with stories about narrative *tropes* — see `process/AI_WORKLOG.md`.
+built from real observed failures: HN enrichment once matched a company named
+Trope with stories about narrative *tropes*, and DeepSeek's default extended
+thinking consumed the output budget until diagnosed and disabled — both in
+`process/AI_WORKLOG.md`.
+
+Current results (committed in `evals/results.json`): **6/6 pass**, including
+all three live cases against the real model — no invented founder backgrounds,
+no unsourced numeric market claims, wrapper defensibility present. In the
+missing-founder case the model first emitted an uncited founder claim; the
+citation validator rejected it and the bounded retry corrected it.
+
 
 ## How AI was used
 

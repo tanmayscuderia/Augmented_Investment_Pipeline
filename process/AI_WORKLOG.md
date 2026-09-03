@@ -81,3 +81,37 @@ single-line list literals, producing 400+ character lines. Resolved with
 `ruff format` + line-length 120; no behavioral change. Also cleaned two
 lint-level issues it surfaced (a forward-referenced type hint needing
 `TYPE_CHECKING`, an unused variable).
+
+## 2026-09-03 — REAL failure: DeepSeek thinking mode consumed the output budget
+
+**Observed during the first real `make sample` run.** 10 of 15 analyses failed
+permanently. Two signatures: early failures were mid-document JSON errors
+("Unterminated string"), then a wave of `Expecting value: line 1 column 1
+(char 0)` — empty content.
+
+**Diagnosis (raw response capture, not guessing):** DeepSeek v4-flash runs
+extended thinking by default. In one captured response, `reasoning_tokens:
+8000/8000` — the entire output budget went to `reasoning_content` and `content`
+came back empty (the `char 0` failures). In another, 7,635 reasoning tokens
+left ~365 for the JSON, truncated mid-string (the "unterminated" failures). The
+model's JSON was never the problem; it never got enough budget to finish.
+
+**Fix:** explicitly send DeepSeek's `thinking: disabled` for this structured
+extraction task (gated on the DeepSeek base_url; documented in `.env.example`),
+plus explicit truncation detection (`finish_reason == length` now fails loudly
+instead of producing a confusing JSON error).
+
+**Result:** re-run on identical cached evidence: 15/15 analyses, 0 failures.
+The 10 retries in the clean run were all *validator-driven* — the model tried
+to assert uncited founder claims (`prior_startup_experience`,
+`founder_summary`) and the citation validator rejected them until each claim
+cited evidence or was marked inference/UNKNOWN. Offline sweep: 15/15 committed
+analyses pass full citation validation. Live evals: 6/6, including
+missing-founder (no invented background) and unsourced-TAM (none found).
+
+**Also found and fixed in the same run:** "Qlo" (getqlo.com, insurance AI)
+collected a 2020 Show HN for a 3D-clothing "QLO" — 3-letter names are now
+excluded from title-only HN matching (domain match unchanged), regression test
+added. Scoring note: two independent runs scored the same companies nearly
+identically (Qlo 64/65, Altur 62/62, Retell 62/62), so scores track evidence,
+not generation noise.

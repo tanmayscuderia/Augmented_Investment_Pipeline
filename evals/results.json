@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T00:05:50.495127+00:00",
-  "model": "(none)",
+  "generated_at": "2026-09-03T01:15:21.236767+00:00",
+  "model": "deepseek-v4-flash",
   "cases": [
     {
       "id": "citation_integrity",
@@ -36,8 +36,8 @@
       "expectation": {
         "must_not_invent_founder_background": true
       },
-      "status": "skipped",
-      "detail": "live case: requires --live and OPENAI_API_KEY"
+      "status": "pass",
+      "detail": "no invented founder background; gap surfaced in unknowns"
     },
     {
       "id": "unsupported_market_size",
@@ -45,8 +45,8 @@
       "expectation": {
         "no_unsourced_numeric_tam": true
       },
-      "status": "skipped",
-      "detail": "live case: requires --live and OPENAI_API_KEY"
+      "status": "pass",
+      "detail": "no unsourced numeric market claims"
     },
     {
       "id": "obvious_ai_wrapper",
@@ -54,8 +54,8 @@
       "expectation": {
         "defensibility_concern_present": true
       },
-      "status": "skipped",
-      "detail": "live case: requires --live and OPENAI_API_KEY"
+      "status": "pass",
+      "detail": "defensibility/model-dependency concern present"
     }
   ]
 }

@@ -7,7 +7,7 @@ run:
 	uv run pipeline run --topic "AI agents for SMBs"
 
 sample:
-	uv run pipeline run --topic "AI agents for SMBs" --limit 15 --run-id sample_run
+	uv run pipeline run --topic "AI agents for SMBs" --limit 15 --run-id sample-run
 
 test:
 	uv run pytest

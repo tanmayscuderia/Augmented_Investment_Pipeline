@@ -107,3 +107,18 @@ every artifact it touches, selected automatically when no key is set or
 
 Rejected: committing fixture output as a "sample run". The committed sample
 run must be real model output; fixture runs are dev smoke tests.
+
+## D12 — Disable DeepSeek extended thinking for the analysis call
+
+DeepSeek v4-flash runs extended thinking by default; it burned up to 8,000/8,000
+output tokens on `reasoning_content`, leaving `content` empty or truncated
+(10 of 15 analyses failed in the first real run). The analysis client now sends
+`thinking: disabled` (gated to the DeepSeek base_url), with explicit truncation
+detection. Re-run on identical evidence: 15/15 analyses, 0 failures.
+
+Rejected: raising `max_tokens` to fit reasoning + JSON (2-3x cost and latency
+for no quality gain in a constrained structured task — the quality levers are
+the evidence-constrained prompt, rubric anchors, and the validator). If memo
+review ever shows reasoning would help, the documented alternative is
+`ANALYSIS_THINKING=enabled` with a larger budget — a deliberate change, not a
+default.

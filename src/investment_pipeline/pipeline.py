@@ -412,6 +412,7 @@ async def run_pipeline(
                 "model": analyzer_model,
                 "prompt_version": prompt_version,
                 "temperature": settings.analysis_temperature,
+                "thinking": settings.analysis_thinking,
             }
         },
         sources=sources,

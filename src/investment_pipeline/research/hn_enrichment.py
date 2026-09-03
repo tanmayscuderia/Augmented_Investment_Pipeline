@@ -54,8 +54,11 @@ def _story_matches(hit: dict, candidate: Candidate) -> bool:
             return True
     title = str(hit.get("title") or "").lower()
     name = candidate.normalized_name
-    if len(name) < 3:
+    if len(name) < 4:  # short names collide across companies (e.g. "QLO")
         return False
+    created = _parse_dt(hit.get("created_at"))
+    if created and (utcnow() - created) > timedelta(days=365 * 3):
+        return False  # stale stories are rarely about this company
     name_re = rf"(?<![a-z0-9]){re.escape(name)}(?![a-z0-9])"
     if not re.search(name_re, title):
         return False

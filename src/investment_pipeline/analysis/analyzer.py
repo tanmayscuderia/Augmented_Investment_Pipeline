@@ -84,12 +84,19 @@ class OpenAIAnalyzer(BaseAnalyzer):
         for attempt in (1, 2):
             analysis: InvestmentAnalysis | None = None
             try:
+                extra_body: dict = {}
+                if self.settings.analysis_thinking and "deepseek" in self.settings.openai_base_url.lower():
+                    # DeepSeek v4 defaults to extended thinking, which burns the
+                    # output budget on reasoning_content and truncates/empties
+                    # the JSON payload. Explicitly disabled for this task.
+                    extra_body = {"thinking": {"type": self.settings.analysis_thinking}}
                 resp = self._client.chat.completions.create(
                     model=self.settings.analysis_model,
                     messages=messages,  # type: ignore[arg-type]
                     temperature=self.settings.analysis_temperature,
                     response_format={"type": "json_object"},
                     max_tokens=8000,
+                    extra_body=extra_body,
                 )
                 self.usage.llm_calls += 1
                 if resp.usage:
@@ -97,6 +104,11 @@ class OpenAIAnalyzer(BaseAnalyzer):
                     self.usage.completion_tokens += resp.usage.completion_tokens or 0
                     self.usage.total_tokens += resp.usage.total_tokens or 0
                 raw_content = _strip_fences(resp.choices[0].message.content or "")
+                if resp.choices[0].finish_reason == "length":
+                    raise ValueError(
+                        f"response truncated at max_tokens (finish_reason=length, "
+                        f"{len(raw_content)} chars emitted)"
+                    )
                 data = json.loads(raw_content)
                 data["company_id"] = candidate.id
                 data["company_name"] = candidate.name

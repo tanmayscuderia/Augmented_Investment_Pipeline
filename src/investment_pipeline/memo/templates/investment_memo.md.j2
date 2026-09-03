@@ -57,15 +57,18 @@
 ## What could kill this
 
 {% for r in risks %}{{ loop.index }}. **({{ r.severity }})** {{ r.risk }} — {{ r.reasoning }}{{ r.citations }}
+
 {% endfor %}
 ## What would change our mind
 
 {% for line in change_my_mind %}{{ loop.index }}. {{ line }}
+
 {% endfor %}
 {% if open_questions %}
 ## Open questions for diligence
 
 {% for q in open_questions %}{{ loop.index }}. {{ q.question }} — *{{ q.why_it_matters }}*{% if q.would_change_recommendation %} **[would change the call]**{% endif %}
+
 {% endfor %}{% endif %}
 {% if unknowns %}
 ## Unknowns (insufficient public evidence)
